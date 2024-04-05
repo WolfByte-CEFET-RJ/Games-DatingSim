@@ -2,7 +2,7 @@ using System.Collections;
 using UnityEngine;
 using TMPro;
 
-public class TextArchitect
+public class TextArchitectPlayer
 {
     private TextMeshProUGUI tmpro_ui;
     private TextMeshPro tmpro_world;
@@ -28,14 +28,13 @@ public class TextArchitect
     private int characterMultiplier = 1;
 
     public bool hurryUp = false;
-    public bool libera = false;
 
-    public TextArchitect(TextMeshProUGUI tmpro_ui)
+    public TextArchitectPlayer(TextMeshProUGUI tmpro_ui)
     {
         this.tmpro_ui = tmpro_ui;
     }
 
-    public TextArchitect(TextMeshPro tmpro_world)
+    public TextArchitectPlayer(TextMeshPro tmpro_world)
     {
         this.tmpro_world = tmpro_world;
     } 
@@ -48,7 +47,6 @@ public class TextArchitect
         Stop();
 
         buildProcess = tmpro.StartCoroutine(Building());
-        libera = true;
         return buildProcess;
 
     }
@@ -74,7 +72,6 @@ public class TextArchitect
 
         tmpro.StopCoroutine(buildProcess);
         buildProcess = null;
-        libera = false;
     }
 
     IEnumerator Building()
@@ -98,7 +95,6 @@ public class TextArchitect
     {
         buildProcess = null;
         hurryUp = false;
-        libera = false;
     }
 
     public void ForceComplete()
