@@ -8,6 +8,8 @@ using UnityEngine;
         DialogueSystem ds;
         TextArchitect architect;
         TextArchitectPlayer architectPlayer;
+        private GameObject filas;
+        private GameObject control;
 
         public TextArchitect.BuildMethod bm = TextArchitect.BuildMethod.instant;
         public TextArchitectPlayer.BuildMethod bmp = TextArchitectPlayer.BuildMethod.instant;
@@ -42,6 +44,8 @@ using UnityEngine;
             architectPlayer.speed = 1f;
             architect.speed = 0.5f;
             id_fala = 0;
+            filas = ds.dialogueContainer.root;
+            control = ds.dialogueContainer.buttonsControl;
         }
 
         // Update is called once per frame
@@ -62,6 +66,12 @@ using UnityEngine;
                 architect.Stop();
                 architectPlayer.Stop();
                 }
+            
+            if (id_fala == 5)
+            {
+                filas.SetActive(false);
+                control.SetActive(true);
+            }
             
             if (Input.GetKeyDown(KeyCode.Space))
             {

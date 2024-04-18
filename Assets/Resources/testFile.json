@@ -22,11 +22,16 @@
 	},
 	{
 	"id": 5,
+	"character": "",
+	"msg": ""
+	},
+	{
+	"id": 6,
 	"character": "SeuPai",
 	"msg": "O que acha de uma introdução? Eu te ajudo!"
 	},
 	{
-	"id": 6,
+	"id": 7,
 	"character": "SeuPai",
 	"msg": "Então, nós aqui do ramo temos todo tipo de gente. Vocês já devem ter ouvido falar de algum deles que são mais famosinhos como por exemplo a byte"
 	}	
