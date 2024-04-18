@@ -5,11 +5,8 @@ using UnityEngine.UI;
 
 public class Buttons : MonoBehaviour
 {
-    Testing_Architect ta;
-    DialogueSystem ds;
     [SerializeField] private Button b1, b2, b3;
-    private GameObject control;
-    private GameObject filas;
+    public bool doma = false;
 
     private void Awake()
     {
@@ -20,8 +17,7 @@ public class Buttons : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        control = ds.dialogueContainer.buttonsControl;
-        filas = ds.dialogueContainer.root;
+
     }
 
     // Update is called once per frame
@@ -32,8 +28,6 @@ public class Buttons : MonoBehaviour
 
     private void OnClickDown()
     {
-        control.SetActive(false);
-        filas.SetActive(true);
-        ta.id_fala = 6;
+        doma = true;
     }
 }

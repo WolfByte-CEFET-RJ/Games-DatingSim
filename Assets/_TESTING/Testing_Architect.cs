@@ -16,6 +16,8 @@ using UnityEngine;
 
         public TextAsset textJSON;
         public int id_fala;
+        public static Buttons boInstance = new Buttons();
+        public bool dom = boInstance.doma;
         [System.Serializable]
         public class Fala
         {
@@ -67,25 +69,34 @@ using UnityEngine;
                 architectPlayer.Stop();
                 }
             
-            if (id_fala == 5)
+            if (id_fala == 5 && dom == false)
             {
                 filas.SetActive(false);
                 control.SetActive(true);
             }
-            
+            else if (id_fala == 5 && dom == true)
+            {
+                id_fala ++;
+                filas.SetActive(true);
+                control.SetActive(false);
+                dom = false;
+            }
+
             if (Input.GetKeyDown(KeyCode.Space))
             {
                 if (architect.isBuilding)
                 {
                     if (!architect.hurryUp)
-                        {
+                    {
                         architect.hurryUp = true;
                         architectPlayer.hurryUp = true;
                         architect.libera = true;
-                        }
+                    }
                     else
+                    {
                         architect.ForceComplete();
                         architectPlayer.ForceComplete();
+                    }
                 }
                 else if (architect.libera == false)
                     {
