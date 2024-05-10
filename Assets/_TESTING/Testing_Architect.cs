@@ -16,8 +16,17 @@ using UnityEngine;
 
         public TextAsset textJSON;
         public int id_fala;
-        public static Buttons boInstance = new Buttons();
-        public bool dom = boInstance.doma;
+        /*public static Buttons boInstance = new Buttons();
+        public bool dom = boInstance.doma;*/
+        private Buttons boInstance;
+
+        public Testing_Architect(Buttons boInstance)
+        {
+            this.boInstance = boInstance;
+        }
+
+        public bool doma = boInstance.doma;
+        
         [System.Serializable]
         public class Fala
         {
@@ -30,7 +39,6 @@ using UnityEngine;
         public class ListaFalas
         {
             public Fala[] fala;
-
         }
         public ListaFalas lista_de_falas = new ListaFalas();
 
@@ -69,17 +77,17 @@ using UnityEngine;
                 architectPlayer.Stop();
                 }
             
-            if (id_fala == 5 && dom == false)
+            if (id_fala == 5 && doma == false)
             {
                 filas.SetActive(false);
                 control.SetActive(true);
             }
-            else if (id_fala == 5 && dom == true)
+            else if (id_fala == 5 && doma == true)
             {
                 id_fala ++;
                 filas.SetActive(true);
                 control.SetActive(false);
-                dom = false;
+                doma = false;
             }
 
             if (Input.GetKeyDown(KeyCode.Space))

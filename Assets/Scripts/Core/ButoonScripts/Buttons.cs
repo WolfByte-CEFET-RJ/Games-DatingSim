@@ -8,6 +8,11 @@ public class Buttons : MonoBehaviour
     [SerializeField] private Button b1, b2, b3;
     public bool doma = false;
 
+    public Buttons(bool doma)
+    {
+        this.doma = doma;
+    }
+
     private void Awake()
     {
         b1.onClick.AddListener(OnClickDown);

@@ -1130,6 +1130,7 @@ MonoBehaviour:
   bmp: 0
   textJSON: {fileID: 4900000, guid: 81a0d30c39cb62c42a2447d438bde429, type: 3}
   id_fala: 0
+  dom: 0
   lista_de_falas:
     fala: []
 --- !u!1 &686857085
@@ -1379,6 +1380,7 @@ MonoBehaviour:
   b1: {fileID: 195562738}
   b2: {fileID: 1076290335}
   b3: {fileID: 1779137368}
+  doma: 0
 --- !u!1 &938462409
 GameObject:
   m_ObjectHideFlags: 0
