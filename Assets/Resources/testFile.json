@@ -34,7 +34,17 @@
 	"id": 7,
 	"character": "SeuPai",
 	"msg": "Então, nós aqui do ramo temos todo tipo de gente. Vocês já devem ter ouvido falar de algum deles que são mais famosinhos como por exemplo a byte"
-	}	
+	},
+	{
+	"id": 8,
+	"character": "SeuPai",
+	"msg": "Bem, era isso que eu queria falar."
+	},
+	{
+	"id": 9,
+	"character": "SeuPai",
+	"msg": "Tô indo agora, nos vemos por aí!"
+	}		
 		
 	]
 

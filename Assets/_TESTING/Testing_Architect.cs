@@ -5,6 +5,7 @@ using UnityEngine;
 
     public class Testing_Architect : MonoBehaviour
     {
+        Buttons bs;
         DialogueSystem ds;
         TextArchitect architect;
         TextArchitectPlayer architectPlayer;
@@ -16,16 +17,8 @@ using UnityEngine;
 
         public TextAsset textJSON;
         public int id_fala;
-        /*public static Buttons boInstance = new Buttons();
-        public bool dom = boInstance.doma;*/
-        private Buttons boInstance;
-
-        public Testing_Architect(Buttons boInstance)
-        {
-            this.boInstance = boInstance;
-        }
-
-        public bool doma = boInstance.doma;
+        public int per;
+        public bool dom;
         
         [System.Serializable]
         public class Fala
@@ -46,6 +39,7 @@ using UnityEngine;
         // Start is called before the first frame update
         void Start()
         {
+            per = 5;
             lista_de_falas = JsonUtility.FromJson<ListaFalas>(textJSON.text);
             ds = DialogueSystem.instance;
             architect = new TextArchitect(ds.dialogueContainer.dialogueText);
@@ -61,6 +55,7 @@ using UnityEngine;
         // Update is called once per frame
         void Update()
         {
+            dom = Buttons.doma;
             string longLine = lista_de_falas.fala[id_fala].msg;
             string name = lista_de_falas.fala[id_fala].character;
             if (bm != architect.buildMethod)
@@ -70,27 +65,21 @@ using UnityEngine;
                 architectPlayer.buildMethod = bmp;
                 architectPlayer.Stop();
             }
-
-            if (Input.GetKeyDown(KeyCode.S))
-                {
-                architect.Stop();
-                architectPlayer.Stop();
-                }
             
-            if (id_fala == 5 && doma == false)
+            if (id_fala == per && dom == false)
             {
-                filas.SetActive(false);
                 control.SetActive(true);
             }
-            else if (id_fala == 5 && doma == true)
+            else if (dom == true)
             {
                 id_fala ++;
-                filas.SetActive(true);
                 control.SetActive(false);
-                doma = false;
+                architect.Build(longLine);
+                architectPlayer.Build(name);
+                Buttons.doma = false;
             }
 
-            if (Input.GetKeyDown(KeyCode.Space))
+            if (Input.GetKeyDown(KeyCode.Space) && id_fala != per)
             {
                 if (architect.isBuilding)
                 {
