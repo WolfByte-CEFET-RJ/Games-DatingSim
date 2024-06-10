@@ -1,0 +1,51 @@
+{
+    "fala": [
+	{
+	"id": 1,
+	"character": "SeuPai",
+	"msg": "Olá! Eu sou Seu Pai!"
+	},
+	{
+	"id": 2,
+	"character": "SeuPai",
+	"msg": "Uhm… Não eu não sou o seu pai, esse é meu nome…"
+	},
+    {
+	"id": 3,
+	"character": "SeuPai",
+	"msg": "Enfim… Seja bem-vindo(a) ao Ramo Estudantil IEEE! Nesta sala que chamamos carinhosamente de “Sala do Ramo” você pode socializar com as equipes que trabalham aqui."
+	},
+	{
+	"id": 4,
+	"character": "SeuPai",
+	"msg": "Aliás, estamos em um dia de integração! Isso significa que todas estão presentes e você pode conhecer elas agora."
+	},
+	{
+	"id": 5,
+	"character": "",
+	"msg": ""
+	},
+	{
+	"id": 6,
+	"character": "SeuPai",
+	"msg": "O que acha de uma introdução? Eu te ajudo!"
+	},
+	{
+	"id": 7,
+	"character": "SeuPai",
+	"msg": "Então, nós aqui do ramo temos todo tipo de gente. Vocês já devem ter ouvido falar de algum deles que são mais famosinhos como por exemplo a byte"
+	},
+	{
+	"id": 8,
+	"character": "SeuPai",
+	"msg": "Bem, era isso que eu queria falar."
+	},
+	{
+	"id": 9,
+	"character": "SeuPai",
+	"msg": "Tô indo agora, nos vemos por aí!"
+	}		
+		
+	]
+
+}

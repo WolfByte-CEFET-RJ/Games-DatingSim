@@ -14,17 +14,6 @@ public class Buttons : MonoBehaviour
         b2.onClick.AddListener(OnClickDown);
         b3.onClick.AddListener(OnClickDown);
     }
-    // Start is called before the first frame update
-    void Start()
-    {
-
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
 
     private void OnClickDown()
     {

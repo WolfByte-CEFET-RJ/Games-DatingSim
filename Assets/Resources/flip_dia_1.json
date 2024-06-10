@@ -1,0 +1,105 @@
+{
+    "fala": [
+	{
+	"id": 1,
+	"character": "Narrador",
+	"msg": "Há muito barulho vindo do fliperama."
+	},
+	{
+	"id": 2,
+	"character": "Botz(F)",
+	"msg": "ISOO FICA PRONTO NUCA NÃO?!"
+	},
+    {
+	"id": 3,
+	"character": "Narrador",
+	"msg": "Uma voz sai de trás do fliperama."
+	},
+	{
+	"id": 4,
+	"character": "Byte(M)",
+	"msg": "Já estou terminando, não enche o saco."
+	},
+	{
+	"id": 5,
+	"character": "Byte(F)",
+	"msg": "ς(>‿<.) ς(>‿<.)"
+	},
+	{
+	"id": 6,
+	"character": "Botz(M)",
+	"msg": "Não precisa dessa pressa toda Botz(F)"
+	},
+	{
+	"id": 7,
+	"character": "Byte(F)",
+	"msg": "Não esquece de add nosso new game~! ( ˃ ᵕ ˂ )"
+	},
+	{
+	"id": 8,
+	"character": "Botz(F)",
+	"msg": "ESPERO QUE OS JOGOS DE QUEEN OF FIGHTER ESTEJAM FUNCIONANDO!"
+	},
+	{
+	"id": 9,
+	"character": "Byte(M)",
+	"msg": "Está pronto."
+	},
+	{
+	"id": 10,
+	"character": "Narrador",
+	"msg": "O homem que saiu de trás do fliperama estava carregando consigo uma garrafa de café, agora dava para reconhecer quem era."
+	},
+	{
+	"id": 11,
+	"character": "Byte(M)",
+	"msg": "Não sabia que havia… Mais uma pessoa."
+	},
+	{
+	"id": 12,
+	"character": "Byte(F)",
+	"msg": "Mais uma? ♒((⇀‸↼))♒"
+	},
+	{
+	"id": 13,
+	"character": "Botz(F)",
+	"msg": "E QUEM LIGA? É HORA DO QOF!"
+	},
+	{
+	"id": 14,
+	"character": "Narrador",
+	"msg": "As pessoas agora estão te olhando."
+	},
+	{
+	"id": 15,
+	"character": "Botz(M)",
+	"msg": "Ah, esse é o novo trainee, bem vindo ao ramo!"
+	},
+	{
+	"id": 16,
+	"character": "Byte(F)",
+	"msg": "Bem vindo, quer testar o nosso novo jogo?! Se chama Snakes n' Bullets!"
+	},
+	{
+	"id": 17,
+	"character": "Botz(F)",
+	"msg": "Eiei, Trainee! Tenho certeza que você é mais fã dos jogos de luta! Uma partida de QOF contra eu e o Botz(M)? VAMOS??!"
+	},
+	{
+	"id": 18,
+	"character": "",
+	"msg": ""
+	},
+	{
+	"id": 19,
+	"character": "Botz(F)",
+	"msg": " EU SABIA QUE VOCÊ TINHA BOM GOSTO!!"
+	},
+	{
+	"id": 20,
+	"character": "Botz(M)",
+	"msg": "Você não precisa escolher só para agradar ela, ela tem bastante trabalho pra fazer!"
+	}
+	]
+
+}

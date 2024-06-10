@@ -9,5 +9,6 @@ public class DialogueContainer
         public TextMeshProUGUI nameText;
         public TextMeshProUGUI dialogueText;
         public GameObject buttonsControl;
+        public GameObject escolha;
     }
 

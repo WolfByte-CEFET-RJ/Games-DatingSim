@@ -15,10 +15,14 @@ using UnityEngine;
         public TextArchitect.BuildMethod bm = TextArchitect.BuildMethod.instant;
         public TextArchitectPlayer.BuildMethod bmp = TextArchitectPlayer.BuildMethod.instant;
 
-        public TextAsset textJSON;
+        public TextAsset JSONMesa;
+        public TextAsset JSONPcs;
+        public TextAsset JSONSolda;
+        public TextAsset JSONFlip;
         public int id_fala;
         public int per;
         public bool dom;
+        public char select;
         
         [System.Serializable]
         public class Fala
@@ -39,8 +43,8 @@ using UnityEngine;
         // Start is called before the first frame update
         void Start()
         {
-            per = 5;
-            lista_de_falas = JsonUtility.FromJson<ListaFalas>(textJSON.text);
+            per = 18;
+            lista_de_falas = JsonUtility.FromJson<ListaFalas>(JSONFlip.text);
             ds = DialogueSystem.instance;
             architect = new TextArchitect(ds.dialogueContainer.dialogueText);
             architectPlayer = new TextArchitectPlayer(ds.dialogueContainer.nameText);
@@ -55,9 +59,31 @@ using UnityEngine;
         // Update is called once per frame
         void Update()
         {
+            select = SelecaoLugar.selec;
             dom = Buttons.doma;
             string longLine = lista_de_falas.fala[id_fala].msg;
             string name = lista_de_falas.fala[id_fala].character;
+
+            switch (select)
+            {
+                case 'M':
+                    per = 5;
+                    lista_de_falas = JsonUtility.FromJson<ListaFalas>(JSONMesa.text);
+                    break;
+                case 'F':
+                    per = 18;
+                    lista_de_falas = JsonUtility.FromJson<ListaFalas>(JSONFlip.text);
+                    break;
+                case 'S':
+                    per = 5;
+                    lista_de_falas = JsonUtility.FromJson<ListaFalas>(JSONSolda.text);
+                    break;
+                case 'P':
+                    per = 5;
+                    lista_de_falas = JsonUtility.FromJson<ListaFalas>(JSONPcs.text);
+                    break;
+            }
+
             if (bm != architect.buildMethod)
             {
                 architect.buildMethod = bm;
