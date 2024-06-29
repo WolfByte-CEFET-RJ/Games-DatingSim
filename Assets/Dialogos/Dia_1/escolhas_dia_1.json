@@ -1,0 +1,122 @@
+{
+    "escolhaFlip1": 
+	[
+		{
+		"aju": 1,
+		"msg": "Jogar QOF com a Botz."
+		},
+		{
+		"aju": 2,
+		"msg": "Eu também me diverti muito!"
+		},
+		{
+		"aju": 3,
+		"msg": ""
+		}
+	],
+	"escolhaFlip2": 
+	[
+		{
+		"aju": 36,
+		"msg": "Testar o jogo da Byte."
+		},
+		{
+		"aju": 2,
+		"msg": "Eu tenho que melhorar um pouco ainda pra chegar no seu nível!"
+		},
+		{
+		"aju": 3,
+		"msg": ""
+		}	
+	],
+	"escolhaMesa1": 
+	[
+		{
+		"aju": 1,
+		"msg": "Com certeza, gatos!! Por mais reservados que pareçam, eles são muito sinceros e companheiros silenciosos."
+		},
+		{
+		"aju": 2,
+		"msg": " Eu amo o fato de que eles possuem personalidades muito marcantes e diferentes uns dos outros KKKKKKKKKKKK"
+		},
+		{
+		"aju": 3,
+		"msg": "Quando eles se balançam pra se secar depois do banho kkkkkkkkkkkkkkkkk."
+		}
+	],
+	"escolhaMesa2": 
+	[
+		{
+		"aju": 1,
+		"msg": "Cachorros, sem sombra de dúvida. Eles são tão fofos, alegres e divertidos!! "
+		},
+		{
+		"aju": 2,
+		"msg": "Acho hilário que eles fazem questão de derrubar tudo que encontram em cima da mesa KKKKKKKKKKKKKK "
+		},
+		{
+		"aju": 3,
+		"msg": "Quando eles ficam olhando pra gente com cara de pidão pra dar um pedaço de comida kkkkkkkkkkkkkkkkkk."
+		}	
+	],
+	"escolhaPcs1": 
+	[
+		{
+		"aju": 1,
+		"msg": ""
+		},
+		{
+		"aju": 2,
+		"msg": ""
+		},
+		{
+		"aju": 3,
+		"msg": ""
+		}	
+	],
+	"escolhaPcs2": 
+	[
+		{
+		"aju": 1,
+		"msg": ""
+		},
+		{
+		"aju": 2,
+		"msg": ""
+		},
+		{
+		"aju": 3,
+		"msg": ""
+		}	
+	],
+	"escolhaSolda1": 
+	[
+		{
+		"aju": 1,
+		"msg": ""
+		},
+		{
+		"aju": 2,
+		"msg": ""
+		},
+		{
+		"aju": 3,
+		"msg": ""
+		}	
+	],
+	"escolhaSolda2": 
+	[
+		{
+		"aju": 1,
+		"msg": ""
+		},
+		{
+		"aju": 2,
+		"msg": ""
+		},
+		{
+		"aju": 3,
+		"msg": ""
+		}	
+	]
+}

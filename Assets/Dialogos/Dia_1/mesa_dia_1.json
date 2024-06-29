@@ -1,0 +1,656 @@
+{
+    "fala": [
+	{
+	"id": 1,
+	"character": "",
+	"msg": "Na mesa de reuniões, Wie e Gestão discutiam algo. "
+	},
+	{
+	"id": 2,
+	"character": "Wie F",
+	"msg": "Claro que é o melhor! Você nem tem mais argumentos contra isso."
+	},
+    {
+	"id": 3,
+	"character": "Gestão F",
+	"msg": "Com certeza não, você está enganada. "
+	},
+	{
+	"id": 4,
+	"character": "Wie F",
+	"msg": "É uma questão histórica, nem dá pra questionar."
+	},
+	{
+	"id": 5,
+	"character": "",
+	"msg": "Eu me aproximei e os quatro perceberam minha presença."
+	},
+	{
+	"id": 6,
+	"character": "Gestão M",
+	"msg": "Ah, oi, trainee! Não te vimos chegando. "
+	},
+	{
+	"id": 7,
+	"character": "Trainee",
+	"msg": "Olá, pessoal!"
+	},
+	{
+	"id": 8,
+	"character": "Wie M",
+	"msg": "Fica à vontade, pode sentar com a gente."
+	},
+	{
+	"id": 9,
+	"character": "Trainee",
+	"msg": "Ah, não, não quero atrapalhar a reunião de vocês."
+	},
+	{
+	"id": 10,
+	"character": "Gestão F",
+	"msg": "Reunião? Ah, não, não estamos em reunião agora hahaha. Estamos discutindo sobre qual é o melhor pet..."
+	},
+	{
+	"id": 11,
+	"character": "Wie M",
+	"msg": "E todos sabemos que são os gatos!!!"
+	},
+	{
+	"id": 12,
+	"character": "Gestão M",
+	"msg": "Até parece! O cachorro é chamado de melhor amigo do homem não é à toa."
+	},
+	{
+	"id": 13,
+	"character": "Wie F",
+	"msg": "Gatos foram adorados como DEUSES por humanos desde a antiguidade."
+	},
+	{
+	"id": 14,
+	"character": "Gestão F",
+	"msg": "Ué, mas os cachorros foram domesticados pelos humanos desde a época das caçadas e eles são nossos companheiros desde então."
+	},
+	{
+	"id": 15,
+	"character": "Wie M",
+	"msg": "Mas e os gatos que ESCOLHERAM ser domesticados pelos homens? Eles perceberam que ficando com os humanos, ficavam protegidos e ganhavam comida. Mentes de titânio! "
+	},
+	{
+	"id": 16,
+	"character": "Gestão M",
+	"msg": "No entanto, eu não vejo gatos ajudando os humanos igual os cachorros."
+	},
+	{
+	"id": 17,
+	"character": "Gestão M",
+	"msg": "Por exemplo, não vemos gatos de guarda, gatos que ajudam na busca de pessoas feridas, nem “gatos de assistência” que acompanham e auxiliam a vida de pessoas com deficiência."
+	},
+	{
+	"id": 18,
+	"character": "Wie F",
+	"msg": "Olha, cachorros são fofos, claro, mas gatos são seres superiores."
+	},
+	{
+	"id": 19,
+	"character": "Wie F",
+	"msg": "Sagazes, perspicazes, divertidos e podem ser muito carinhosos com seus donos também."
+	},
+	{
+	"id": 20,
+	"character": "Gestão F",
+	"msg": "Mesmo assim, gatos podem ser traiçoeiros também. Cachorros são extremamente fiéis aos donos e muito mais fofos."
+	},
+	{
+	"id": 21,
+	"character": "Wie M",
+	"msg": "E você, trainee? Você prefere cachorros ou gatos?"
+	},
+	{
+	"id": 22,
+	"character": "",
+	"msg": ""
+	},
+	{
+	"id": 23,
+	"character": "Wie M",
+	"msg": "Sabia que teria bom gosto, Trainee! Viu, galera de Gestão? O trainee concorda com a gente. "
+	},
+	{
+	"id": 24,
+	"character": "Gestão M",
+	"msg": "Uma pena, trainee, achei que você fosse mais sensato."
+	},
+	{
+	"id": 25,
+	"character": "Gestão F",
+	"msg": "É verdade..."
+	},
+	{
+	"id": 26,
+	"character": "Gestão F",
+	"msg": "Mas enfim, beijinhos, pessoal! Vamos indo que temos muita planilha para arrumar.  "
+	},
+	{
+	"id": 27,
+	"character": "Wie M",
+	"msg": "Sabia que você ia concordar com a gente, Trainee! Gatinhos são fofos demais pra resistir."
+	},
+	{
+	"id": 28,
+	"character": "Trainee",
+	"msg": "Verdade hahahahha"
+	},
+	{
+	"id": 29,
+	"character": "Wie F",
+	"msg": "Acho que o que mais me conquista nos gatinhos é esse jeito mais misterioso deles. Eles não são um livro aberto, tem um charme nisso."
+	},
+	{
+	"id": 30,
+	"character": "Trainee",
+	"msg": "Sim, e muitas vezes não dá pra saber o que eles vão fazer, são muito imprevisíveis. "
+	},
+	{
+	"id": 31,
+	"character": "Wie M",
+	"msg": "O que você mais gosta nos gatos, Trainee?"
+	},
+	{
+	"id": 32,
+	"character": "",
+	"msg": ""
+	},
+	{
+	"id": 33,
+	"character": "Wie M",
+	"msg": "KKKKKKKKKKKKKKKKKK verdade, eles são muito únicos."
+	},
+	{
+	"id": 34,
+	"character": "Wie F",
+	"msg": "Você tem algum gatinho, Trainee?"
+	},
+	{
+	"id": 35,
+	"character": "",
+	"msg": ""
+	},
+	{
+	"id": 36,
+	"character": "Wie F",
+	"msg": "Destruindo a sua casa? É sério isso? 🤨 "
+	},
+	{
+	"id": 37,
+	"character": "Trainee",
+	"msg": "É, sabe, eles arranham tudo, fazem uma sujeira danada, eu não quero ter trabalho."
+	},
+
+	{
+	"id": 38,
+	"character": "Wie M",
+	"msg": "Nossa, falando desse jeito nem parece que você gosta de gatos mesmo."
+	},
+	{
+	"id": 39,
+	"character": "Wie F",
+	"msg": "Pois é, por mais trabalhoso que possa ser, cuidar dos gatinhos é parte da nossa demonstração de amor por eles."
+	},
+	{
+	"id": 40,
+	"character": "Trainee",
+	"msg": "Eu gosto de gatos, mas não quero lidar com as responsabilidades que eles trazem, só isso."
+	},
+	{
+	"id": 41,
+	"character": "Wie M",
+	"msg": "Hmm, entendi. Bom, acho que pensamos diferente quanto a isso. Ter responsabilidades é também uma forma de demonstrar afeto, e é bem importante também."
+	},
+	
+	{
+	"id": 42,
+	"character": "Wie F",
+	"msg": "Nossa, que bom que você não tem gatos, sinceramente kkkkkkkk "
+	},
+	{
+	"id": 43,
+	"character": "Wie F",
+	"msg": "Mas enfim, precisamos ir, né, Wie M? Temos reunião daqui a pouco sobre o Cine debate. "
+	},
+	{
+	"id": 44,
+	"character": "Wie M",
+	"msg": "Verdade, temos que ir. Até mais, Trainee!"
+	},
+	{
+	"id": 45,
+	"character": "Wie F",
+	"msg": "Tchau, Trainee! Espero que mude de ideia quanto a cuidar de gatinhos."
+	},
+	{
+	"id": 46,
+	"character": "Trainee",
+	"msg": "Tchau, pessoal! "
+	},
+	{
+	"id": 47,
+	"character": "Wie F",
+	"msg": "Poxa, sério mesmo? "
+	},
+	{
+	"id": 48,
+	"character": "Trainee",
+	"msg": "Infelizmente sim...Sempre pedi aos meus pais pra ter um gatinho, mas por conta dessa alergia, não dá."
+	},
+	{
+	"id": 49,
+	"character": "Wie M",
+	"msg": "E algum familiar próximo seu tem gatos que você possa visitar?"
+	},
+	{
+	"id": 50,
+	"character": "Trainee",
+	"msg": "Não, minha família curte mais cachorros, então não temos gatos na família."
+	},
+	{
+	"id": 51,
+	"character": "Wie M",
+	"msg": "Ah naaaaoo, que triste ;-; "
+	},
+	{
+	"id": 52,
+	"character": "Trainee",
+	"msg": "É uma pena, mas pelo menos ainda posso fazer carinho nos gatinhos que encontro na rua. Eles são uma gracinha!"
+	},
+	{
+	"id": 53,
+	"character": "Wie F",
+	"msg": "Isso é verdade! Kkkkkkkk No lugar onde faço estágio, sempre tem gatinhos de rua. Nós sempre levamos comida pra eles, são praticamente nossos."
+	},
+	{
+	"id": 54,
+	"character": "Wie F",
+	"msg": "Bom, acho que temos que ir agora, trainee! Temos uma reunião para discutir sobre o cine debate."
+	},
+	{
+	"id": 55,
+	"character": "Wie M",
+	"msg": "Verdade, já está quase na hora! Tchauzinho, trainee!!"
+	},
+	{
+	"id": 56,
+	"character": "Wie F",
+	"msg": "Até mais, Trainee!"
+	},
+	{
+	"id": 57,
+	"character": "Trainee",
+	"msg": "Tchau, gente! "
+	},
+	{
+	"id": 58,
+	"character": "Wie F",
+	"msg": "Ahhhhh, que legaaal! Como eles são?"
+	},
+	{
+	"id": 59,
+	"character": "Trainee",
+	"msg": "Um deles é bem mansinho e quieto, mas a outra é super caótica e agitada kkkkkkkkkkkk"
+	},
+	{
+	"id": 60,
+	"character": "Wie M",
+	"msg": "Deve ser uma loucura ter dois filhos pra cuidar kkkkkkkkk Eles dão muito trabalho?"
+	},
+	{
+	"id": 61,
+	"character": "Trainee",
+	"msg": "Ah, cuidar dos gatinhos nunca é um trabalho. Às vezes, fico um pouco cansado, principalmente porque eles são muito diferentes."
+	},
+	{
+	"id": 62,
+	"character": "Trainee",
+	"msg": "Mas, eu os amo tantoooo, não me imagino sem eles."
+	},
+	{
+	"id": 63,
+	"character": "Wie M",
+	"msg": "Owwwwnt, que fofura <3 Gostei desse seu lado carinhoso, trainee. :)"
+	},
+	{
+	"id": 64,
+	"character": "Wie F",
+	"msg": "É verdade, isso é bem legal da sua parte, Trainee :)"
+	},
+	{
+	"id": 65,
+	"character": "Sua mente",
+	"msg": "Tum-Tum, ai meu Deus, esses comentários foram bem fofos..."
+	},
+	{
+	"id": 66,
+	"character": "Trainee",
+	"msg": "Ah, gente, é o mínimo que eu posso fazer :)"
+	},
+	{
+	"id": 67,
+	"character": "Trainee",
+	"msg": "São meus dois filhinhos <3"
+	},
+	{
+	"id": 68,
+	"character": "Wie F",
+	"msg": "Bom, acho que temos que ir agora, temos uma reunião pra falar sobre o cine debate."
+	},
+	{
+	"id": 69,
+	"character": "Wie M",
+	"msg": "Verdade, senão vamos nos atrasar! Beijos, Trainee!!! Adorei conversar com você hoje! :)"
+	},
+	{
+	"id": 70,
+	"character": "Wie F",
+	"msg": "Tchauzinho, Trainee! Obrigada pelo papo de hoje. ;)"
+	},
+	{
+	"id": 71,
+	"character": "Trainee",
+	"msg": "Tchau, pessoal!! A gente se vê :)"
+	},
+	{
+	"id": 72,
+	"character": "Gestão F",
+	"msg": "Aeeee, mais uma pessoa sensata no Ramo. Tá vendo, Wie? Até o trainee concorda que cachorros são melhores."
+	},
+	{
+	"id": 73,
+	"character": "Wie F",
+	"msg": "Affs...Tanto faz. Um dia você ainda vai ver o valor dos gatinhos, trainee."
+	},
+	{
+	"id": 74,
+	"character": "Wie M",
+	"msg": "Uma pena mesmo, trainee. Bom, nós vamos indo, galera! A gente se fala!"
+	},
+	{
+	"id": 75,
+	"character": "Gestão M",
+	"msg": "Sabe, Trainee, minha vida é o meu cachorro. Quando chego em casa, ele sempre vem correndo atrás de mim."
+	},
+	{
+	"id": 76,
+	"character": "Trainee",
+	"msg": "Que fofura! "
+	},
+	{
+	"id": 77,
+	"character": "Gestão F",
+	"msg": "E a minha cachorrinha adoraaa receber carinho na barriga quando eu chego em casa, é tão fofo! "
+	},
+	{
+	"id": 78,
+	"character": "Gestão F",
+	"msg": "O que você mais gosta nos cachorros, Trainee?"
+	},
+	{
+	"id": 79,
+	"character": "",
+	"msg": ""
+	},
+	{
+	"id": 80,
+	"character": "Gestão F",
+	"msg": "KKKKKKKKKKKKKKKK eles são hilários né, são super dramáticos."
+	},
+	{
+	"id": 81,
+	"character": "Gestão M",
+	"msg": "Me diz, Trainee, você tem algum cachorrinho?"
+	},
+	{
+	"id": 82,
+	"character": "",
+	"msg": ""
+	},
+	{
+	"id": 83,
+	"character": "Gestão M",
+	"msg": " ...com essa resposta, você não parece gostar muito de cachorros."
+	},
+	{
+	"id": 84,
+	"character": "Gestão F",
+	"msg": "Oxe, menino, como assim dá trabalho demais? Cuidar dos doguinhos é parte da diversão!"
+	},
+	{
+	"id": 85,
+	"character": "Trainee",
+	"msg": "Eu acho que exige muito cuidado, igual criança. Prefiro só fazer carinho nos cachorros dos meus amigos mesmo."
+	},		
+	{
+	"id": 86,
+	"character": "Gestão M",
+	"msg": "Entendi..."
+	},
+	{
+	"id": 87,
+	"character": "Gestão F",
+	"msg": "Bem, eu discordo de você nesse ponto, mas tudo bem."
+	},	
+	{
+	"id": 88,
+	"character": "Gestão F",
+	"msg": "Acho que é melhor a gente ir, tá ficando tarde e a gente ainda tem muita planilha pra arrumar. Tchauzinho!"
+	},
+	{
+	"id": 89,
+	"character": "Gestão M",
+	"msg": "Tchau, trainee, a gente se fala!"
+	},
+	{
+	"id": 90,
+	"character": "Trainee",
+	"msg": "Tchau, pessoal!"
+	},
+	{
+	"id": 91,
+	"character": "Gestão F",
+	"msg": "Poxa vida :("
+	},
+	{
+	"id": 92,
+	"character": "Gestão M",
+	"msg": "Nossa, sério? E não tem como curar?"
+	},
+	{
+	"id": 93,
+	"character": "Trainee",
+	"msg": "Não... então, me contento em visitar a cachorrinha dos meus avós e brincar com ela de longe."
+	},
+	{
+	"id": 94,
+	"character": "Gestão M",
+	"msg": "Que bom que pelo menos você ainda pode brincar com cachorros, mesmo que de longe."
+	},
+	{
+	"id": 95,
+	"character": "Gestão F",
+	"msg": "É..."
+	},
+	{
+	"id": 96,
+	"character": "Gestão F",
+	"msg": "Bem, nós temos que ir agora, Trainee, mas um dia posso te mostrar as fotos da minha cachorrinha!! Pelo menos nas fotos, você não vai ter alergia, né?"
+	},		
+	{
+	"id": 97,
+	"character": "Gestão M",
+	"msg": "Ótima ideia!! Eu também posso te mostrar as fotos do meu cachorrinho. Tchauzinho, trainee!"
+	},
+	{
+	"id": 98,
+	"character": "Trainee",
+	"msg": "Tchau, pessoal! :)"
+	},	
+	{
+	"id": 99,
+	"character": "Gestão F",
+	"msg": "Owwwnnnt, ela deve ser uma fofura!"
+	},
+	{
+	"id": 100,
+	"character": "Trainee",
+	"msg": "Ela tem muita energia, adora brincar e é carinhosa com todo mundo."
+	},
+	{
+	"id": 101,
+	"character": "Gestão M",
+	"msg": "E ela te cansa bastante?"
+	},
+	{
+	"id": 102,
+	"character": "Trainee",
+	"msg": "Cansa sim, mas adoro essa cachorrinha, faço tudo por ela <3 "
+	},
+	{
+	"id": 103,
+	"character": "Gestão F",
+	"msg": "Sei como é isso, cachorro é um bichinho tão fiel, o mínimo que a gente pode fazer é tratar com carinho que nem filho. Admiro isso em você, trainee."
+	},
+	{
+	"id": 104,
+	"character": "Gestão M",
+	"msg": "É verdade, isso é bem legal. :)"
+	},
+	{
+	"id": 105,
+	"character": "Sua mente",
+	"msg": "Nossa, nunca tinha parado pra pensar nisso, que legal eles comentarem..."
+	},
+	{
+	"id": 106,
+	"character": "Gestão M",
+	"msg": "Precisamos ir agora, trainee, mas foi muito legal conversar com você sobre cachorrinhos."
+	},
+	{
+	"id": 107,
+	"character": "Gestão F",
+	"msg": "Até mais, Trainee!! Valeu pelo papo. :)"
+	},		
+	{
+	"id": 108,
+	"character": "Trainee",
+	"msg": "Tchauzinho, pessoal! :)"
+	},
+	{
+	"id": 109,
+	"character": "",
+	"msg": ""
+	},	
+	{
+	"id": 110,
+	"character": "",
+	"msg": ""
+	},
+	{
+	"id": 111,
+	"character": "",
+	"msg": ""
+	},
+	{
+	"id": 112,
+	"character": "",
+	"msg": ""
+	},
+	{
+	"id": 113,
+	"character": "",
+	"msg": ""
+	},
+	{
+	"id": 114,
+	"character": "",
+	"msg": ""
+	},
+	{
+	"id": 115,
+	"character": "",
+	"msg": ""
+	},
+	{
+	"id": 116,
+	"character": "",
+	"msg": ""
+	},
+	{
+	"id": 117,
+	"character": "",
+	"msg": ""
+	},
+	{
+	"id": 118,
+	"character": "",
+	"msg": ""
+	},		
+	{
+	"id": 119,
+	"character": "",
+	"msg": ""
+	},
+	{
+	"id": 120,
+	"character": "",
+	"msg": ""
+	},	
+	{
+	"id": 121,
+	"character": "",
+	"msg": ""
+	},
+	{
+	"id": 122,
+	"character": "",
+	"msg": ""
+	},
+	{
+	"id": 123,
+	"character": "",
+	"msg": ""
+	},
+	{
+	"id": 124,
+	"character": "",
+	"msg": ""
+	},
+	{
+	"id": 125,
+	"character": "",
+	"msg": ""
+	},
+	{
+	"id": 126,
+	"character": "",
+	"msg": ""
+	},
+	{
+	"id": 127,
+	"character": "",
+	"msg": ""
+	},
+	{
+	"id": 128,
+	"character": "",
+	"msg": ""
+	},
+	{
+	"id": 129,
+	"character": "",
+	"msg": ""
+	},
+	{
+	"id": 130,
+	"character": "",
+	"msg": ""
+	}
+	]
+}

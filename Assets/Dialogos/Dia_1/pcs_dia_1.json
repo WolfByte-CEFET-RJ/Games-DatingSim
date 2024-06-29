@@ -1,0 +1,433 @@
+{
+    "fala": [
+	{
+	"id": 1,
+	"character": "Narrador",
+	"msg": "Há muito barulho vindo do fliperama."
+	},
+	{
+	"id": 2,
+	"character": "Botz(F)",
+	"msg": "ISSO FICA PRONTO NUNCA NÃO?!"
+	},
+    {
+	"id": 3,
+	"character": "Narrador",
+	"msg": "Uma voz sai de trás do fliperama."
+	},
+	{
+	"id": 4,
+	"character": "???",
+	"msg": "Já estou terminando, não enche o saco."
+	},
+	{
+	"id": 5,
+	"character": "Byte(F)",
+	"msg": "ç(>_<)"
+	},
+	{
+	"id": 6,
+	"character": "Botz(M)",
+	"msg": "Não precisa dessa pressa toda, Botz(F)."
+	},
+	{
+	"id": 7,
+	"character": "Byte(F)",
+	"msg": "Então, nós aqui do ramo temos todo tipo de gente. Vocês já devem ter ouvido falar de algum deles que são mais famosinhos como por exemplo a byte"
+	},
+	{
+	"id": 8,
+	"character": "Botz(F)",
+	"msg": "Bem, era isso que eu queria falar."
+	},
+	{
+	"id": 9,
+	"character": "Byte(M)",
+	"msg": ""
+	},
+	{
+	"id": 10,
+	"character": "Narrador",
+	"msg": ""
+	},
+	{
+	"id": 11,
+	"character": "Byte(M)",
+	"msg": ""
+	},
+	{
+	"id": 12,
+	"character": "Byte(F)",
+	"msg": ""
+	},
+	{
+	"id": 13,
+	"character": "Botz(F)",
+	"msg": ""
+	},
+	{
+	"id": 14,
+	"character": "Narrador",
+	"msg": ""
+	},
+	{
+	"id": 15,
+	"character": "Botz(M)",
+	"msg": ""
+	},
+	{
+	"id": 16,
+	"character": "Byte(F)",
+	"msg": ""
+	},
+	{
+	"id": 17,
+	"character": "Botz(F)",
+	"msg": ""
+	},
+	{
+	"id": 18,
+	"character": "",
+	"msg": ""
+	},
+	{
+	"id": 19,
+	"character": "Botz(F)",
+	"msg": ""
+	},
+	{
+	"id": 20,
+	"character": "Botz(M)",
+	"msg": ""
+	},
+	{
+	"id": 21,
+	"character": "Botz(F)",
+	"msg": ""
+	},
+	{
+	"id": 22,
+	"character": "Botz(F)",
+	"msg": ""
+	},
+	{
+	"id": 23,
+	"character": "Botz(M)",
+	"msg": ""
+	},
+	{
+	"id": 24,
+	"character": "Botz(F)",
+	"msg": ""
+	},
+	{
+	"id": 25,
+	"character": "Botz(F)",
+	"msg": ""
+	},
+	{
+	"id": 26,
+	"character": "Trainee",
+	"msg": ""
+	},
+	{
+	"id": 27,
+	"character": "",
+	"msg": ""
+	},
+	{
+	"id": 28,
+	"character": "Botz(F)",
+	"msg": ""
+	},
+	{
+	"id": 29,
+	"character": "Botz(F)",
+	"msg": ""
+	},
+	{
+	"id": 30,
+	"character": "Botz(M)",
+	"msg": ""
+	},
+	{
+	"id": 31,
+	"character": "Botz(F)",
+	"msg": ""
+	},
+	{
+	"id": 32,
+	"character": "Botz(M)",
+	"msg": ""
+	},
+	{
+	"id": 33,
+	"character": "Botz(F)",
+	"msg": ""
+	},
+	{
+	"id": 34,
+	"character": "Trainee",
+	"msg": ""
+	},
+	{
+	"id": 35,
+	"character": "Botz(M)",
+	"msg": ""
+	},
+	{
+	"id": 36,
+	"character": "Trainee",
+	"msg": ""
+	},
+	{
+	"id": 37,
+	"character": "Trainee",
+	"msg": ""
+	},
+
+	{
+	"id": 38,
+	"character": "Botz(F)",
+	"msg": ""
+	},
+	{
+	"id": 39,
+	"character": "Narrador",
+	"msg": ""
+	},
+	{
+	"id": 40,
+	"character": "Botz(F)",
+	"msg": ""
+	},
+	{
+	"id": 41,
+	"character": "Botz(M)",
+	"msg": ""
+	},
+	
+	{
+	"id": 42,
+	"character": "Botz(F)",
+	"msg": ""
+	},
+	{
+	"id": 43,
+	"character": "Botz(F)",
+	"msg": ""
+	},
+	{
+	"id": 44,
+	"character": "Botz(F)",
+	"msg": ""
+	},
+	{
+	"id": 45,
+	"character": "Botz(M)",
+	"msg": ""
+	},
+	{
+	"id": 46,
+	"character": "Botz(F)",
+	"msg": ""
+	},
+	{
+	"id": 47,
+	"character": "",
+	"msg": ""
+	},
+	{
+	"id": 48,
+	"character": "Botz(M)",
+	"msg": ""
+	},
+	{
+	"id": 49,
+	"character": "Botz(F)",
+	"msg": ""
+	},
+	{
+	"id": 50,
+	"character": "Botz(F)",
+	"msg": ""
+	},
+	{
+	"id": 51,
+	"character": "Botz(F)",
+	"msg": ""
+	},
+	{
+	"id": 52,
+	"character": "Botz(M)",
+	"msg": ""
+	},
+	{
+	"id": 53,
+	"character": "Botz(F)",
+	"msg": ""
+	},
+	{
+	"id": 54,
+	"character": "Botz(F)",
+	"msg": ""
+	},
+	{
+	"id": 55,
+	"character": "Byte(F)",
+	"msg": ""
+	},
+	{
+	"id": 56,
+	"character": "Byte(M)",
+	"msg": ""
+	},
+	{
+	"id": 57,
+	"character": "Byte(F)",
+	"msg": ""
+	},
+	{
+	"id": 58,
+	"character": "Byte(M)",
+	"msg": ""
+	},
+	{
+	"id": 59,
+	"character": "Byte(M)",
+	"msg": ""
+	},
+	{
+	"id": 60,
+	"character": "Byte(F)",
+	"msg": ""
+	},
+	{
+	"id": 61,
+	"character": "",
+	"msg": ""
+	},
+	{
+	"id": 62,
+	"character": "",
+	"msg": ""
+	},
+	{
+	"id": 63,
+	"character": "",
+	"msg": ""
+	},
+	{
+	"id": 64,
+	"character": "",
+	"msg": ""
+	},
+	{
+	"id": 65,
+	"character": "",
+	"msg": ""
+	},
+	{
+	"id": 66,
+	"character": "",
+	"msg": ""
+	},
+	{
+	"id": 67,
+	"character": "",
+	"msg": ""
+	},
+	{
+	"id": 68,
+	"character": "",
+	"msg": ""
+	},
+	{
+	"id": 69,
+	"character": "",
+	"msg": ""
+	},
+	{
+	"id": 70,
+	"character": "",
+	"msg": ""
+	},
+	{
+	"id": 71,
+	"character": "",
+	"msg": ""
+	},
+	{
+	"id": 72,
+	"character": "",
+	"msg": ""
+	},
+	{
+	"id": 73,
+	"character": "",
+	"msg": ""
+	},
+	{
+	"id": 74,
+	"character": "",
+	"msg": ""
+	},
+	{
+	"id": 75,
+	"character": "",
+	"msg": ""
+	},
+	{
+	"id": 76,
+	"character": "",
+	"msg": ""
+	},
+	{
+	"id": 77,
+	"character": "",
+	"msg": ""
+	},
+	{
+	"id": 78,
+	"character": "",
+	"msg": ""
+	},
+	{
+	"id": 79,
+	"character": "",
+	"msg": ""
+	},
+	{
+	"id": 80,
+	"character": "",
+	"msg": ""
+	},
+	{
+	"id": 81,
+	"character": "",
+	"msg": ""
+	},
+	{
+	"id": 82,
+	"character": "",
+	"msg": ""
+	},
+	{
+	"id": 83,
+	"character": "",
+	"msg": ""
+	},
+	{
+	"id": 84,
+	"character": "",
+	"msg": ""
+	},
+	{
+	"id": 85,
+	"character": "",
+	"msg": ""
+	}		
+
+	]
+
+}

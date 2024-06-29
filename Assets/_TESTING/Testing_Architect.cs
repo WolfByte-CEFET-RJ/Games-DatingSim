@@ -5,12 +5,13 @@ using UnityEngine;
 
     public class Testing_Architect : MonoBehaviour
     {
-        Buttons bs;
+        Buttons_2 bs;
         DialogueSystem ds;
         TextArchitect architect;
         TextArchitectPlayer architectPlayer;
         private GameObject filas;
-        private GameObject control;
+        private GameObject escolha2;
+        private GameObject escolha3;
 
         public TextArchitect.BuildMethod bm = TextArchitect.BuildMethod.instant;
         public TextArchitectPlayer.BuildMethod bmp = TextArchitectPlayer.BuildMethod.instant;
@@ -20,8 +21,10 @@ using UnityEngine;
         public TextAsset JSONSolda;
         public TextAsset JSONFlip;
         public int id_fala;
-        public int per;
+        public int esc;
+        public int esc2;
         public bool dom;
+        public int ajuesc;
         public char select;
         
         [System.Serializable]
@@ -43,43 +46,49 @@ using UnityEngine;
         // Start is called before the first frame update
         void Start()
         {
-            per = 18;
-            lista_de_falas = JsonUtility.FromJson<ListaFalas>(JSONFlip.text);
             ds = DialogueSystem.instance;
+            lista_de_falas = JsonUtility.FromJson<ListaFalas>(JSONMesa.text);
             architect = new TextArchitect(ds.dialogueContainer.dialogueText);
             architectPlayer = new TextArchitectPlayer(ds.dialogueContainer.nameText);
             architect.buildMethod = TextArchitect.BuildMethod.fade;
             architectPlayer.speed = 1f;
             architect.speed = 0.5f;
-            id_fala = 0;
+            id_fala = 1;
+            esc = 21;
+            esc2 = 21;
             filas = ds.dialogueContainer.root;
-            control = ds.dialogueContainer.buttonsControl;
+            escolha2 = ds.dialogueContainer.escolha2;
+            escolha3 = ds.dialogueContainer.escolha3;
+            
         }
 
         // Update is called once per frame
         void Update()
         {
             select = SelecaoLugar.selec;
-            dom = Buttons.doma;
+            dom = Buttons_2.doma;
+            ajuesc = Buttons_2.ajuesc;
             string longLine = lista_de_falas.fala[id_fala].msg;
             string name = lista_de_falas.fala[id_fala].character;
 
             switch (select)
             {
                 case 'M':
-                    per = 5;
+                    esc = 22;
+                    esc2 = 5;
                     lista_de_falas = JsonUtility.FromJson<ListaFalas>(JSONMesa.text);
                     break;
                 case 'F':
-                    per = 18;
+                    esc = 18;
+                    esc2 = 27;
                     lista_de_falas = JsonUtility.FromJson<ListaFalas>(JSONFlip.text);
                     break;
                 case 'S':
-                    per = 5;
+                    esc = 5;
                     lista_de_falas = JsonUtility.FromJson<ListaFalas>(JSONSolda.text);
                     break;
                 case 'P':
-                    per = 5;
+                    esc = 5;
                     lista_de_falas = JsonUtility.FromJson<ListaFalas>(JSONPcs.text);
                     break;
             }
@@ -92,20 +101,22 @@ using UnityEngine;
                 architectPlayer.Stop();
             }
             
-            if (id_fala == per && dom == false)
+            if (id_fala == esc && dom == false)
             {
-                control.SetActive(true);
+                escolha2.SetActive(true);
             }
             else if (dom == true)
             {
-                id_fala ++;
-                control.SetActive(false);
+                id_fala = id_fala + ajuesc;
+                escolha2.SetActive(false);
+                longLine = lista_de_falas.fala[id_fala].msg;
+                name = lista_de_falas.fala[id_fala].character;
                 architect.Build(longLine);
                 architectPlayer.Build(name);
-                Buttons.doma = false;
+                Buttons_2.doma = false;
             }
 
-            if (Input.GetKeyDown(KeyCode.Space) && id_fala != per)
+            if (Input.GetKeyDown(KeyCode.Space) && id_fala != esc && select != 'N')
             {
                 if (architect.isBuilding)
                 {

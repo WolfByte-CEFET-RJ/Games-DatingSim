@@ -22,6 +22,7 @@ public class SelecaoLugar : MonoBehaviour
 
     void Start()
     {
+        selec = 'N';
         ds = DialogueSystem.instance;
         filas = ds.dialogueContainer.root;
         escolha = ds.dialogueContainer.escolha;

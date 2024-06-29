@@ -1,0 +1,92 @@
+{
+    "escolhaFlip1": 
+	[
+		{
+		"id": 1,
+		"msg": "Deixar ela vencer de propósito."
+		},
+		{
+		"id": 2,
+		"msg": "Jogar e falar que é o melhor jogo que já jogou."
+		},
+		{
+		"id": 3,
+		"msg": ""
+		}
+	],
+	"escolhaFlip2": 
+	[
+		{
+		"id": 1,
+		"msg": "Vencer ela e depois humilhar."
+		},
+		{
+		"id": 2,
+		"msg": "Jogar e dizer que é bom, mas apontar alguns erros/melhorias."
+		},
+		{
+		"id": 3,
+		"msg": ""
+		}
+	],
+	"escolhaFlip3": 
+	[
+		{
+		"id": 1,
+		"msg": "Vencer por pouco"
+		},
+		{
+		"id": 2,
+		"msg": "Mudar de jogo para o QOF e jogar sozinho."
+		},
+		{
+		"id": 3,
+		"msg": ""
+		}
+	],
+	"escolhaMesa1": 
+	[
+		{
+		"id": 1,
+		"msg": "Ah, não, não tenho. Amo gatinhos, mas eles dão trabalho demais. Não quero nenhum destruindo a minha casa kkkkkk."
+		},
+		{
+		"id": 2,
+		"msg": "Ah, não, não tenho cachorro. Na verdade, nem quero ter um, cachorros são meus animais favoritos, mas só gosto de fazer carinho neles, cuidar dá trabalho demais."
+		},
+		{
+		"id": 3,
+		"msg": ""
+		}
+	],
+	"escolhaMesa2": 
+	[
+		{
+		"id": 1,
+		"msg": "Infelizmente, não posso ter gatos em casa, porque minha mãe é muito alérgica ao pêlo deles 🙁"
+		},
+		{
+		"id": 2,
+		"msg": "Bem que eu queria ter um...mas infelizmente, cachorros me dão muita alergia :("
+		},
+		{
+		"id": 3,
+		"msg": ""
+		}
+	],
+	"escolhaMesa3": 
+	[
+		{
+		"id": 1,
+		"msg": " Claro!! Eu tenho dois gatinhos 😊"
+		},
+		{
+		"id": 2,
+		"msg": "Claro que eu tenho!! Tenho uma cachorrinha muito fofaaaa"
+		},
+		{
+		"id": 3,
+		"msg": ""
+		}
+	]
+}

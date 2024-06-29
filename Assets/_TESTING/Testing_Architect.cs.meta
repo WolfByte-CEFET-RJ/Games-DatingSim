@@ -3,7 +3,11 @@ guid: ef8046c5f1677374297d611d6c4d82eb
 MonoImporter:
   externalObjects: {}
   serializedVersion: 2
-  defaultReferences: []
+  defaultReferences:
+  - JSONMesa: {fileID: 4900000, guid: 81a0d30c39cb62c42a2447d438bde429, type: 3}
+  - JSONPcs: {fileID: 4900000, guid: 578e20657ac51ef40b550dffae70de61, type: 3}
+  - JSONSolda: {fileID: 4900000, guid: 0e7c901c858209e439c8942099b88ee3, type: 3}
+  - JSONFlip: {fileID: 4900000, guid: 174aaa7c3a019d84091e181601458124, type: 3}
   executionOrder: 0
   icon: {instanceID: 0}
   userData: 
