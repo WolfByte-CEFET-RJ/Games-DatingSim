@@ -1,0 +1,131 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 132f7a3fa84d94a4ea26741610ae7db0, type: 3}
+  m_Name: teste2
+  m_EditorClassIdentifier: 
+  timeInSeconds: 0
+  Columns: 10
+  Rows: 10
+  Board:
+  - Row:
+    - T
+    - D
+    - G
+    - Z
+    - S
+    - J
+    - O
+    - X
+    - J
+    - S
+  - Row:
+    - E
+    - O
+    - J
+    - C
+    - Y
+    - C
+    - V
+    - A
+    - U
+    - X
+  - Row:
+    - S
+    - I
+    - L
+    - S
+    - O
+    - B
+    - S
+    - U
+    - L
+    - I
+  - Row:
+    - T
+    - S
+    - Y
+    - Z
+    - B
+    - L
+    - D
+    - Z
+    - C
+    - Q
+  - Row:
+    - E
+    - D
+    - S
+    - G
+    - K
+    - B
+    - Z
+    - G
+    - B
+    - U
+  - Row:
+    - Q
+    - B
+    - U
+    - W
+    - Z
+    - F
+    - D
+    - M
+    - H
+    - F
+  - Row:
+    - I
+    - D
+    - S
+    - I
+    - I
+    - E
+    - X
+    - E
+    - Y
+    - A
+  - Row:
+    - I
+    - L
+    - F
+    - X
+    - G
+    - G
+    - U
+    - P
+    - D
+    - P
+  - Row:
+    - Y
+    - D
+    - H
+    - R
+    - I
+    - T
+    - H
+    - Z
+    - U
+    - C
+  - Row:
+    - I
+    - H
+    - B
+    - P
+    - K
+    - J
+    - E
+    - B
+    - R
+    - E
+  SearchWords:
+  - Word: TESTE
+  - Word: DOIS
