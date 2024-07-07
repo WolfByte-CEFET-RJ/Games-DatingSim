@@ -15,6 +15,8 @@ public class GenderSelectElement : MonoBehaviour
     public GameObject maleDialogueBox;
     public GameObject femaleDialogueBox;
 
+    public GameObject nameInput; // Referência à interface do seletor de nome
+
     public GameObject player; // Referencia ao GameObject do jogador
 
     public Sprite maleSprite; // Sprite para personagem masculino
@@ -78,20 +80,22 @@ public class GenderSelectElement : MonoBehaviour
             GameManager.Instance.playerSprite = (selectedGender == "Male") ? maleSprite : femaleSprite;
 
             // Desativa os elementos de UI de seleção de gênero, após confirmar
-            maleButton.interactable = false;
-            femaleButton.interactable = false;
+            maleButton.gameObject.SetActive(false);
+            femaleButton.gameObject.SetActive(false);
 
-            // Carrega a próxima cena
-            // PrefabUtility.SaveAsPrefabAsset(player,"Assets/player.prefab")
-            GameManager.Instance.LoadNextScene("SampleScene");
+            // Remove o listener do botão confirmar
+            confirmButton.onClick.RemoveListener(ConfirmGender);
+
+            // Ativa a próxima interface (inserir o nome)
+            nameInput.SetActive(true);
         }
         else if(!genderSelected && selectedGender == null)
         {
-        Debug.Log("No gender selected yet.");
+            Debug.Log("No gender selected yet.");
         }
         else
         {
-        Debug.Log("Gender is selected.");
+            Debug.Log("Gender is selected.");
         }
     }
 }
