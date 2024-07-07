@@ -1,0 +1,131 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 132f7a3fa84d94a4ea26741610ae7db0, type: 3}
+  m_Name: teste3
+  m_EditorClassIdentifier: 
+  timeInSeconds: 0
+  Columns: 10
+  Rows: 10
+  Board:
+  - Row:
+    - T
+    - T
+    - T
+    - Y
+    - Z
+    - M
+    - B
+    - C
+    - P
+    - W
+  - Row:
+    - E
+    - R
+    - L
+    - U
+    - K
+    - C
+    - S
+    - U
+    - V
+    - J
+  - Row:
+    - S
+    - E
+    - U
+    - B
+    - B
+    - P
+    - R
+    - P
+    - G
+    - A
+  - Row:
+    - T
+    - S
+    - G
+    - G
+    - Z
+    - G
+    - X
+    - K
+    - H
+    - W
+  - Row:
+    - E
+    - I
+    - Q
+    - L
+    - V
+    - Y
+    - O
+    - K
+    - K
+    - E
+  - Row:
+    - L
+    - O
+    - U
+    - K
+    - B
+    - I
+    - F
+    - P
+    - Z
+    - B
+  - Row:
+    - W
+    - F
+    - Z
+    - E
+    - Q
+    - V
+    - R
+    - T
+    - B
+    - E
+  - Row:
+    - U
+    - O
+    - E
+    - C
+    - W
+    - H
+    - F
+    - W
+    - J
+    - M
+  - Row:
+    - L
+    - L
+    - Q
+    - P
+    - N
+    - L
+    - V
+    - V
+    - V
+    - Y
+  - Row:
+    - R
+    - Q
+    - P
+    - Q
+    - Q
+    - T
+    - F
+    - S
+    - J
+    - D
+  SearchWords:
+  - Word: TESTE
+  - Word: TRES

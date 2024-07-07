@@ -1,0 +1,133 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 132f7a3fa84d94a4ea26741610ae7db0, type: 3}
+  m_Name: teste1
+  m_EditorClassIdentifier: 
+  timeInSeconds: 0
+  Columns: 10
+  Rows: 10
+  Board:
+  - Row:
+    - I
+    - E
+    - E
+    - E
+    - O
+    - K
+    - U
+    - E
+    - F
+    - Z
+  - Row:
+    - C
+    - Y
+    - O
+    - R
+    - T
+    - W
+    - Q
+    - R
+    - F
+    - L
+  - Row:
+    - B
+    - A
+    - Q
+    - C
+    - F
+    - O
+    - W
+    - F
+    - B
+    - T
+  - Row:
+    - E
+    - M
+    - D
+    - N
+    - T
+    - L
+    - O
+    - R
+    - I
+    - L
+  - Row:
+    - A
+    - C
+    - L
+    - Y
+    - P
+    - F
+    - J
+    - J
+    - X
+    - M
+  - Row:
+    - D
+    - Y
+    - W
+    - P
+    - K
+    - B
+    - E
+    - J
+    - A
+    - N
+  - Row:
+    - A
+    - J
+    - C
+    - X
+    - E
+    - Y
+    - C
+    - K
+    - T
+    - P
+  - Row:
+    - X
+    - P
+    - D
+    - Q
+    - O
+    - T
+    - A
+    - B
+    - Z
+    - P
+  - Row:
+    - D
+    - P
+    - G
+    - A
+    - M
+    - E
+    - S
+    - N
+    - G
+    - F
+  - Row:
+    - L
+    - F
+    - S
+    - M
+    - Y
+    - C
+    - Q
+    - Q
+    - U
+    - B
+  SearchWords:
+  - Word: TESTANDO
+  - Word: WOLFBYTE
+  - Word: GAMES
+  - Word: IEEE
