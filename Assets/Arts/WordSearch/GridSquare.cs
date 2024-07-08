@@ -60,6 +60,7 @@ public class GridSquare : MonoBehaviour
         {
             _correct = true;
             displayedImage.sprite = _correctLetterData.image;
+            Shake();
         }
 
         _selected = false;
@@ -74,23 +75,28 @@ public class GridSquare : MonoBehaviour
 
     public void OnDisableSquareSelection()
     {
-        _selected = false;
-        _clicked = false;
-
-        if(_correct == true)
+        if (_correct == true)
         {
             displayedImage.sprite = _correctLetterData.image;
+
         }
-        else
+        else if(_selected == true && _correct == false)
         {
             displayedImage.sprite = _normalLetterData.image;
+            Shake();
         }
+
+        _selected = false;
+        _clicked = false;
     }
 
     private void SelectSquare(Vector3 position)
     {
         if (this.gameObject.transform.position == position)
+        {
             displayedImage.sprite = _selectedLetterData.image;
+            _selected = true;
+        }
     }
 
     public void SetSprite(AlphabethData.LetterData normalLetterData, AlphabethData.LetterData selectedLetterData, AlphabethData.LetterData correctLetterData)
@@ -108,6 +114,7 @@ public class GridSquare : MonoBehaviour
         GameEvents.EnableSquareSelectionMethod();
         CheckSquare();
         displayedImage.sprite = _selectedLetterData.image;
+        _selected = true;
     }
 
     private void OnMouseEnter()
@@ -125,8 +132,39 @@ public class GridSquare : MonoBehaviour
     {
         if(_selected == false && _clicked == true)
         {
-            _selected = true;
+           // _selected = true;
             GameEvents.CheckSquareMethod(_normalLetterData.letter, gameObject.transform.position, _index);
         }
+    }
+    public void Shake()
+    {
+        StartCoroutine(ShakeCoroutine());
+    }
+
+    IEnumerator ShakeCoroutine()
+    {
+        float elapsedTime = 0f;
+        float rotateDuration = 0.5f;  // Duração da rotação em segundos
+        float rotateSpeed = 360f / rotateDuration;  // Velocidade de rotação em graus por segundo
+
+        Quaternion originalRotation = gameObject.transform.localRotation;
+
+        while (elapsedTime < rotateDuration)
+        {
+            // Calcula a rotação incremental baseada no tempo e na velocidade
+            float angle = rotateSpeed * elapsedTime;
+            Quaternion rotationAmount = Quaternion.Euler(0f, angle, 0f);  // Ajuste o eixo de acordo com a orientação desejada
+
+            // Aplica a nova rotação ao transform do objeto
+            transform.localRotation = originalRotation * rotationAmount;
+
+            // Aguarda um frame
+            yield return null;
+
+            elapsedTime += Time.deltaTime;
+        }
+
+        // Retorna à rotação original quando a rotação termina
+        transform.localRotation = originalRotation;
     }
 }

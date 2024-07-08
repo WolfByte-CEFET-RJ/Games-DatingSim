@@ -1,6 +1,7 @@
 using System;
 using System.Collections;
 using System.Collections.Generic;
+using Unity.VisualScripting;
 using UnityEngine;
 
 public class WordChecker : MonoBehaviour
@@ -10,14 +11,14 @@ public class WordChecker : MonoBehaviour
     private string _word;
 
     private int _assignedPoints = 0;
-    private int _completedWords = 0;
     private Ray _rayUp, _rayDown;
     private Ray _rayLeft, _rayRight;
     private Ray _rayDiagonalLeftUp, _rayDiagonalLeftDown;
     private Ray _rayDiagonalRightUp, _rayDiagonalRightDown;
     private Ray _currentRay = new Ray();
     private Vector3 _rayStartPosition;
-    private List<int> _correctSquareList = new List<int>();
+    public List<int> _correctSquareList = new List<int>();
+    private Vector3 _lastSelectedPosition;
 
     private void OnEnable()
     {
@@ -34,7 +35,6 @@ public class WordChecker : MonoBehaviour
     void Start()
     {
         _assignedPoints = 0;
-        _completedWords = 0;
     }
 
     // Update is called once per frame
@@ -58,6 +58,7 @@ public class WordChecker : MonoBehaviour
         if(_assignedPoints == 0)
         {
             _rayStartPosition = squarePosition;
+            _lastSelectedPosition = squarePosition;
             _correctSquareList.Add(squareIndex);
             _word += letter;
 
@@ -73,20 +74,32 @@ public class WordChecker : MonoBehaviour
 
         else if (_assignedPoints == 1)
         {
-            _correctSquareList.Add(squareIndex);
-            _currentRay = SelectRay(_rayStartPosition, squarePosition);
-            GameEvents.SelectSquareMethod(squarePosition);
-            _word += letter;
-            CheckWord();
+            float distance = Vector3.Distance(_rayStartPosition, squarePosition);
+            if (distance < 1.6f)
+            {
+                _correctSquareList.Add(squareIndex);
+                _currentRay = SelectRay(_rayStartPosition, squarePosition);
+                GameEvents.SelectSquareMethod(squarePosition);
+                _word += letter;
+                _lastSelectedPosition = squarePosition;
+                CheckWord();
+            }
+            else
+            {
+                _assignedPoints--;
+            }
+
         }
 
         else
         {
+            Debug.Log("Estou tentando!!!");
             if(IsPointOnTheRay(_currentRay, squarePosition))
             {
                 _correctSquareList.Add(squareIndex);
                 GameEvents.SelectSquareMethod(squarePosition);
                 _word += letter;
+                _lastSelectedPosition = squarePosition;
                 CheckWord();
             }
         }
@@ -111,12 +124,18 @@ public class WordChecker : MonoBehaviour
     private bool IsPointOnTheRay(Ray currentRay, Vector3 point)
     {
         var hits = Physics.RaycastAll(currentRay, 100.0f);
+        Debug.Log("Até aqui okay  " + point);
 
         for(int i = 0; i < hits.Length; i++) 
         {
             if (hits[i].transform.position == point)
             {
-                return true;
+                Debug.Log("Distância entre quadrado inicial e selecionado:" + Vector3.Distance(point, _lastSelectedPosition));
+
+                if (Vector3.Distance(point, _lastSelectedPosition) < 1.6f)
+                {
+                    return true;
+                }
             }
         }
 
