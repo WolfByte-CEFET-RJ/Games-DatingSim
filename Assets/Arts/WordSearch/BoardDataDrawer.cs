@@ -1,9 +1,14 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+
+#if UNITY_EDITOR
+
 using UnityEditor;
 using UnityEditorInternal;
 using System.Text.RegularExpressions;
+
+
 
 [CustomEditor(typeof(BoardData), false)]
 [CanEditMultipleObjects]
@@ -197,4 +202,4 @@ public class BoardDataDrawer : Editor
         }
     }
 }
-
+#endif
