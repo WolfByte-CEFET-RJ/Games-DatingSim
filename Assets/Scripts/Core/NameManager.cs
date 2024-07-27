@@ -30,8 +30,11 @@ public class NameManager : MonoBehaviour
         else
         {
             // Salva o nome do jogador
-            PlayerPrefs.SetString("PlayerName", playerName);
+            GameManager.Instance.playerName = playerName;
             Debug.Log("Chosen name: " + playerName);
+
+            // Registra nome e gênero do jogador no arquivo de save
+            SaveManager.Instance.SavePlayerInfo();
 
             // Carrega a próxima cena
             // PrefabUtility.SaveAsPrefabAsset(player,"Assets/player.prefab")

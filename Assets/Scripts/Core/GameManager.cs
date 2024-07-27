@@ -41,30 +41,37 @@ public class GameManager : MonoBehaviour
         SceneManager.LoadScene(NextScene);
     }
 
-    // Método para salvar informações do jogador
-    public void SavePlayerData(string name, int points)
+    // Método que deve ser chamado no fim de cada dia para salvar o jogo (Pode ser substituído por "SaveManager.Instance.SaveGame();" diretamente)
+    public void OnDayEnd()
     {
-        playerName = name;
-        affectionPoints = points;
-        // Você pode adicionar aqui outros códigos para salvar essas informações
+        SaveManager.Instance.SaveGame();
     }
 
-    // Método para carregar informações do jogador
-    public void LoadPlayerData()
+    // Método para carregar as informações salvas
+    public void LoadData(SaveData data)
     {
-        // Você pode adicionar aqui o código para carregar as informações salvas, como de PlayerPrefs ou um arquivo JSON
-        // E atribuir os valores carregados às variáveis playerName e affectionPoints
-        
-        // Carregar o nome do jogador de PlayerPrefs, se existir
-        if (PlayerPrefs.HasKey("PlayerName"))
-        {
-            playerName = PlayerPrefs.GetString("PlayerName");
-        }
+        this.playerName = data.playerName;
+        this.affectionPoints = data.affectionPoints;
+        this.selectedGender = data.selectedGender;
+        this.selectedDialogueBox = data.selectedDialogueBox;
+        this.playerSprite = data.playerSprite;
+        // Carregar cena correspondente ao dia salvo (Ainda não implementado)
+        // LoadNextScene("");
+    }
 
-        // Carregar os pontos de afetividade de PlayerPrefs, se existirem
-        if (PlayerPrefs.HasKey("AffectionPoints"))
-        {
-            affectionPoints = PlayerPrefs.GetInt("AffectionPoints");
-        }
+    // Método para atualizar as informações salvas
+    public void SaveData(ref SaveData data)
+    {
+        data.affectionPoints = this.affectionPoints;
+        data.day = data.day + 1;
+    }
+
+    // Método para atualizar as informações do jogador (nome e gênero)
+    public void SavePlayerInfo(ref SaveData data)
+    {
+        data.playerName = this.playerName;
+        data.selectedGender = this.selectedGender;
+        data.selectedDialogueBox = this.selectedDialogueBox;
+        data.playerSprite = this.playerSprite;
     }
 }
