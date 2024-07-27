@@ -45,13 +45,13 @@ public class SaveManager : MonoBehaviour
             NewGame();
         }
 
-        GameManager.LoadData(saveData);
+        GameManager.Instance.LoadData(saveData);
     }
 
     // Método para salvar os dados referentes ao jogo
     public void SaveGame()
     {
-        GameManager.SaveData(ref saveData);
+        GameManager.Instance.SaveData(ref saveData);
 
         saveHandler.Save(saveData);
     }
@@ -59,7 +59,7 @@ public class SaveManager : MonoBehaviour
     // Método para salvar as informações do jogador (nome e gênero)
     public void SavePlayerInfo()
     {
-        GameManager.SavePlayerInfo(ref saveData);
+        GameManager.Instance.SavePlayerInfo(ref saveData);
 
         saveHandler.Save(saveData);
     }
