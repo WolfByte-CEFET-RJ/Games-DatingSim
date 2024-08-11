@@ -18,6 +18,7 @@ public class SaveManager : MonoBehaviour
             Debug.Log("More than one save manager active");
         
         Instance = this;
+        DontDestroyOnLoad(gameObject);
     }
 
     // Método chamado ao clicar no botão Jogar (O botão ainda deve ser implementado)
