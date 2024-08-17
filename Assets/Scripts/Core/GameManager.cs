@@ -33,6 +33,13 @@ public class GameManager : MonoBehaviour
         {
             Destroy(gameObject);
         }
+
+        //Verifica se o Loading foi instanciado
+        if(GameObject.Find("Loading") == null) {
+            GameObject loading = Instantiate(Resources.Load<GameObject>("Prefabs/Loading"));
+            loading.name = "Loading";
+        }
+
     }
 
     public void LoadNextScene(string NextScene)
