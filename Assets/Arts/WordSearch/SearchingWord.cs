@@ -9,13 +9,13 @@ public class SearchingWord : MonoBehaviour
     public Text displayedText;
     public Image crossLine;
     private int wordsToFind;
-
     private string _word;
    
     void Start()
     {
         wordsToFind = GameObject.FindWithTag("WordGrid").GetComponent<WordGrid>().currentGameData.selectedBoardData.SearchWords.Count;
         Debug.Log("Faltam: " + wordsToFind);
+
     }
 
     private void OnEnable()
@@ -39,6 +39,26 @@ public class SearchingWord : MonoBehaviour
         if (word == _word)
         {
             crossLine.gameObject.SetActive(true);
+            GameObject endGameObject = GameObject.Find("Timer");
+
+            if (endGameObject != null)
+            {
+                // Obtém o componente EndGameScript
+                EndGameScript endGameScript = endGameObject.GetComponent<EndGameScript>();
+
+                if (endGameScript != null)
+                {
+                    endGameScript.setWordsFinded(); // Chama o método
+                }
+                else
+                {
+                    Debug.LogError("EndGameScript não encontrado no GameObject!");
+                }
+            }
+            else
+            {
+                Debug.LogError("GameObject com o nome especificado não encontrado!");
+            }
         }
     }
 }
