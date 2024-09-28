@@ -7,41 +7,59 @@ public class Buttons : MonoBehaviour
 {
     [SerializeField] private Button b1, b2, b3;
     public static bool doma;
+    public static int ajustesc;
 
     [System.Serializable]
     public class Fala
     {
-        public int id;
-        public string character;
+        public int aju;
         public string msg;
     }
 
     [System.Serializable]
     public class ListaFalas
     {
-        public Fala[] fala;
+        public Fala[] escolhaFlip1;
+        public Fala[] escolhaFlip2;
+        public Fala[] escolhaFlip3;
+        public Fala[] escolhaMesa1;
+        public Fala[] escolhaMesa2;
+        public Fala[] escolhaMesa3;
+        public Fala[] escolhaPcs1;
+        public Fala[] escolhaPcs2;
+        public Fala[] escolhaPcs3;
+        public Fala[] escolhaSolda1;
+        public Fala[] escolhaSolda2;
+        public Fala[] escolhaSolda3;
     }
+    public ListaFalas lista_de_falas = new ListaFalas();
+
     DialogueSystem ds;
     TextArchitect architectb1;
     TextArchitect architectb2;
     TextArchitect architectb3;
     public TextArchitect.BuildMethod bm = TextArchitect.BuildMethod.instant;
-    public ListaFalas lista_de_falas = new ListaFalas();
     public char select;
     public TextAsset JSONEscolha;
     public int id_fala;
+    public int bot, bye, wie;
+    string longLine;
+    string lingLine;
+    string lengLine;
+
 
     private void Awake()
     {
-        b1.onClick.AddListener(OnClickDown);
-        b2.onClick.AddListener(OnClickDown);
-        b3.onClick.AddListener(OnClickDown);
+        b1.onClick.AddListener(esc1);
+        b2.onClick.AddListener(esc2);
+        b3.onClick.AddListener(esc3);
+
     }
     
     void Start()
     {
-        id_fala = 1;
         lista_de_falas = JsonUtility.FromJson<ListaFalas>(JSONEscolha.text);
+        id_fala = 0;
         select = SelecaoLugar.selec;
         ds = DialogueSystem.instance;
         architectb1 = new TextArchitect(ds.dialogueContainer.esc3b1);
@@ -50,41 +68,98 @@ public class Buttons : MonoBehaviour
         architectb1.speed = 0.5f;
         architectb2.speed = 0.5f;
         architectb3.speed = 0.5f;
-        
+
         switch (select)
         {
             case 'M':
+                longLine = lista_de_falas.escolhaMesa1[id_fala].msg;
+                lingLine = lista_de_falas.escolhaMesa2[id_fala].msg;
+                lengLine = lista_de_falas.escolhaMesa3[id_fala].msg;
+                bot = lista_de_falas.escolhaMesa1[id_fala].aju;
+                bye = lista_de_falas.escolhaMesa2[id_fala].aju;
+                wie = lista_de_falas.escolhaMesa3[id_fala].aju;
+                
                 id_fala = id_fala + 0;
                 break;
             case 'F':
+                longLine = lista_de_falas.escolhaFlip1[id_fala].msg;
+                lingLine = lista_de_falas.escolhaFlip2[id_fala].msg;
+                lengLine = lista_de_falas.escolhaFlip3[id_fala].msg;
+                bot = lista_de_falas.escolhaFlip1[id_fala].aju;
+                bye = lista_de_falas.escolhaFlip2[id_fala].aju;
+                wie = lista_de_falas.escolhaFlip3[id_fala].aju;
+
                 id_fala = id_fala + 0;
                 break;
             case 'S':
+                longLine = lista_de_falas.escolhaSolda1[id_fala].msg;
+                lingLine = lista_de_falas.escolhaSolda2[id_fala].msg;
+                lengLine = lista_de_falas.escolhaSolda3[id_fala].msg;
+                bot = lista_de_falas.escolhaSolda1[id_fala].aju;
+                bye = lista_de_falas.escolhaSolda2[id_fala].aju;
+                wie = lista_de_falas.escolhaSolda3[id_fala].aju;
+
                 id_fala = id_fala + 0;
                 break;
             case 'P':
+                longLine = lista_de_falas.escolhaPcs1[id_fala].msg;
+                lingLine = lista_de_falas.escolhaPcs2[id_fala].msg;
+                lengLine = lista_de_falas.escolhaPcs3[id_fala].msg;
+                bot = lista_de_falas.escolhaPcs1[id_fala].aju;
+                bye = lista_de_falas.escolhaPcs2[id_fala].aju;
+                wie = lista_de_falas.escolhaPcs3[id_fala].aju;
+
                 id_fala = id_fala + 0;
                 break;
         }
+
+        architectb1.Build(longLine);
+        architectb2.Build(lingLine);
+        architectb3.Build(lengLine);
     }
 
-    private void OnClickDown()
+    private void esc1()
     {
+        ajustesc = bot;
+        id_fala++;
+        doma = true;
+    }
+
+    private void esc2()
+    {
+        ajustesc = bye;
+        id_fala++;
+        doma = true;
+    }
+
+    private void esc3()
+    {
+        ajustesc = wie;
+        id_fala++;
         doma = true;
     }
 
     void Update()
-    {
-        string longLine = lista_de_falas.fala[id_fala].msg;
-        string lingLine = lista_de_falas.fala[id_fala++].msg;
-        string lengLine = lista_de_falas.fala[id_fala + 2].msg;
-        
-        architectb1.Build(longLine);
-        architectb2.Build(lingLine);
-        architectb3.Build(lengLine);
-        
+    {  
+        /*if (architectb1.isBuilding)
+        {
+            if (!architectb1.hurryUp)
+            {
+                architectb1.hurryUp = true;
+                architectb2.hurryUp = true;
+                architectb1.libera = true;
+            }
+            else
+            {
+                architectb1.ForceComplete();
+                architectb2.ForceComplete();
+            }
+        }
+        else if (architectb1.libera == false)
+            {
+            id_fala ++;
+            architectb1.Build(longLine);
+            architectb2.Build(lingLine);
+            }*/
     }
-
-
-    
 }

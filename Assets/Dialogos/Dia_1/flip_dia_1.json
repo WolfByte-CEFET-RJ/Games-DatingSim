@@ -1,6 +1,11 @@
 {
     "fala": [
 	{
+	"id": 0,
+	"character": "",
+	"msg": ""
+	},
+	{
 	"id": 1,
 	"character": "Narrador",
 	"msg": "Há muito barulho vindo do fliperama."
@@ -92,262 +97,321 @@
 	},
 	{
 	"id": 19,
+	"character": "",
+	"msg": ""
+	},
+	{
+	"id": 20,
 	"character": "Botz(F)",
 	"msg": "EU SABIA QUE VOCÊ TINHA BOM GOSTO!!"
 	},
 	{
-	"id": 20,
+	"id": 21,
 	"character": "Botz(M)",
 	"msg": "Você não precisa escolher só para agradar ela, ela tem bastante trabalho pra fazer!"
 	},
 	{
-	"id": 21,
+	"id": 22,
 	"character": "Botz(F)",
 	"msg": "Nada que não possa esperar por uma partida de QOF! Vem Trainee, esquece esse ai!"
 	},
 	{
-	"id": 22,
+	"id": 23,
 	"character": "Botz(F)",
 	"msg": "Lagur é proibido!"
 	},
 	{
-	"id": 23,
+	"id": 24,
 	"character": "Botz(M)",
 	"msg": "Aposto 10 reais e um caldo de cana no trainee."
 	},
 	{
-	"id": 24,
+	"id": 25,
 	"character": "Botz(F)",
 	"msg": "É PRA APOSTAR EM MIM!"
 	},
 	{
-	"id": 25,
+	"id": 26,
 	"character": "Botz(F)",
 	"msg": "Minha equipe de sempre é formada com (COLOCAR PERSONAGEM)"
 	},
 	{
-	"id": 26,
+	"id": 27,
 	"character": "Trainee",
 	"msg": "Faz um tempo que eu não jogo, mas irei dar meu melhor~!"
 	},
 	{
-	"id": 27,
+	"id": 28,
 	"character": "",
 	"msg": ""
 	},
 	{
-	"id": 28,
+	"id": 29,
+	"character": "",
+	"msg": ""
+	},
+	{
+	"id": 30,
 	"character": "Botz(F)",
 	"msg": "Hum… Acho que isso foi fácil demais, se quiser, posso te ensinar como jogar com os personagens e fazer combos!"
 	},
 	{
-	"id": 29,
+	"id": 31,
 	"character": "Botz(F)",
 	"msg": "Aquele ali é muito sem graça, ele sempre fica falando pra trocarmos pra jogo de corrida!"
 	},
 	{
-	"id": 30,
+	"id": 32,
 	"character": "Botz(M)",
 	"msg": "Eu só gosto mais dos jogos de corrida, você diz isso porque sempre perde neles."
 	},
 	{
-	"id": 31,
+	"id": 33,
 	"character": "Botz(F)",
 	"msg": "Viu! Ele sempre fica se achando o melhor piloto do IEEE!"
 	},
 	{
-	"id": 32,
+	"id": 34,
 	"character": "Botz(M)",
 	"msg": "Agora é hora de voltar pro trabalho, Botz(F)."
 	},
 	{
-	"id": 33,
+	"id": 35,
 	"character": "Botz(F)",
 	"msg": "Já tá puxando minha orelha, a gente joga mais depois, trainee~! Tchaaaaau!"
 	},
 	{
-	"id": 34,
+	"id": 36,
+	"character": "",
+	"msg": ""
+	},
+	{
+	"id": 37,
+	"character": "",
+	"msg": ""
+	},
+	{
+	"id": 38,
 	"character": "Trainee",
 	"msg": "Nunca vi alguém tão ruim em toda minha vida. Até a minha vó diabética sairia melhor que alguém como você."
 	},
 	{
-	"id": 35,
+	"id": 39,
 	"character": "Botz(M)",
 	"msg": "Isso é… Um pouco rude."
 	},
 	{
-	"id": 36,
+	"id": 40,
 	"character": "Trainee",
 	"msg": "Tá dizendo isso porque não vence nada, né? Nem a melhor do Rio conseguem ser!"
 	},
 	{
-	"id": 37,
+	"id": 41,
 	"character": "Trainee",
 	"msg": "VIVA A ATHENA, VIVA A ATHENA!"
-	},
-
-	{
-	"id": 38,
-	"character": "Botz(F)",
-	"msg": "Melhor a gente deixar ele ai…"
-	},
-	{
-	"id": 39,
-	"character": "Narrador",
-	"msg": "Eles saem do local com um rosto de decepção. Você continua gritando “viva a athena” por mais meia hora. "
-	},
-	{
-	"id": 40,
-	"character": "Botz(F)",
-	"msg": "Você é realmente um oponente digno!"
-	},
-	{
-	"id": 41,
-	"character": "Botz(M)",
-	"msg": "Não vejo você animada assim há um tempo, Botz(F)."
 	},
 	{
 	"id": 42,
 	"character": "Botz(F)",
-	"msg": "Não é todo dia que eu encontro um oponente a minha altura!"
+	"msg": "Melhor a gente deixar ele ai…"
 	},
 	{
 	"id": 43,
-	"character": "Botz(F)",
-	"msg": "Eu espero que a gente possa jogar mais vezes juntos!"
+	"character": "Narrador",
+	"msg": "Eles saem do local com um rosto de decepção. Você continua gritando “viva a athena” por mais meia hora. "
 	},
 	{
 	"id": 44,
-	"character": "Botz(F)",
-	"msg": "Ei, você também devia jogar com a gente!"
+	"character": "",
+	"msg": ""
 	},
 	{
 	"id": 45,
-	"character": "Botz(M)",
-	"msg": "Prefiro jogos de corrida, se pudermos jogar um Luigi Kart!"
+	"character": "",
+	"msg": ""
 	},
 	{
 	"id": 46,
 	"character": "Botz(F)",
-	"msg": "Eu tô de tão bom humor, que não vou nem reclamar! Foi uma partida e tanto!"
+	"msg": "Você é realmente um oponente digno!"
 	},
 	{
 	"id": 47,
-	"character": "",
-	"msg": ""
+	"character": "Botz(M)",
+	"msg": "Não vejo você animada assim há um tempo, Botz(F)."
 	},
 	{
 	"id": 48,
-	"character": "Botz(M)",
-	"msg": "Temos que terminar de preparar nossos robôs para a competição, Botz(F)"
+	"character": "Botz(F)",
+	"msg": "Não é todo dia que eu encontro um oponente a minha altura!"
 	},
 	{
 	"id": 49,
 	"character": "Botz(F)",
-	"msg": "Ei, Trainee, espero que a gente consiga jogar muitas outras vezes!"
+	"msg": "Eu espero que a gente possa jogar mais vezes juntos!"
 	},
 	{
 	"id": 50,
 	"character": "Botz(F)",
-	"msg": "Vou me certificar de acabar com você na próxima!"
+	"msg": "Ei, você também devia jogar com a gente!"
 	},
 	{
 	"id": 51,
-	"character": "Botz(F)",
-	"msg": "Você tá sendo humilde, mas é sempre bom melhorar cada vez mais!"
+	"character": "Botz(M)",
+	"msg": "Prefiro jogos de corrida, se pudermos jogar um Luigi Kart!"
 	},
 	{
 	"id": 52,
-	"character": "Botz(M)",
-	"msg": "Temos que terminar de preparar nossos robôs para a competição, Botz(F)."
+	"character": "Botz(F)",
+	"msg": "Eu tô de tão bom humor, que não vou nem reclamar! Foi uma partida e tanto!"
 	},
 	{
 	"id": 53,
+	"character": "",
+	"msg": ""
+	},
+	{
+	"id": 54,
+	"character": "",
+	"msg": ""
+	},
+	{
+	"id": 55,
+	"character": "Botz(M)",
+	"msg": "Temos que terminar de preparar nossos robôs para a competição, Botz(F)"
+	},
+	{
+	"id": 56,
 	"character": "Botz(F)",
 	"msg": "Ei, Trainee, espero que a gente consiga jogar muitas outras vezes!"
 	},
 	{
-	"id": 54,
+	"id": 57,
 	"character": "Botz(F)",
 	"msg": "Vou me certificar de acabar com você na próxima!"
 	},
 	{
-	"id": 55,
+	"id": 58,
+	"character": "",
+	"msg": ""
+	},
+	{
+	"id": 59,
+	"character": "",
+	"msg": ""
+	},
+	{
+	"id": 60,
+	"character": "Botz(F)",
+	"msg": "Você tá sendo humilde, mas é sempre bom melhorar cada vez mais!"
+	},
+	{
+	"id": 61,
+	"character": "Botz(M)",
+	"msg": "Temos que terminar de preparar nossos robôs para a competição, Botz(F)."
+	},
+	{
+	"id": 62,
+	"character": "Botz(F)",
+	"msg": "Ei, Trainee, espero que a gente consiga jogar muitas outras vezes!"
+	},
+	{
+	"id": 63,
+	"character": "Botz(F)",
+	"msg": "Vou me certificar de acabar com você na próxima!"
+	},
+	{
+	"id": 64,
+	"character": "",
+	"msg": ""
+	},
+	{
+	"id": 65,
+	"character": "",
+	"msg": ""
+	},
+	{
+	"id": 66,
 	"character": "Byte(F)",
 	"msg": "Ebaaaaaa, mais um beta tester!"
 	},
 	{
-	"id": 56,
+	"id": 67,
 	"character": "Byte(M)",
 	"msg": "Você tem que explicar as regras."
 	},
 	{
-	"id": 57,
+	"id": 68,
 	"character": "Byte(F)",
 	"msg": "AFIRMATIVO! Ei, Trainee, atenção! Esse é um jogo de cartas, você vai escolher as cartas e dar dano no inimigo!!"
 	},
 	{
-	"id": 58,
+	"id": 69,
 	"character": "Byte(M)",
 	"msg": "Você devia explicar isso melhor…"
 	},
 	{
-	"id": 59,
+	"id": 70,
 	"character": "Byte(M)",
 	"msg": "Esquece, o jogo já está no fliperama, jogue e fale o que achou."
 	},
 	{
-	"id": 60,
+	"id": 71,
 	"character": "Byte(F)",
 	"msg": "Isso, isso, seja nosso beta tester e ganhe pontos a mais no nosso loveometro!!! (^o^)"
 	},
 	{
-	"id": 61,
+	"id": 72,
 	"character": "",
 	"msg": ""
 	},
 	{
-	"id": 62,
+	"id": 73,
+	"character": "",
+	"msg": ""
+	},
+	{
+	"id": 74,
 	"character": "Narrador",
 	"msg": "Você passa bons momentos desafiando e enfrentando monstros com cartas, byte(F) olha esperançosa para você."
 	},
 	{
-	"id": 63,
+	"id": 75,
 	"character": "Byte(F)",
 	"msg": " Qual sua avaliação???"
 	},
 	{
-	"id": 64,
+	"id": 76,
 	"character": "Trainee",
 	"msg": "É emocionante e o fator sorte só melhora a rejogabilidade! Quero jogar o dia todo!"
 	},
 	{
-	"id": 65,
+	"id": 77,
 	"character": "Byte(F)",
 	"msg": "Yaaaay!! Eu disse que gostariam dele, Byte(M)!!"
 	},
 	{
-	"id": 66,
+	"id": 78,
 	"character": "Byte(M)",
 	"msg": "Eu não disse que não gostariam, só disse que deviam abaixar a dificuldade."
 	},
 	{
-	"id": 67,
+	"id": 79,
 	"character": "Byte(F)",
 	"msg": "Passamos um bom tempo desenvolvendo ele, até uma língua própria ele tem!!"
 	},
 	{
-	"id": 68,
+	"id": 80,
 	"character": "Byte(M)",
 	"msg": "Essa foi uma ‘jogada’ boa de vocês."
 	},
 	{
-	"id": 69,
+	"id": 81,
 	"character": "",
 	"msg": ""
 	},
 	{
-	"id": 70,
+	"id": 82,
 	"character": "",
 	"msg": ""
 	},
