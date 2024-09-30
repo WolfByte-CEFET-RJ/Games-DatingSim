@@ -4,7 +4,7 @@ using UnityEngine;
 using UnityEngine.UI;
 
 
-    public class Testing_Architect : MonoBehaviour
+    public class GeradorDialogos : MonoBehaviour
     {
         DialogueSystem ds;
         TextArchitect architect;
@@ -303,7 +303,7 @@ using UnityEngine.UI;
                     BotzF.GetComponent<Image>().color = new Color32(200, 200, 200, 255);
                     WieF.GetComponent<Image>().color = new Color32(200, 200, 200, 255);
                     PowerF.GetComponent<Image>().color = new Color32(200, 200, 200, 255);
-                    ByteF.GetComponent<Image>().color = new Color32(200, 200, 200, 255);
+                    ByteF.GetComponent<Image>().color = new Color32(255, 255, 255, 255);
                     RocketF.GetComponent<Image>().color = new Color32(200, 200, 200, 255);
                     SocialF.GetComponent<Image>().color = new Color32(200, 200, 200, 255);
                     GestaoF.GetComponent<Image>().color = new Color32(200, 200, 200, 255);
