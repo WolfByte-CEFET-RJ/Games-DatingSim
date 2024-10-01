@@ -3,6 +3,13 @@ using System.Collections.Generic;
 using UnityEngine.SceneManagement;
 using UnityEngine;
 
+/*
+Os metodos e variaveis dessa classe podem ser acessados de qualquer parte do codigo a qualquer momento
+Para acessar, basta utilizar:
+
+GameManager.Instance.variavel ou GameManager.Instance.metodo
+*/
+
 public class GameManager : MonoBehaviour
 {
     // Instancia singular
