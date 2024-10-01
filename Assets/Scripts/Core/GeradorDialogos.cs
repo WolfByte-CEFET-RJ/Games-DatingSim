@@ -65,13 +65,13 @@ using UnityEngine.UI;
         {
             ds = DialogueSystem.instance;
             lista_de_escolhas = JsonUtility.FromJson<ListaEscolhas>(JSONEscolha.text);
-            lista_de_falas = JsonUtility.FromJson<ListaFalas>(JSONMesa.text);
+            //lista_de_falas = JsonUtility.FromJson<ListaFalas>(JSONMesa.text);
             architect = new TextArchitect(ds.dialogueContainer.dialogueText);
             architectPlayer = new TextArchitectPlayer(ds.dialogueContainer.nameText);
             architect.buildMethod = TextArchitect.BuildMethod.fade;
             architectPlayer.speed = 1f;
             architect.speed = 0.5f;
-            id_fala = 0;
+            id_fala = 1;
             esc = 50;
             esc0 = 50;
             esc1 = 50;
@@ -122,10 +122,13 @@ using UnityEngine.UI;
             dum = Buttons.doma;
             ajuesc = Buttons_2.ajuesc;
             ajustesc = Buttons.ajustesc;
+            if(select == 'N')
+            {
+                return;
+            }
+            selet(select);
             longLine = lista_de_falas.fala[id_fala].msg;
             name = lista_de_falas.fala[id_fala].character;
-            
-            selet(select);
 
             if (bm != architect.buildMethod)
             {
@@ -182,9 +185,9 @@ using UnityEngine.UI;
                 pc1.SetActive(false);
             }
 
-            
 
-            if (Input.GetKeyDown(KeyCode.Space) && id_fala != esc && select != 'N' && id_fala != esc2)
+       
+            if (select != 'N' && ((id_fala == 1) ||(Input.GetKeyDown(KeyCode.Space) && id_fala != esc && id_fala != esc2)))
             {
                 if (architect.isBuilding)
                 {

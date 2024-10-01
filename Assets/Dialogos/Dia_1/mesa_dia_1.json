@@ -1,8 +1,13 @@
 {
     "fala": [
 	{
-	"id": 1,
+	"id": 0,
 	"character": "",
+	"msg": ""
+	},
+	{
+	"id": 1,
+	"character": "Narrador",
 	"msg": "Na mesa de reuniões, Wie e Gestão discutiam algo. "
 	},
 	{
