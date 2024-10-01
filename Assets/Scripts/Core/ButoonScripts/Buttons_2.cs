@@ -7,12 +7,14 @@ public class Buttons_2 : MonoBehaviour
 {
     [SerializeField] private Button b1, b2;
     public static bool doma;
-    public static int ajuesc;
+    public static int ajuesc, elimn;
+    public static char elim;
 
     [System.Serializable]
     public class Fala
     {
         public int aju;
+        public int elimn;
         public string msg;
     }
 
@@ -37,7 +39,7 @@ public class Buttons_2 : MonoBehaviour
     public char select;
     public TextAsset JSONEscolha;
     public int id_fala;
-    public int bot, bye;
+    public int bot, bye, elimna, elimnb;
     string longLine;
     string lingLine;
 
@@ -59,6 +61,8 @@ public class Buttons_2 : MonoBehaviour
         architectb2 = new TextArchitect(ds.dialogueContainer.esc2b2);
         architectb1.speed = 0.5f;
         architectb2.speed = 0.5f;
+        elim = 'C';
+        elimn = 50;
 
         switch (select)
         {
@@ -67,7 +71,8 @@ public class Buttons_2 : MonoBehaviour
                 lingLine = lista_de_falas.escolhaMesa2[id_fala].msg;
                 bot = lista_de_falas.escolhaMesa1[id_fala].aju;
                 bye = lista_de_falas.escolhaMesa2[id_fala].aju;
-                
+                elimna = lista_de_falas.escolhaMesa1[id_fala].elimn;
+                elimnb = lista_de_falas.escolhaMesa2[id_fala].elimn;
                 id_fala = id_fala + 0;
                 break;
             case 'F':
@@ -75,6 +80,8 @@ public class Buttons_2 : MonoBehaviour
                 lingLine = lista_de_falas.escolhaFlip2[id_fala].msg;
                 bot = lista_de_falas.escolhaFlip1[id_fala].aju;
                 bye = lista_de_falas.escolhaFlip2[id_fala].aju;
+                elimna = lista_de_falas.escolhaFlip1[id_fala].elimn;
+                elimnb = lista_de_falas.escolhaFlip2[id_fala].elimn;
                 id_fala = id_fala + 0;
                 break;
             case 'S':
@@ -82,6 +89,8 @@ public class Buttons_2 : MonoBehaviour
                 lingLine = lista_de_falas.escolhaSolda2[id_fala].msg;
                 bot = lista_de_falas.escolhaSolda1[id_fala].aju;
                 bye = lista_de_falas.escolhaSolda2[id_fala].aju;
+                elimna = lista_de_falas.escolhaSolda1[id_fala].elimn;
+                elimnb = lista_de_falas.escolhaSolda2[id_fala].elimn;
                 id_fala = id_fala + 0;
                 break;
             case 'P':
@@ -89,6 +98,8 @@ public class Buttons_2 : MonoBehaviour
                 lingLine = lista_de_falas.escolhaPcs2[id_fala].msg;
                 bot = lista_de_falas.escolhaPcs1[id_fala].aju;
                 bye = lista_de_falas.escolhaPcs2[id_fala].aju;
+                elimna = lista_de_falas.escolhaPcs1[id_fala].elimn;
+                elimnb = lista_de_falas.escolhaPcs2[id_fala].elimn;
                 id_fala = id_fala + 0;
                 break;
         }
@@ -99,16 +110,22 @@ public class Buttons_2 : MonoBehaviour
 
     private void esc1()
     {
+        elim = 'A';
+        elimn = elimna;
         ajuesc = bot;
         id_fala++;
         doma = true;
+        
     }
 
     private void esc2()
     {
+        elim = 'B';
+        elimn = elimnb;
         ajuesc = bye;
         id_fala++;
         doma = true;
+        
     }
 
     void Update()

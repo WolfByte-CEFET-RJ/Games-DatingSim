@@ -1,0 +1,74 @@
+{
+    "escolhaFlip": 
+	[
+		{
+		"esci": 19
+		},
+		{
+		"esci": 800 
+		},
+		{
+		"esci": 800  
+		},
+		{
+		"esci": 29 
+		},
+		{
+		"esci": 73 
+		}
+	],
+	"escolhaMesa": 
+	[
+		{
+		"esci": 23
+		},
+		{
+		"esci": 72
+		},
+		{
+		"esci": 100
+		},
+		{
+		"esci": 100
+		},
+		{
+		"esci": 100
+		}
+	],
+	"escolhaPcs": 
+	[
+		{
+		"esci": 1
+		},
+		{
+		"esci": 1
+		},
+		{
+		"esci": 1
+		},
+		{
+		"esci": 1
+		},
+		{
+		"esci": 1
+		}
+	],
+	"escolhaSolda": 
+	[
+		{
+		"esci": 1
+		},
+		{
+		"esci": 1
+		},
+		{
+		"esci": 1
+		},
+		{
+		"esci": 1
+		},
+		{
+		"esci": 1
+		}
+	]
+}

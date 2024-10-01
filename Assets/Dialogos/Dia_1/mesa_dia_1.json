@@ -1,8 +1,13 @@
 {
     "fala": [
 	{
-	"id": 1,
+	"id": 0,
 	"character": "",
+	"msg": ""
+	},
+	{
+	"id": 1,
+	"character": "Narrador",
 	"msg": "Na mesa de reuniões, Wie e Gestão discutiam algo. "
 	},
 	{
@@ -93,7 +98,7 @@
 	{
 	"id": 19,
 	"character": "Wie F",
-	"msg": "Sagazes, perspicazes, divertidos e podem ser muito carinhosos com seus donos também."
+	"msg": "Sagazes, perspicazes, divertidos e podem ser muito carinhosos com seus donos também. E nunca vi cachorro cantando Billie!"
 	},
 	{
 	"id": 20,

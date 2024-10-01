@@ -93,7 +93,7 @@ public class WordChecker : MonoBehaviour
 
         else
         {
-            Debug.Log("Estou tentando!!!");
+            // Debug.Log("Estou tentando!!!");  //Verificar o Else
             if(IsPointOnTheRay(_currentRay, squarePosition))
             {
                 _correctSquareList.Add(squareIndex);
@@ -124,13 +124,13 @@ public class WordChecker : MonoBehaviour
     private bool IsPointOnTheRay(Ray currentRay, Vector3 point)
     {
         var hits = Physics.RaycastAll(currentRay, 100.0f);
-        Debug.Log("Até aqui okay  " + point);
+        // Debug.Log("Até aqui okay  " + point); //Verificar ponto
 
         for(int i = 0; i < hits.Length; i++) 
         {
             if (hits[i].transform.position == point)
             {
-                Debug.Log("Distância entre quadrado inicial e selecionado:" + Vector3.Distance(point, _lastSelectedPosition));
+                //Debug.Log("Distância entre quadrado inicial e selecionado:" + Vector3.Distance(point, _lastSelectedPosition)); //Para checar Distância entre os quadradros
 
                 if (Vector3.Distance(point, _lastSelectedPosition) < 1.6f)
                 {
