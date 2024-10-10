@@ -11,6 +11,7 @@ public class jigsawPuzzle : MonoBehaviour{
 
 [SerializeField] private Texture2D imageTexture;
 [SerializeField] private Transform mainImage;
+[SerializeField] private Camera camera;
 
 private List<Transform> pieces;
 private Vector2Int dimensions; 
@@ -24,6 +25,27 @@ float height;
         pieces = new List<Transform>();
         dimensions = GetDimensions(imageTexture, difficulty); //função que retorna dimensão da imagem em peças (quantas na horizontal, quantas na vertical)
         CreateJigsawPieces(imageTexture); //cria peças com suas devidas proporções e texturas
+        Scatter();
+    }
+
+    private void Scatter(){
+        float orthoHeight = camera.orthographicSize; //orthographic size = (altura da câmera/2)
+        float camAspect = (float) Screen.width / Screen.height; //proporção de largura para altura
+        float orthoWidth = camAspect * orthoHeight; //calculo para medir orthographic width utilizada (largura/2)
+
+        float pieceWidth = width * gameHolder.localScale.x;
+        float pieceHeight = height * gameHolder.localScale.y;
+
+        orthoHeight = orthoHeight -= pieceHeight/2; //ajusta tamanhos para peças caberem na tela
+        orthoWidth = orthoWidth -= pieceWidth/2;
+
+        //espalhar peças de forma aleatória
+        foreach (Transform piece in pieces){
+            float x = Random.Range(-orthoWidth, orthoWidth);
+            float y = Random.Range(-orthoHeight, orthoHeight);
+            piece.position = new Vector3(x, y, -1);
+        }
+
     }
 
     void CreateJigsawPieces(Texture2D imageTexture){

@@ -272,6 +272,7 @@ MonoBehaviour:
   piecePrefab: {fileID: 3915397163066500901, guid: 4da995cbd2754534a9f51fe2950de116, type: 3}
   imageTexture: {fileID: 2800000, guid: 8e99918612a29854d93f90d4c56a54c4, type: 3}
   mainImage: {fileID: 1331987179}
+  camera: {fileID: 1894060913}
 --- !u!4 &1642218221
 Transform:
   m_ObjectHideFlags: 0
