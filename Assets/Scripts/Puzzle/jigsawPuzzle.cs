@@ -15,8 +15,10 @@ public class jigsawPuzzle : MonoBehaviour{
 
 private List<Transform> pieces;
 private Vector2Int dimensions; 
+private Vector3 offset = Vector3.zero;
 float width;
 float height;
+private Transform draggingPiece = null;
 
     // Start is called before the first frame update
     void Start()
@@ -26,6 +28,30 @@ float height;
         dimensions = GetDimensions(imageTexture, difficulty); //função que retorna dimensão da imagem em peças (quantas na horizontal, quantas na vertical)
         CreateJigsawPieces(imageTexture); //cria peças com suas devidas proporções e texturas
         Scatter();
+        UpdateBorder(); //cria uma borda de fundo para o quebra cabeça
+    }
+
+    private void UpdateBorder(){
+        LineRenderer line = gameHolder.GetComponent<LineRenderer>();
+
+        //dividir altura/largura para dimensionar line renderer
+        float halfHeight = (height * dimensions.y)/2;
+        float halfWidth = (width * dimensions.x)/2;
+
+        float borderz = 0.0f; //deixar borda sempre atrás das peças
+
+        //dimensionando borda
+        line.SetPosition(0, new Vector3(-halfWidth, halfHeight, borderz));
+        line.SetPosition(1, new Vector3(halfWidth, halfHeight, borderz));
+        line.SetPosition(2, new Vector3(halfWidth, -halfHeight, borderz));
+        line.SetPosition(3, new Vector3(-halfWidth, -halfHeight, borderz));
+
+        //altera tamanho da borda
+        line.startWidth = 0.1f;
+        line.endWidth = 0.1f;
+
+        //mostra borda
+        line.enabled = true;
     }
 
     private void Scatter(){
@@ -101,6 +127,23 @@ float height;
     // Update is called once per frame
     void Update()
     {
-        
+        if(Input.GetMouseButtonDown(0)){ //permite reconhecer objeto que mouse toca
+            RaycastHit2D hit = Physics2D.Raycast(Camera.main.ScreenToWorldPoint(Input.mousePosition), Vector2.zero);
+            if(hit){
+                draggingPiece = hit.transform;
+                offset = draggingPiece.position - Camera.main.ScreenToWorldPoint(Input.mousePosition);
+                draggingPiece.position += Vector3.back;
+            }
+        }
+            if(draggingPiece && Input.GetMouseButtonUp(0)){
+                draggingPiece.position += Vector3.forward;
+                draggingPiece = null;
+            }
+
+            if(draggingPiece){ //permite mover objeto com mouse
+                Vector3 newPosition = Camera.main.ScreenToWorldPoint(Input.mousePosition) + offset;
+                newPosition.z = draggingPiece.position.z;
+                draggingPiece.position = newPosition;
+            }
     }
 }
