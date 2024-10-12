@@ -74,6 +74,25 @@ private Transform draggingPiece = null;
 
     }
 
+    private void Snap(){
+        int pieceIdx = pieces.IndexOf(draggingPiece); //seleciona peça no array de peças
+        
+        int col = pieceIdx % dimensions.x;
+        int row = pieceIdx / dimensions.x;
+
+        Vector2 targetPosition = new((-width * dimensions.x / 2) + (width * col) + (width/2),
+                                    (-height * dimensions.y / 2) + (height * row) + (height/2)); //guarda posição final da peça
+
+        if(Vector2.Distance(draggingPiece.localPosition, targetPosition) < (width/2)){ //define espaço para aceitar o encaixe da peça
+            //trava peça no local correto
+            draggingPiece.localPosition = targetPosition;
+
+            //desabilita movimento de peça já encaixada corretamente
+            draggingPiece.GetComponent<BoxCollider2D>().enabled = false;
+        }
+
+    }
+
     void CreateJigsawPieces(Texture2D imageTexture){
         height = 1f/dimensions.y;
         float aspect = (float) (imageTexture.width/imageTexture.height);
@@ -136,6 +155,7 @@ private Transform draggingPiece = null;
             }
         }
             if(draggingPiece && Input.GetMouseButtonUp(0)){
+                Snap();
                 draggingPiece.position += Vector3.forward;
                 draggingPiece = null;
             }
