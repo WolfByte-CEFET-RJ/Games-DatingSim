@@ -5,8 +5,8 @@ using UnityEngine.UI;
 public class InfoOnHover : MonoBehaviour, IPointerEnterHandler, IPointerExitHandler
 {
     public CanvasGroup info;
-    bool fadeIn = false;
-    bool fadeOut = false;
+    private bool fadeIn = false;
+    private bool fadeOut = false;
 
     void Awake()
     {
