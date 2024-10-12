@@ -7,6 +7,9 @@ TagManager:
   - WordGrid
   - Planetas
   - Letters
+  - SFXSlider
+  - MusicSlider
+  - ConfigPanel
   layers:
   - Default
   - TransparentFX

@@ -7,6 +7,27 @@ public class UIController : MonoBehaviour
 {
     public Slider _musicSlider, _sfxSlider;
 
+    private void OnEnable()
+    {
+        // Atualiza os sliders para os valores atuais do AudioManager ao ativar
+        UpdateSliders();
+    }
+
+
+    private void UpdateSliders()
+    {
+        // Atualiza os sliders com os valores atuais do AudioManager
+        if (_musicSlider != null)
+        {
+            _musicSlider.value = AudioManager.Instance.musicSource.volume;
+        }
+
+        if (_sfxSlider != null)
+        {
+            _sfxSlider.value = AudioManager.Instance.sfxSource.volume;
+        }
+    }
+
     public void ToggleMusic()
     {
         AudioManager.Instance.ToggleMusic();

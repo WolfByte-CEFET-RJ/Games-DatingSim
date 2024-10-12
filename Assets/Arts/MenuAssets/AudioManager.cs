@@ -21,6 +21,7 @@ public class AudioManager : MonoBehaviour
         }
         else
         {
+            Debug.Log("Já tinha um audio manager então me destruí");
             Destroy(gameObject);
         }
 
@@ -31,6 +32,12 @@ public class AudioManager : MonoBehaviour
     private void Start()
     {
         PlayMusic("Theme");
+    }
+
+    private void OnEnable()
+    {
+        // Atualizar UI sempre que a cena for carregada
+        UpdateVolumeSliders();
     }
 
     private void LoadVolumeSettings()
@@ -57,6 +64,12 @@ public class AudioManager : MonoBehaviour
         PlayerPrefs.SetInt("SFXMuted", sfxSource.mute ? 1 : 0);
         PlayerPrefs.Save();
         Debug.Log("SFX Volume saved: " + PlayerPrefs.GetFloat("SFXVolume", 1f));
+    }
+
+    public void UpdateVolumeSliders()
+    {
+        if (musicSlider != null) musicSlider.value = musicSource.volume;
+        if (sfxSlider != null) sfxSlider.value = sfxSource.volume;
     }
 
     private void OnApplicationQuit()
