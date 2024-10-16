@@ -8,6 +8,7 @@ public class Buttons : MonoBehaviour
     [SerializeField] private Button b1, b2, b3;
     public static bool doma;
     public static int ajustesc;
+    private int alt;
 
     [System.Serializable]
     public class Fala
@@ -60,6 +61,8 @@ public class Buttons : MonoBehaviour
     {
         lista_de_falas = JsonUtility.FromJson<ListaFalas>(JSONEscolha.text);
         id_fala = 0;
+        alt = Buttons_2.alt;
+        id_fala = id_fala+alt;
         select = SelecaoLugar.selec;
         ds = DialogueSystem.instance;
         architectb1 = new TextArchitect(ds.dialogueContainer.esc3b1);

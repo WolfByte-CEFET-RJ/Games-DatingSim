@@ -1,0 +1,792 @@
+{
+    "fala": [
+	{
+	"id": 0,
+	"character": "",
+	"msg": "",
+	"pose": ""
+	},
+	{
+	"id": 1,
+	"character": "",
+	"msg": "",
+	"pose": ""
+	},
+	{
+	"id": 2,
+	"character": "",
+	"msg": "",
+	"pose": ""
+	},
+    {
+	"id": 3,
+	"character": "",
+	"msg": "",
+	"pose": ""
+	},
+	{
+	"id": 4,
+	"character": "",
+	"msg": "",
+	"pose": ""
+	},
+	{
+	"id": 5,
+	"character": "",
+	"msg": "",
+	"pose": ""
+	},
+	{
+	"id": 6,
+	"character": "",
+	"msg": "",
+	"pose": ""
+	},
+	{
+	"id": 7,
+	"character": "",
+	"msg": "",
+	"pose": ""
+	},
+	{
+	"id": 8,
+	"character": "",
+	"msg": "",
+	"pose": ""
+	},
+	{
+	"id": 9,
+	"character": "",
+	"msg": "",
+	"pose": ""
+	},
+	{
+	"id": 10,
+	"character": "",
+	"msg": "",
+	"pose": ""
+	},
+	{
+	"id": 11,
+	"character": "",
+	"msg": "",
+	"pose": ""
+	},
+	{
+	"id": 12,
+	"character": "",
+	"msg": "",
+	"pose": ""
+	},
+	{
+	"id": 13,
+	"character": "",
+	"msg": "",
+	"pose": ""
+	},
+	{
+	"id": 14,
+	"character": "",
+	"msg": "",
+	"pose": ""
+	},
+	{
+	"id": 15,
+	"character": "",
+	"msg": "",
+	"pose": ""
+	},
+	{
+	"id": 16,
+	"character": "",
+	"msg": "",
+	"pose": ""
+	},
+	{
+	"id": 17,
+	"character": "",
+	"msg": "",
+	"pose": ""
+	},
+	{
+	"id": 18,
+	"character": "",
+	"msg": "",
+	"pose": ""
+	},
+	{
+	"id": 19,
+	"character": "",
+	"msg": "",
+	"pose": ""
+	},
+	{
+	"id": 20,
+	"character": "",
+	"msg": "",
+	"pose": ""
+	},
+	{
+	"id": 21,
+	"character": "",
+	"msg": "",
+	"pose": ""
+	},
+	{
+	"id": 22,
+	"character": "",
+	"msg": "",
+	"pose": ""
+	},
+	{
+	"id": 23,
+	"character": "",
+	"msg": "",
+	"pose": ""
+	},
+	{
+	"id": 24,
+	"character": "",
+	"msg": "",
+	"pose": ""
+	},
+	{
+	"id": 25,
+	"character": "",
+	"msg": "",
+	"pose": ""
+	},
+	{
+	"id": 26,
+	"character": "",
+	"msg": "",
+	"pose": ""
+	},
+	{
+	"id": 27,
+	"character": "",
+	"msg": "",
+	"pose": ""
+	},
+	{
+	"id": 28,
+	"character": "",
+	"msg": "",
+	"pose": ""
+	},
+	{
+	"id": 29,
+	"character": "",
+	"msg": "",
+	"pose": ""
+	},
+	{
+	"id": 30,
+	"character": "",
+	"msg": "",
+	"pose": ""
+	},
+	{
+	"id": 31,
+	"character": "",
+	"msg": "",
+	"pose": ""
+	},
+	{
+	"id": 32,
+	"character": "",
+	"msg": "",
+	"pose": ""
+	},
+	{
+	"id": 33,
+	"character": "",
+	"msg": "",
+	"pose": ""
+	},
+	{
+	"id": 34,
+	"character": "",
+	"msg": "",
+	"pose": ""
+	},
+	{
+	"id": 35,
+	"character": "",
+	"msg": "",
+	"pose": ""
+	},
+	{
+	"id": 36,
+	"character": "",
+	"msg": "",
+	"pose": ""
+	},
+	{
+	"id": 37,
+	"character": "",
+	"msg": "",
+	"pose": ""
+	},
+
+	{
+	"id": 38,
+	"character": "",
+	"msg": "",
+	"pose": ""
+	},
+	{
+	"id": 39,
+	"character": "",
+	"msg": "",
+	"pose": ""
+	},
+	{
+	"id": 40,
+	"character": "",
+	"msg": "",
+	"pose": ""
+	},
+	{
+	"id": 41,
+	"character": "",
+	"msg": "",
+	"pose": ""
+	},
+	
+	{
+	"id": 42,
+	"character": "",
+	"msg": "",
+	"pose": ""
+	},
+	{
+	"id": 43,
+	"character": "",
+	"msg": "",
+	"pose": ""
+	},
+	{
+	"id": 44,
+	"character": "",
+	"msg": "",
+	"pose": ""
+	},
+	{
+	"id": 45,
+	"character": "",
+	"msg": "",
+	"pose": ""
+	},
+	{
+	"id": 46,
+	"character": "",
+	"msg": "",
+	"pose": ""
+	},
+	{
+	"id": 47,
+	"character": "",
+	"msg": "",
+	"pose": ""
+	},
+	{
+	"id": 48,
+	"character": "",
+	"msg": "",
+	"pose": ""
+	},
+	{
+	"id": 49,
+	"character": "",
+	"msg": "",
+	"pose": ""
+	},
+	{
+	"id": 50,
+	"character": "",
+	"msg": "",
+	"pose": ""
+	},
+	{
+	"id": 51,
+	"character": "",
+	"msg": "",
+	"pose": ""
+	},
+	{
+	"id": 52,
+	"character": "",
+	"msg": "",
+	"pose": ""
+	},
+	{
+	"id": 53,
+	"character": "",
+	"msg": "",
+	"pose": ""
+	},
+	{
+	"id": 54,
+	"character": "",
+	"msg": "",
+	"pose": ""
+	},
+	{
+	"id": 55,
+	"character": "",
+	"msg": "",
+	"pose": ""
+	},
+	{
+	"id": 56,
+	"character": "",
+	"msg": "",
+	"pose": ""
+	},
+	{
+	"id": 57,
+	"character": "",
+	"msg": "",
+	"pose": ""
+	},
+	{
+	"id": 58,
+	"character": "",
+	"msg": "",
+	"pose": ""
+	},
+	{
+	"id": 59,
+	"character": "",
+	"msg": "",
+	"pose": ""
+	},
+	{
+	"id": 60,
+	"character": "",
+	"msg": "",
+	"pose": ""
+	},
+	{
+	"id": 61,
+	"character": "",
+	"msg": "",
+	"pose": ""
+	},
+	{
+	"id": 62,
+	"character": "",
+	"msg": "",
+	"pose": ""
+	},
+	{
+	"id": 63,
+	"character": "",
+	"msg": "",
+	"pose": ""
+	},
+	{
+	"id": 64,
+	"character": "",
+	"msg": "",
+	"pose": ""
+	},
+	{
+	"id": 65,
+	"character": "",
+	"msg": "",
+	"pose": ""
+	},
+	{
+	"id": 66,
+	"character": "",
+	"msg": "",
+	"pose": ""
+	},
+	{
+	"id": 67,
+	"character": "",
+	"msg": "",
+	"pose": ""
+	},
+	{
+	"id": 68,
+	"character": "",
+	"msg": "",
+	"pose": ""
+	},
+	{
+	"id": 69,
+	"character": "",
+	"msg": "",
+	"pose": ""
+	},
+	{
+	"id": 70,
+	"character": "",
+	"msg": "",
+	"pose": ""
+	},
+	{
+	"id": 71,
+	"character": "",
+	"msg": "",
+	"pose": ""
+	},
+	{
+	"id": 72,
+	"character": "",
+	"msg": "",
+	"pose": ""
+	},
+	{
+	"id": 73,
+	"character": "",
+	"msg": "",
+	"pose": ""
+	},
+	{
+	"id": 74,
+	"character": "",
+	"msg": "",
+	"pose": ""
+	},
+	{
+	"id": 75,
+	"character": "",
+	"msg": "",
+	"pose": ""
+	},
+	{
+	"id": 76,
+	"character": "",
+	"msg": "",
+	"pose": ""
+	},
+	{
+	"id": 77,
+	"character": "",
+	"msg": "",
+	"pose": ""
+	},
+	{
+	"id": 78,
+	"character": "",
+	"msg": "",
+	"pose": ""
+	},
+	{
+	"id": 79,
+	"character": "",
+	"msg": "",
+	"pose": ""
+	},
+	{
+	"id": 80,
+	"character": "",
+	"msg": "",
+	"pose": ""
+	},
+	{
+	"id": 81,
+	"character": "",
+	"msg": "",
+	"pose": ""
+	},
+	{
+	"id": 82,
+	"character": "",
+	"msg": "",
+	"pose": ""
+	},
+	{
+	"id": 83,
+	"character": "",
+	"msg": "",
+	"pose": ""
+	},
+	{
+	"id": 84,
+	"character": "",
+	"msg": "",
+	"pose": ""
+	},
+	{
+	"id": 85,
+	"character": "",
+	"msg": "",
+	"pose": ""
+	},		
+	{
+	"id": 86,
+	"character": "",
+	"msg": "",
+	"pose": ""
+	},
+	{
+	"id": 87,
+	"character": "",
+	"msg": "",
+	"pose": ""
+	},	
+	{
+	"id": 88,
+	"character": "",
+	"msg": "",
+	"pose": ""
+	},
+	{
+	"id": 89,
+	"character": "",
+	"msg": "",
+	"pose": ""
+	},
+	{
+	"id": 90,
+	"character": "",
+	"msg": "",
+	"pose": ""
+	},
+	{
+	"id": 91,
+	"character": "",
+	"msg": "",
+	"pose": ""
+	},
+	{
+	"id": 92,
+	"character": "",
+	"msg": "",
+	"pose": ""
+	},
+	{
+	"id": 93,
+	"character": "",
+	"msg": "",
+	"pose": ""
+	},
+	{
+	"id": 94,
+	"character": "",
+	"msg": "",
+	"pose": ""
+	},
+	{
+	"id": 95,
+	"character": "",
+	"msg": "",
+	"pose": ""
+	},
+	{
+	"id": 96,
+	"character": "",
+	"msg": "",
+	"pose": ""
+	},		
+	{
+	"id": 97,
+	"character": "",
+	"msg": "",
+	"pose": ""
+	},
+	{
+	"id": 98,
+	"character": "",
+	"msg": "",
+	"pose": ""
+	},	
+	{
+	"id": 99,
+	"character": "",
+	"msg": "",
+	"pose": ""
+	},
+	{
+	"id": 100,
+	"character": "",
+	"msg": "",
+	"pose": ""
+	},
+	{
+	"id": 101,
+	"character": "",
+	"msg": "",
+	"pose": ""
+	},
+	{
+	"id": 102,
+	"character": "",
+	"msg": "",
+	"pose": ""
+	},
+	{
+	"id": 103,
+	"character": "",
+	"msg": "",
+	"pose": ""
+	},
+	{
+	"id": 104,
+	"character": "",
+	"msg": "",
+	"pose": ""
+	},
+	{
+	"id": 105,
+	"character": "",
+	"msg": "",
+	"pose": ""
+	},
+	{
+	"id": 106,
+	"character": "",
+	"msg": "",
+	"pose": ""
+	},
+	{
+	"id": 107,
+	"character": "",
+	"msg": "",
+	"pose": ""
+	},		
+	{
+	"id": 108,
+	"character": "",
+	"msg": "",
+	"pose": ""
+	},
+	{
+	"id": 109,
+	"character": "",
+	"msg": "",
+	"pose": ""
+	},	
+	{
+	"id": 110,
+	"character": "",
+	"msg": "",
+	"pose": ""
+	},
+	{
+	"id": 111,
+	"character": "",
+	"msg": "",
+	"pose": ""
+	},
+	{
+	"id": 112,
+	"character": "",
+	"msg": "",
+	"pose": ""
+	},
+	{
+	"id": 113,
+	"character": "",
+	"msg": "",
+	"pose": ""
+	},
+	{
+	"id": 114,
+	"character": "",
+	"msg": "",
+	"pose": ""
+	},
+	{
+	"id": 115,
+	"character": "",
+	"msg": "",
+	"pose": ""
+	},
+	{
+	"id": 116,
+	"character": "",
+	"msg": "",
+	"pose": ""
+	},
+	{
+	"id": 117,
+	"character": "",
+	"msg": "",
+	"pose": ""
+	},
+	{
+	"id": 118,
+	"character": "",
+	"msg": "",
+	"pose": ""
+	},		
+	{
+	"id": 119,
+	"character": "",
+	"msg": "",
+	"pose": ""
+	},
+	{
+	"id": 120,
+	"character": "",
+	"msg": "",
+	"pose": ""
+	},	
+	{
+	"id": 121,
+	"character": "",
+	"msg": "",
+	"pose": ""
+	},
+	{
+	"id": 122,
+	"character": "",
+	"msg": "",
+	"pose": ""
+	},
+	{
+	"id": 123,
+	"character": "",
+	"msg": "",
+	"pose": ""
+	},
+	{
+	"id": 124,
+	"character": "",
+	"msg": "",
+	"pose": ""
+	},
+	{
+	"id": 125,
+	"character": "",
+	"msg": "",
+	"pose": ""
+	},
+	{
+	"id": 126,
+	"character": "",
+	"msg": "",
+	"pose": ""
+	},
+	{
+	"id": 127,
+	"character": "",
+	"msg": "",
+	"pose": ""
+	},
+	{
+	"id": 128,
+	"character": "",
+	"msg": "",
+	"pose": ""
+	},
+	{
+	"id": 129,
+	"character": "",
+	"msg": "",
+	"pose": ""
+	},
+	{
+	"id": 130,
+	"character": "",
+	"msg": "",
+	"pose": ""
+	}
+	]
+}

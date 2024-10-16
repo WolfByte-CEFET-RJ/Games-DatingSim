@@ -1,0 +1,130 @@
+{
+    "escolhaFlip1": 
+	[
+		{
+		"aju": 2,
+		"elimn": 24,
+		"msg": "Conhecer o da esquerda." 
+		},
+		{
+		"aju": 1,
+		"msg": "Eu também me diverti muito!"
+		},
+		{
+		"aju": 0,
+		"msg": ""
+		}
+	],
+	"escolhaFlip2": 
+	[
+		{
+		"aju": 45,
+		"elimn": 65,
+		"msg": "Conhecer a da direita."
+		},
+		{
+		"aju": 3,
+		"msg": "Eu tenho que melhorar um pouco ainda pra chegar no seu nível!"
+		},
+		{
+		"aju": 0,
+		"msg": ""
+		}	
+	],
+	"escolhaMesa1": 
+	[
+		{
+		"aju": 0,
+		"msg": "Com certeza, gatos!! Por mais reservados que pareçam, eles são muito sinceros e companheiros silenciosos."
+		},
+		{
+		"aju": 0,
+		"msg": " Eu amo o fato de que eles possuem personalidades muito marcantes e diferentes uns dos outros KKKKKKKKKKKK"
+		},
+		{
+		"aju": 0,
+		"msg": "Quando eles se balançam pra se secar depois do banho kkkkkkkkkkkkkkkkk."
+		}
+	],
+	"escolhaMesa2": 
+	[
+		{
+		"aju": 0,
+		"msg": "Cachorros, sem sombra de dúvida. Eles são tão fofos, alegres e divertidos!! "
+		},
+		{
+		"aju": 0,
+		"msg": "Acho hilário que eles fazem questão de derrubar tudo que encontram em cima da mesa KKKKKKKKKKKKKK "
+		},
+		{
+		"aju": 0,
+		"msg": "Quando eles ficam olhando pra gente com cara de pidão pra dar um pedaço de comida kkkkkkkkkkkkkkkkkk."
+		}	
+	],
+	"escolhaPcs1": 
+	[
+		{
+		"aju": 0,
+		"msg": ""
+		},
+		{
+		"aju": 0,
+		"msg": ""
+		},
+		{
+		"aju": 0,
+		"msg": ""
+		}	
+	],
+	"escolhaPcs2": 
+	[
+		{
+		"aju": 0,
+		"msg": ""
+		},
+		{
+		"aju": 2,
+		"msg": ""
+		},
+		{
+		"aju": 3,
+		"msg": ""
+		}	
+	],
+	"escolhaSolda1": 
+	[
+		{
+		"aju": 1,
+		"elimn": 24,
+		"msg": "Conhecer o da esquerda."
+		},
+		{
+		"aju": 2,
+		"elimn": 23,
+		"msg": ""
+		},
+		{
+		"aju": 3,
+		"elimn": 23,
+		"msg": ""
+		}	
+	],
+	"escolhaSolda2": 
+	[
+		{
+		"aju": 44,
+		"elimn": 66,
+		"msg": "Conhecer a da direita."
+		},
+		{
+		"aju": 2,
+		"elimn": 23,
+		"msg": ""
+		},
+		{
+		"aju": 3,
+		"elimn": 23,
+		"msg": ""
+		}	
+	]
+}

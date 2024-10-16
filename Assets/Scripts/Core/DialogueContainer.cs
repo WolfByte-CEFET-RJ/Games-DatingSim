@@ -1,5 +1,6 @@
 using UnityEngine;
 using TMPro;
+using UnityEngine.UI;
 
 
 [System.Serializable]
@@ -44,5 +45,6 @@ public class DialogueContainer
         public GameObject PowerM;
         public GameObject MarketingF;
         public GameObject MarketingM;
+        public Image IWieF, IWieM, IGestaoF, IGestaoM, IBotzF, IBotzM, IByteF, IByteM, IRocketF, IRocketM, ISocialF, ISocialM, IPowerF, IPowerM, IMarketingF, IMarketingM;
     }
 

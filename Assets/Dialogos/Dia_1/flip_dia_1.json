@@ -3,17 +3,20 @@
 	{
 	"id": 0,
 	"character": "",
-	"msg": ""
+	"msg": "",
+	"pose": "Power"
 	},
 	{
 	"id": 1,
 	"character": "Narrador",
-	"msg": "Há muito barulho vindo do fliperama."
+	"msg": "Há muito barulho vindo do fliperama.",
+	"pose": "Power"
 	},
 	{
 	"id": 2,
 	"character": "Botz(F)",
-	"msg": "ISSO FICA PRONTO NUNCA NÃO?!"
+	"msg": "ISSO FICA PRONTO NUNCA NÃO?!",
+	"pose": "Power"
 	},
     {
 	"id": 3,

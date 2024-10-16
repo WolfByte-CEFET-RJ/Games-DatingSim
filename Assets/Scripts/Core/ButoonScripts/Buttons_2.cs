@@ -7,7 +7,7 @@ public class Buttons_2 : MonoBehaviour
 {
     [SerializeField] private Button b1, b2;
     public static bool doma;
-    public static int ajuesc, elimn;
+    public static int ajuesc, elimn, alt;
     public static char elim;
 
     [System.Serializable]
@@ -106,11 +106,13 @@ public class Buttons_2 : MonoBehaviour
 
         architectb1.Build(longLine);
         architectb2.Build(lingLine);
+
     }
 
     private void esc1()
     {
         elim = 'A';
+        alt = 0;
         elimn = elimna;
         ajuesc = bot;
         id_fala++;
@@ -121,40 +123,12 @@ public class Buttons_2 : MonoBehaviour
     private void esc2()
     {
         elim = 'B';
+        alt = 1;
         elimn = elimnb;
         ajuesc = bye;
         id_fala++;
         doma = true;
         
     }
-
-    void Update()
-    {
-        string longLine = lista_de_falas.escolhaFlip1[id_fala].msg;
-        string lingLine = lista_de_falas.escolhaFlip2[id_fala].msg;    
-
-        /*if (architectb1.isBuilding)
-        {
-            if (!architectb1.hurryUp)
-            {
-                architectb1.hurryUp = true;
-                architectb2.hurryUp = true;
-                architectb1.libera = true;
-            }
-            else
-            {
-                architectb1.ForceComplete();
-                architectb2.ForceComplete();
-            }
-        }
-        else if (architectb1.libera == false)
-            {
-            id_fala ++;
-            architectb1.Build(longLine);
-            architectb2.Build(lingLine);
-            }*/
-    }
-
-
     
 }

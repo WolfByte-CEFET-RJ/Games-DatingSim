@@ -1,0 +1,792 @@
+{
+    "fala": [
+	{
+	"id": 0,
+	"character": "",
+	"msg": "",
+	"pose": ""
+	},
+	{
+	"id": 1,
+	"character": "Narrador",
+	"msg": "Você se aproxima da mesa de solda e das ferramentas.",
+	"pose": ""
+	},
+	{
+	"id": 2,
+	"character": "Narrador",
+	"msg": "Duas pessoas logo notam sua presença.",
+	"pose": ""
+	},
+    {
+	"id": 3,
+	"character": "Social(F)",
+	"msg": "Oi, trainee!",
+	"pose": "SocialFnormal"
+	},
+	{
+	"id": 4,
+	"character": "Social(F)",
+	"msg": "Que bom te ver aqui!",
+	"pose": "SocialFfeliz"
+	},
+	{
+	"id": 5,
+	"character": "Gestão(M)",
+	"msg": "Ah! Então é você de que tanto falam.",
+	"pose": "GestaoMfeliz"
+	},
+	{
+	"id": 6,
+	"character": "Trainee",
+	"msg": "Oi! Ah, acho que sou eu, haha.",
+	"pose": ""
+	},
+	{
+	"id": 7,
+	"character": "Trainee",
+	"msg": "Perdão interromper.",
+	"pose": ""
+	},
+	{
+	"id": 8,
+	"character": "Social(F)",
+	"msg": "Que nada!",
+	"pose": "SocialFnormal"
+	},
+	{
+	"id": 9,
+	"character": "Social(F)",
+	"msg": " Só estávamos trocando uma ideia.",
+	"pose": ""
+	},
+	{
+	"id": 10,
+	"character": "Gestão(M)",
+	"msg": "É, não estamos trabalhando no momento.",
+	"pose": "GestaoMneutro"
+	},
+	{
+	"id": 11,
+	"character": "Social(F)",
+	"msg": "Sua primeira vez na sala, não é?",
+	"pose": "Socialsurpresafelizestrela"
+	},
+	{
+	"id": 12,
+	"character": "",
+	"msg": "Gostaria de ver o local?",
+	"pose": "SocialFfeliz"
+	},
+	{
+	"id": 13,
+	"character": "Trainee",
+	"msg": "Na verdade… tem uma pessoa que vim conhecer.",
+	"pose": ""
+	},
+	{
+	"id": 14,
+	"character": "Gestão(M)",
+	"msg": "Ah, sim!?",
+	"pose": "Gestaosurpreso1"
+	},
+	{
+	"id": 15,
+	"character": "Social(F)",
+	"msg": "Que fofo!",
+	"pose": "SocialFfeliz"
+	},
+	{
+	"id": 16,
+	"character": "Social(F)",
+	"msg": "Quem seria?",
+	"pose": "Socalnormal"
+	},
+	{
+	"id": 17,
+	"character": "",
+	"msg": "",
+	"pose": ""
+	},
+	{
+	"id": 18,
+	"character": "",
+	"msg": "",
+	"pose": ""
+	},
+	{
+	"id": 19,
+	"character": "Gestão(M)",
+	"msg": "Você quer saber mais sobre mim?",
+	"pose": "Socialtimido1"
+	},
+	{
+	"id": 20,
+	"character": "Gestão(M)",
+	"msg": "Ah… Q-que honra…",
+	"pose": "SocialFfeliz3"
+	},
+	{
+	"id": 21,
+	"character": "Social(F)",
+	"msg": "Oh, nesse caso vou deixá-los a sós!",
+	"pose": "Gestaosurpresafeliz"
+	},
+	{
+	"id": 22,
+	"character": "Social(F)",
+	"msg": "Até logo! ",
+	"pose": "SocialFfeliz"
+	},
+	{
+	"id": 23,
+	"character": "Narrador",
+	"msg": "Social(F) sai de cena.",
+	"pose": ""
+	},
+	{
+	"id": 24,
+	"character": "Gestão(M)",
+	"msg": "Bom.. Eu sou o Gestão(M)",
+	"pose": "Gestaoneutro"
+	},
+	{
+	"id": 25,
+	"character": "Gestão(M)",
+	"msg": "Sou um pouco tímido, mas bem responsável também.",
+	"pose": "Gestaofeliz1"
+	},
+	{
+	"id": 26,
+	"character": "Gestão(M)",
+	"msg": "Então no profissional talvez não seja tão perceptível.",
+	"pose": "Gestaoneutro"
+	},
+	{
+	"id": 27,
+	"character": "Gestão(M)",
+	"msg": "Maaas costumam me chamar de quieto…",
+	"pose": "Gestaosurpreso1"
+	},
+	{
+	"id": 28,
+	"character": "Gestão(M)",
+	"msg": "e de certinho, porque me atento às regras…",
+	"pose": "Gestaoserio"
+	},
+	{
+	"id": 29,
+	"character": "Gestão(M)",
+	"msg": "o que na verdade ajuda bastante no quesito organização!",
+	"pose": "Gestaofeliz1"
+	},
+	{
+	"id": 30,
+	"character": "",
+	"msg": "",
+	"pose": ""
+	},
+	{
+	"id": 31,
+	"character": "",
+	"msg": "",
+	"pose": ""
+	},
+	{
+	"id": 32,
+	"character": "Gestão(M)",
+	"msg": "...",
+	"pose": "Gestaosurpresotimido1"
+	},
+	{
+	"id": 33,
+	"character": "Gestão(M)",
+	"msg": "Bom...",
+	"pose": "Gestaoneutro"
+	},
+	{
+	"id": 34,
+	"character": "Gestão(M)",
+	"msg": "Acho uma boa ideia você ver por si.",
+	"pose": "Gestaofeliz1"
+	},
+	{
+	"id": 35,
+	"character": "Gestão(M)",
+	"msg": "E depois me fala se manteve a opinião",
+	"pose": "Gestaopiscando1"
+	},
+	{
+	"id": 36,
+	"character": "Gestão(M)",
+	"msg": "Saiba que gosto de críticas construtivas.",
+	"pose": "Gestaofeliz2"
+	},
+	{
+	"id": 37,
+	"character": "???",
+	"msg": "Galera, a RG já vai começar, vamos para o Auditório 2!",
+	"pose": ""
+	},
+
+	{
+	"id": 38,
+	"character": "Gestão(M)",
+	"msg": "Bem, foi um prazer!",
+	"pose": "Gestaoneutro"
+	},
+	{
+	"id": 39,
+	"character": "Gestão(M)",
+	"msg": "Espero que possamos trocar mais ideias.",
+	"pose": "Gestaofeliz1"
+	},
+	{
+	"id": 40,
+	"character": "",
+	"msg": "",
+	"pose": ""
+	},
+	{
+	"id": 41,
+	"character": "",
+	"msg": "",
+	"pose": ""
+	},
+	
+	{
+	"id": 42,
+	"character": "",
+	"msg": "Eu não diria que não interfere 100%.",
+	"pose": ""
+	},
+	{
+	"id": 43,
+	"character": "",
+	"msg": "Entendo que para este trabalho",
+	"pose": ""
+	},
+	{
+	"id": 44,
+	"character": "",
+	"msg": " a comunicação é chave…",
+	"pose": ""
+	},
+	{
+	"id": 45,
+	"character": "",
+	"msg": "Assim, procuro sempre me tirar da zona de conforto.",
+	"pose": ""
+	},
+	{
+	"id": 46,
+	"character": "",
+	"msg": "",
+	"pose": "Então mesmo quando me sentir tímido, tento superar essa inibição e me conectar com os outros!"
+	},
+	{
+	"id": 47,
+	"character": "???",
+	"msg": "Galera, a RG já vai começar, vamos para o Auditório 2!",
+	"pose": ""
+	},
+	{
+	"id": 48,
+	"character": "Gestão(M)",
+	"msg": "Esse é o chamado para deixar a timidez de lado.",
+	"pose": ""
+	},
+	{
+	"id": 49,
+	"character": "Gestão(M)",
+	"msg": "Vamos lá!",
+	"pose": ""
+	},
+	{
+	"id": 50,
+	"character": "",
+	"msg": "",
+	"pose": ""
+	},
+	{
+	"id": 51,
+	"character": "",
+	"msg": "",
+	"pose": ""
+	},
+	{
+	"id": 52,
+	"character": "Gestão(M)",
+	"msg": "Oi!?",
+	"pose": "Gestaosurpreso1"
+	},
+	{
+	"id": 53,
+	"character": "Gestão(M)",
+	"msg": " Quem te disse isso?",
+	"pose": "Gestaoirritado"
+	},
+	{
+	"id": 54,
+	"character": "Gestão(M)",
+	"msg": "Eu realmente espero…",
+	"pose": ""
+	},
+	{
+	"id": 55,
+	"character": "Gestão(M)",
+	"msg": "que não seja de forma pejorativa… ",
+	"pose": ""
+	},
+	{
+	"id": 56,
+	"character": "Gestão(M)",
+	"msg": "Eu diria que sou informado, afinal minha área demanda isso.",
+	"pose": ""
+	},
+	{
+	"id": 57,
+	"character": "???",
+	"msg": "Galera, a RG já vai começar, vamos para o Auditório 2!",
+	"pose": ""
+	},
+	{
+	"id": 58,
+	"character": "Gestão(M)",
+	"msg": "Espero que tenha entendido minha visão.",
+	"pose": "Gestaoirritado"
+	},
+	{
+	"id": 59,
+	"character": "Gestão(M)",
+	"msg": "Melhor irmos agora.",
+	"pose": "Gestaoserio"
+	},
+	{
+	"id": 60,
+	"character": "",
+	"msg": "",
+	"pose": ""
+	},
+	{
+	"id": 61,
+	"character": "",
+	"msg": "",
+	"pose": ""
+	},
+	{
+	"id": 62,
+	"character": "Social(F)",
+	"msg": "Aww, você veio me conhecer?",
+	"pose": ""
+	},
+	{
+	"id": 63,
+	"character": "Gestão(M)",
+	"msg": " …Vejo vocês em breve.",
+	"pose": ""
+	},
+	{
+	"id": 64,
+	"character": "Social(F)",
+	"msg": "Até logo, Gestão (M)!",
+	"pose": ""
+	},
+	{
+	"id": 65,
+	"character": "Narrador",
+	"msg": "Gestão(M) se afasta.",
+	"pose": ""
+	},
+	{
+	"id": 66,
+	"character": "Social(F)",
+	"msg": "É um grande prazer em te conhecer, trainee!",
+	"pose": ""
+	},
+	{
+	"id": 67,
+	"character": "Social(F)",
+	"msg": "Eu sou a Social (F)! Sou apaixonada por projetos sociais.",
+	"pose": ""
+	},
+	{
+	"id": 68,
+	"character": "Social(F)",
+	"msg": "Busco sempre maneiras de ajudar quem está ao meu redor.",
+	"pose": ""
+	},
+	{
+	"id": 69,
+	"character": "Social(F)",
+	"msg": "Valorizo muito a coragem e a empatia!",
+	"pose": ""
+	},
+	{
+	"id": 70,
+	"character": "Social(F)",
+	"msg": "E… fato curioso. Mas me considero uma nerd!",
+	"pose": ""
+	},
+	{
+	"id": 71,
+	"character": "Social(F)",
+	"msg": "Por conta da minha paixão e dedicação aos estudos.",
+	"pose": ""
+	},
+	{
+	"id": 72,
+	"character": "",
+	"msg": "",
+	"pose": ""
+	},
+	{
+	"id": 73,
+	"character": "",
+	"msg": "",
+	"pose": ""
+	},
+	{
+	"id": 74,
+	"character": "Social(F)",
+	"msg": "Muito obrigada, trainee!",
+	"pose": ""
+	},
+	{
+	"id": 75,
+	"character": "Social(F)",
+	"msg": "Fico muito feliz em ouvir isso!",
+	"pose": ""
+	},
+	{
+	"id": 76,
+	"character": "Social(F)",
+	"msg": "Estou aqui para compartilhar conhecimento.",
+	"pose": ""
+	},
+	{
+	"id": 77,
+	"character": "Social(F)",
+	"msg": "E, quem sabe, inspirar outros a se juntarem a mim nessa jornada!",
+	"pose": ""
+	},
+	{
+	"id": 78,
+	"character": "???",
+	"msg": "Galera, a RG já vai começar, vamos para o Auditório 2!",
+	"pose": ""
+	},
+	{
+	"id": 79,
+	"character": "Social(F)",
+	"msg": "Foi incrível te conhecer. ",
+	"pose": ""
+	},
+	{
+	"id": 80,
+	"character": "Social(F)",
+	"msg": "Torço para trocarmos mais energia boa!",
+	"pose": ""
+	},
+	{
+	"id": 81,
+	"character": "",
+	"msg": "",
+	"pose": ""
+	},
+	{
+	"id": 82,
+	"character": "",
+	"msg": "",
+	"pose": ""
+	},
+	{
+	"id": 83,
+	"character": "Social(F)",
+	"msg": "Ah, sim!",
+	"pose": ""
+	},
+	{
+	"id": 84,
+	"character": "Social(F)",
+	"msg": "Não resisto a um lanche enquanto trabalho.",
+	"pose": ""
+	},
+	{
+	"id": 85,
+	"character": "Social(F)",
+	"msg": "Eles me dão a energia suficiente que preciso para continuar!",
+	"pose": ""
+	},		
+	{
+	"id": 86,
+	"character": "Social(F)",
+	"msg": "Como diz o ditado “Saco vazio não para em pé.",
+	"pose": ""
+	},
+	{
+	"id": 87,
+	"character": "Social(F)",
+	"msg": "Também são ótimas desculpas para uma pausa, acompanhada, é claro, de uma recarga de ideias!",
+	"pose": ""
+	},	
+	{
+	"id": 88,
+	"character": "???",
+	"msg": "Galera, a RG já vai começar, vamos para o Auditório 2!",
+	"pose": ""
+	},
+	{
+	"id": 89,
+	"character": "Social(F)",
+	"msg": " Vou levar estas batatas.",
+	"pose": ""
+	},
+	{
+	"id": 90,
+	"character": "Social(F)",
+	"msg": "Socializar me deixou com fome!",
+	"pose": ""
+	},
+	{
+	"id": 91,
+	"character": "",
+	"msg": "",
+	"pose": ""
+	},
+	{
+	"id": 92,
+	"character": "",
+	"msg": "",
+	"pose": ""
+	},
+	{
+	"id": 93,
+	"character": "Social(F)",
+	"msg": "Entendo sua preocupação… ",
+	"pose": ""
+	},
+	{
+	"id": 94,
+	"character": "Social(F)",
+	"msg": "Mas acredito que os sonhos e a criatividade são essenciais para encontrar as soluções dos problemas do mundo.",
+	"pose": ""
+	},
+	{
+	"id": 95,
+	"character": "???",
+	"msg": "As vezes é justamente uma visão ousada que nos leva a grandes mudanças!",
+	"pose": ""
+	},
+	{
+	"id": 96,
+	"character": "Social(F)",
+	"msg": "Galera, a RG já vai começar, vamos para o Auditório 2!",
+	"pose": ""
+	},		
+	{
+	"id": 97,
+	"character": "Social(F)",
+	"msg": "Agora vamos realizar esta RG com a qual viemos sonhando.",
+	"pose": ""
+	},
+	{
+	"id": 98,
+	"character": "",
+	"msg": "",
+	"pose": ""
+	},	
+	{
+	"id": 99,
+	"character": "",
+	"msg": "",
+	"pose": ""
+	},
+	{
+	"id": 100,
+	"character": "",
+	"msg": "",
+	"pose": ""
+	},
+	{
+	"id": 101,
+	"character": "",
+	"msg": "",
+	"pose": ""
+	},
+	{
+	"id": 102,
+	"character": "",
+	"msg": "",
+	"pose": ""
+	},
+	{
+	"id": 103,
+	"character": "",
+	"msg": "",
+	"pose": ""
+	},
+	{
+	"id": 104,
+	"character": "",
+	"msg": "",
+	"pose": ""
+	},
+	{
+	"id": 105,
+	"character": "",
+	"msg": "",
+	"pose": ""
+	},
+	{
+	"id": 106,
+	"character": "",
+	"msg": "",
+	"pose": ""
+	},
+	{
+	"id": 107,
+	"character": "",
+	"msg": "",
+	"pose": ""
+	},		
+	{
+	"id": 108,
+	"character": "",
+	"msg": "",
+	"pose": ""
+	},
+	{
+	"id": 109,
+	"character": "",
+	"msg": "",
+	"pose": ""
+	},	
+	{
+	"id": 110,
+	"character": "",
+	"msg": "",
+	"pose": ""
+	},
+	{
+	"id": 111,
+	"character": "",
+	"msg": "",
+	"pose": ""
+	},
+	{
+	"id": 112,
+	"character": "",
+	"msg": "",
+	"pose": ""
+	},
+	{
+	"id": 113,
+	"character": "",
+	"msg": "",
+	"pose": ""
+	},
+	{
+	"id": 114,
+	"character": "",
+	"msg": "",
+	"pose": ""
+	},
+	{
+	"id": 115,
+	"character": "",
+	"msg": "",
+	"pose": ""
+	},
+	{
+	"id": 116,
+	"character": "",
+	"msg": "",
+	"pose": ""
+	},
+	{
+	"id": 117,
+	"character": "",
+	"msg": "",
+	"pose": ""
+	},
+	{
+	"id": 118,
+	"character": "",
+	"msg": "",
+	"pose": ""
+	},		
+	{
+	"id": 119,
+	"character": "",
+	"msg": "",
+	"pose": ""
+	},
+	{
+	"id": 120,
+	"character": "",
+	"msg": "",
+	"pose": ""
+	},	
+	{
+	"id": 121,
+	"character": "",
+	"msg": "",
+	"pose": ""
+	},
+	{
+	"id": 122,
+	"character": "",
+	"msg": "",
+	"pose": ""
+	},
+	{
+	"id": 123,
+	"character": "",
+	"msg": "",
+	"pose": ""
+	},
+	{
+	"id": 124,
+	"character": "",
+	"msg": "",
+	"pose": ""
+	},
+	{
+	"id": 125,
+	"character": "",
+	"msg": "",
+	"pose": ""
+	},
+	{
+	"id": 126,
+	"character": "",
+	"msg": "",
+	"pose": ""
+	},
+	{
+	"id": 127,
+	"character": "",
+	"msg": "",
+	"pose": ""
+	},
+	{
+	"id": 128,
+	"character": "",
+	"msg": "",
+	"pose": ""
+	},
+	{
+	"id": 129,
+	"character": "",
+	"msg": "",
+	"pose": ""
+	},
+	{
+	"id": 130,
+	"character": "",
+	"msg": "",
+	"pose": ""
+	}
+	]
+}

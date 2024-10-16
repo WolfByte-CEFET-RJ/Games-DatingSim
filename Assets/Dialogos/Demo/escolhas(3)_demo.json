@@ -1,0 +1,182 @@
+{
+    "escolhaFlip1": 
+	[
+		{
+		"aju": 0,
+		"msg": ""
+		},
+		{
+		"aju": 0,
+		"msg": ""
+		},
+		{
+		"aju": 0,
+		"msg": ""
+		}
+	],
+	"escolhaFlip2": 
+	[
+		{
+		"aju": 6,
+		"msg": ""
+		},
+		{
+		"aju": 2,
+		"msg": ""
+		},
+		{
+		"aju": 3,
+		"msg": ""
+		}
+	],
+	"escolhaFlip3": 
+	[
+		{
+		"aju": 12,
+		"msg": ""
+		},
+		{
+		"aju": 2,
+		"msg": ""
+		},
+		{
+		"aju": 3,
+		"msg": ""
+		}
+	],
+	"escolhaMesa1": 
+	[
+		{
+		"aju": 1,
+		"msg": ""
+		},
+		{
+		"aju": 2,
+		"msg": ""
+		},
+		{
+		"aju": 3,
+		"msg": ""
+		}
+	],
+	"escolhaMesa2": 
+	[
+		{
+		"aju": 1,
+		"msg": ""
+		},
+		{
+		"aju": 2,
+		"msg": ""
+		},
+		{
+		"aju": 3,
+		"msg": ""
+		}
+	],
+	"escolhaMesa3": 
+	[
+		{
+		"aju": 1,
+		"msg": ""
+		},
+		{
+		"aju": 2,
+		"msg": ""
+		},
+		{
+		"aju": 3,
+		"msg": ""
+		}
+	],
+	"escolhaPcs1": 
+	[
+		{
+		"aju": 1,
+		"msg": ""
+		},
+		{
+		"aju": 2,
+		"msg": ""
+		},
+		{
+		"aju": 3,
+		"msg": ""
+		}
+	],
+	"escolhaPcs2": 
+	[
+		{
+		"aju": 1,
+		"msg": ""
+		},
+		{
+		"aju": 2,
+		"msg": ""
+		},
+		{
+		"aju": 3,
+		"msg": ""
+		}
+	],
+	"escolhaPcs3": 
+	[
+		{
+		"aju": 1,
+		"msg": ""
+		},
+		{
+		"aju": 2,
+		"msg": ""
+		},
+		{
+		"aju": 3,
+		"msg": ""
+		}
+	],
+	"escolhaSolda1": 
+	[
+		{
+		"aju": 1,
+		"msg": "Então é você que cuida tão bem da gestão do Ramo?"
+		},
+		{
+		"aju": 1,
+		"msg": "Sua energia é inspiradora!"
+		},
+		{
+		"aju": 3,
+		"msg": ""
+		}
+	],
+	"escolhaSolda2": 
+	[
+		{
+		"aju": 11,
+		"msg": "Logo, sua timidez não interfere no seu trabalho?"
+		},
+		{
+		"aju": 10,
+		"msg": "Aquilo ali são batatinhas?"
+		},
+		{
+		"aju": 3,
+		"msg": ""
+		}
+	],
+	"escolhaSolda3": 
+	[
+		{
+		"aju": 21,
+		"msg": "É verdade que você é fofoqueiro também?"
+		},
+		{
+		"aju": 20,
+		"msg": "Você parece sonhadora, o social exige ser mais realista."
+		},
+		{
+		"aju": 3,
+		"msg": ""
+		}
+	]
+}

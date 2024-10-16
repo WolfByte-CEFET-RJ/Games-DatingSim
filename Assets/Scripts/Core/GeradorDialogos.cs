@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using UnityEngine.SceneManagement;
 
 
     public class GeradorDialogos : MonoBehaviour
@@ -19,7 +20,7 @@ using UnityEngine.UI;
 
         public TextAsset JSONMesa,JSONPcs,JSONSolda,JSONFlip, JSONEscolha;
         public int id_fala;
-        public int esc,esc0,esc1,esc2,esc3;
+        public int esc,esc0,esc1,esc2,esc3,fim,fim1,fim2,fim3,fim4,fim5;
         public int elimn;
         public bool dom,dum;
         public int ajuesc,ajustesc, isi;
@@ -27,6 +28,10 @@ using UnityEngine.UI;
         string longLine;
         string name;
         string BoF, BoM, ByM, ByF;
+        public int id_pose;
+        public static string pose;
+        public static string personagem;
+        
         
         [System.Serializable]
         public class Fala
@@ -34,6 +39,7 @@ using UnityEngine.UI;
             public int id;
             public string character;
             public string msg;
+            public string pose;
         }
 
         [System.Serializable]
@@ -47,6 +53,7 @@ using UnityEngine.UI;
         public class escolhas
         {
             public int esci;
+            public int fim;
         }
 
         [System.Serializable]
@@ -72,6 +79,7 @@ using UnityEngine.UI;
             architectPlayer.speed = 1f;
             architect.speed = 0.5f;
             id_fala = 1;
+            id_pose = id_fala-1; 
             esc = 50;
             esc0 = 50;
             esc1 = 50;
@@ -115,6 +123,9 @@ using UnityEngine.UI;
         // Update is called once per frame
         void Update()
         {
+            id_pose = id_fala-1;
+            
+
             elim = Buttons_2.elim;
             elimn = Buttons_2.elimn;
             select = SelecaoLugar.selec;
@@ -129,6 +140,15 @@ using UnityEngine.UI;
             selet(select);
             longLine = lista_de_falas.fala[id_fala].msg;
             name = lista_de_falas.fala[id_fala].character;
+            pose = lista_de_falas.fala[id_pose].pose;
+            personagem = lista_de_falas.fala[id_pose].character;
+
+            if(id_fala == fim || id_fala == fim1 || id_fala == fim2 || id_fala == fim3 || id_fala == fim4)
+            {
+                PlayGame();
+            }
+
+
 
             if (bm != architect.buildMethod)
             {
@@ -187,7 +207,7 @@ using UnityEngine.UI;
 
 
        
-            if (select != 'N' && ((id_fala == 1) ||(Input.GetKeyDown(KeyCode.Space) && id_fala != esc && id_fala != esc2)))
+            if (select != 'N' && ((id_fala == 1) ||(Input.GetKeyDown(KeyCode.Space) && id_fala != esc && id_fala != esc0 && id_fala != esc1 && id_fala != esc2 && id_fala != esc3)))
             {
                 if (architect.isBuilding)
                 {
@@ -205,7 +225,6 @@ using UnityEngine.UI;
                 }
                 else if (architect.libera == false)
                     {
-                    
                     architect.Build(longLine);
                     architectPlayer.Build(name);
                     claridade(name);
@@ -214,6 +233,11 @@ using UnityEngine.UI;
                 //architect.Build(lines[Random.Range(0, lines.Length)]);
             }            
             
+        }
+
+        public void PlayGame()
+        {
+            SceneManager.LoadScene("Demo", LoadSceneMode.Single);
         }
 
         void selet(char elem)
@@ -228,6 +252,12 @@ using UnityEngine.UI;
                     esc1 = lista_de_escolhas.escolhaMesa[2].esci;
                     esc2 = lista_de_escolhas.escolhaMesa[3].esci;
                     esc3 = lista_de_escolhas.escolhaMesa[4].esci;
+                    fim = lista_de_escolhas.escolhaMesa[0].fim;
+                    fim1 = lista_de_escolhas.escolhaMesa[1].fim;
+                    fim2 = lista_de_escolhas.escolhaMesa[2].fim;
+                    fim3 = lista_de_escolhas.escolhaMesa[3].fim;
+                    fim4 = lista_de_escolhas.escolhaMesa[4].fim;
+                    fim5 = lista_de_escolhas.escolhaMesa[5].fim;
                     break;
                 case 'F':
                     flip.SetActive(true);
@@ -237,6 +267,12 @@ using UnityEngine.UI;
                     esc1 = lista_de_escolhas.escolhaFlip[2].esci;
                     esc2 = lista_de_escolhas.escolhaFlip[3].esci;
                     esc3 = lista_de_escolhas.escolhaFlip[4].esci;
+                    fim = lista_de_escolhas.escolhaFlip[0].fim;
+                    fim1 = lista_de_escolhas.escolhaFlip[1].fim;
+                    fim2 = lista_de_escolhas.escolhaFlip[2].fim;
+                    fim3 = lista_de_escolhas.escolhaFlip[3].fim;
+                    fim4 = lista_de_escolhas.escolhaFlip[4].fim;
+                    fim5 = lista_de_escolhas.escolhaFlip[5].fim;
                     break;
                 case 'S':
                     solda.SetActive(true);
@@ -246,6 +282,12 @@ using UnityEngine.UI;
                     esc1 = lista_de_escolhas.escolhaSolda[2].esci;
                     esc2 = lista_de_escolhas.escolhaSolda[3].esci;
                     esc3 = lista_de_escolhas.escolhaSolda[4].esci;
+                    fim = lista_de_escolhas.escolhaSolda[0].fim;
+                    fim1 = lista_de_escolhas.escolhaSolda[1].fim;
+                    fim2 = lista_de_escolhas.escolhaSolda[2].fim;
+                    fim3 = lista_de_escolhas.escolhaSolda[3].fim;
+                    fim4 = lista_de_escolhas.escolhaSolda[4].fim;
+                    fim5 = lista_de_escolhas.escolhaSolda[5].fim;
                     break;
                 case 'P':
                     pc.SetActive(true);
@@ -255,6 +297,12 @@ using UnityEngine.UI;
                     esc1 = lista_de_escolhas.escolhaPcs[2].esci;
                     esc2 = lista_de_escolhas.escolhaPcs[3].esci;
                     esc3 = lista_de_escolhas.escolhaPcs[4].esci;
+                    fim = lista_de_escolhas.escolhaPcs[0].fim;
+                    fim1 = lista_de_escolhas.escolhaPcs[1].fim;
+                    fim2 = lista_de_escolhas.escolhaPcs[2].fim;
+                    fim3 = lista_de_escolhas.escolhaPcs[3].fim;
+                    fim4 = lista_de_escolhas.escolhaPcs[4].fim;
+                    fim5 = lista_de_escolhas.escolhaPcs[5].fim;
                     break;
             }
         }
@@ -445,53 +493,6 @@ using UnityEngine.UI;
             }
         }
 
-        void pose(string pose, string mud)
-        {
-            switch (mud)
-            {
-                case "":
-                    break;
-                case "Narrador":
-                    break;
-                case "Botz(F)":
-                    switch (pose)
-                    {
-                        case "normal":
-                            /*BotzF.GetComponent<Image>().sprite = BotzF;*/
-                            break;
-                    }
-                    break;
-                case "Botz(M)":
-                    break;
-                case "Byte(F)":
-                    break;
-                case "Byte(M)":
-                    break;
-                case "Power(F)":
-                    break;
-                case "Power(M)":
-                    break;
-                case "Rocket(F)":
-                    break;
-                case "Rocket(M)":
-                    break;
-                case "Social(F)":
-                    break;
-                case "Social(M)":
-                    break;
-                case "Wie(F)":
-                    break;
-                case "Wie(M)":
-                    break;
-                case "Gestão(F)":
-                    break;
-                case "Gestão(M)":
-                    break;
-                case "Marketing(F)":
-                    break;
-                case "Marketing(M)":
-                    break;
-            }
-        }
+
         
     }
