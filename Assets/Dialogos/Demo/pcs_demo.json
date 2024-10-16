@@ -1,656 +1,792 @@
 {
     "fala": [
 	{
-	"id": 1,
+	"id": 0,
 	"character": "",
-	"msg": ""
+	"msg": "",
+	"pose": ""
+	},
+	{
+	"id": 1,
+	"character": "Botz(F)",
+	"msg": "EU TÔ QUASE CHEGANDO NA LAGUR BERNSTEIN!",
+	"pose": ""
 	},
 	{
 	"id": 2,
-	"character": "",
-	"msg": ""
+	"character": "Power(F)",
+	"msg": "Você tem que fazer mais silêncio, está gritando.",
+	"pose": ""
 	},
     {
 	"id": 3,
-	"character": "",
-	"msg": ""
+	"character": "Botz(F)",
+	"msg": "NÃO ENCHE, POWER!",
+	"pose": ""
 	},
 	{
 	"id": 4,
-	"character": "",
-	"msg": ""
+	"character": "Narrador",
+	"msg": "Você se aproxima dos computadores.",
+	"pose": ""
 	},
 	{
 	"id": 5,
-	"character": "",
-	"msg": ""
+	"character": "Power(F)",
+	"msg": "Agora vê se fica quieta ou fala mais baixo, acabou de chegar um trainee.",
+	"pose": ""
 	},
 	{
 	"id": 6,
-	"character": "",
-	"msg": ""
+	"character": "Botz(F)",
+	"msg": "SÉRIO? EI, VOCÊ É O TRAINEE NOVO? QUE EMOÇÃO!",
+	"pose": ""
 	},
 	{
 	"id": 7,
-	"character": "",
-	"msg": ""
+	"character": "Trainee",
+	"msg": "Ah! O-oi, sou eu sim!",
+	"pose": ""
 	},
 	{
 	"id": 8,
-	"character": "",
-	"msg": ""
+	"character": "Power(F)",
+	"msg": "Eu já não tinha falado?",
+	"pose": ""
 	},
 	{
 	"id": 9,
-	"character": "",
-	"msg": ""
+	"character": "Botz(F)",
+	"msg": "QUE DEMAAAAAAAIS! ",
+	"pose": ""
 	},
 	{
 	"id": 10,
-	"character": "",
-	"msg": ""
+	"character": "Power (F)",
+	"msg": "Me diz, o que te traz aqui?",
+	"pose": ""
 	},
 	{
 	"id": 11,
-	"character": "",
-	"msg": ""
+	"character": "Trainee",
+	"msg": "Na verdade, vim conhecer alguém…",
+	"pose": ""
 	},
 	{
 	"id": 12,
-	"character": "",
-	"msg": ""
+	"character": "Power (F)",
+	"msg": "É mesmo? Quem?",
+	"pose": ""
 	},
 	{
 	"id": 13,
 	"character": "",
-	"msg": ""
+	"msg": "",
+	"pose": ""
 	},
 	{
 	"id": 14,
 	"character": "",
-	"msg": ""
+	"msg": "",
+	"pose": ""
 	},
 	{
 	"id": 15,
-	"character": "",
-	"msg": ""
+	"character": "Botz(F)",
+	"msg": "Opa, não vou interromper vocês então. Até logo!",
+	"pose": ""
 	},
 	{
 	"id": 16,
-	"character": "",
-	"msg": ""
+	"character": "Narrador",
+	"msg": "Botz(F) se afasta do local.",
+	"pose": ""
 	},
 	{
 	"id": 17,
-	"character": "",
-	"msg": ""
+	"character": "Power (F)",
+	"msg": "Eu sou a Power (F)",
+	"pose": ""
 	},
 	{
 	"id": 18,
-	"character": "",
-	"msg": ""
+	"character": "Trainee",
+	"msg": "...",
+	"pose": ""
 	},
 	{
 	"id": 19,
-	"character": "",
-	"msg": ""
+	"character": "Power (F)",
+	"msg": "É um prazer.",
+	"pose": ""
 	},
 	{
 	"id": 20,
 	"character": "",
-	"msg": ""
+	"msg": "Uhm… Prazer?",
+	"pose": ""
 	},
 	{
 	"id": 21,
 	"character": "",
-	"msg": ""
+	"msg": "",
+	"pose": ""
 	},
 	{
 	"id": 22,
 	"character": "",
-	"msg": ""
+	"msg": "",
+	"pose": ""
 	},
 	{
 	"id": 23,
 	"character": "",
-	"msg": ""
+	"msg": "",
+	"pose": ""
 	},
 	{
 	"id": 24,
 	"character": "",
-	"msg": ""
+	"msg": "",
+	"pose": ""
 	},
 	{
 	"id": 25,
 	"character": "",
-	"msg": ""
+	"msg": "",
+	"pose": ""
 	},
 	{
 	"id": 26,
 	"character": "",
-	"msg": ""
+	"msg": "",
+	"pose": ""
 	},
 	{
 	"id": 27,
 	"character": "",
-	"msg": ""
+	"msg": "",
+	"pose": ""
 	},
 	{
 	"id": 28,
 	"character": "",
-	"msg": ""
+	"msg": "",
+	"pose": ""
 	},
 	{
 	"id": 29,
 	"character": "",
-	"msg": ""
+	"msg": "",
+	"pose": ""
 	},
 	{
 	"id": 30,
 	"character": "",
-	"msg": ""
+	"msg": "",
+	"pose": ""
 	},
 	{
 	"id": 31,
 	"character": "",
-	"msg": ""
+	"msg": "",
+	"pose": ""
 	},
 	{
 	"id": 32,
 	"character": "",
-	"msg": ""
+	"msg": "",
+	"pose": ""
 	},
 	{
 	"id": 33,
 	"character": "",
-	"msg": ""
+	"msg": "",
+	"pose": ""
 	},
 	{
 	"id": 34,
 	"character": "",
-	"msg": ""
+	"msg": "",
+	"pose": ""
 	},
 	{
 	"id": 35,
 	"character": "",
-	"msg": ""
+	"msg": "",
+	"pose": ""
 	},
 	{
 	"id": 36,
 	"character": "",
-	"msg": ""
+	"msg": "",
+	"pose": ""
 	},
 	{
 	"id": 37,
 	"character": "",
-	"msg": ""
+	"msg": "",
+	"pose": ""
 	},
 
 	{
 	"id": 38,
 	"character": "",
-	"msg": ""
+	"msg": "",
+	"pose": ""
 	},
 	{
 	"id": 39,
 	"character": "",
-	"msg": ""
+	"msg": "",
+	"pose": ""
 	},
 	{
 	"id": 40,
 	"character": "",
-	"msg": ""
+	"msg": "",
+	"pose": ""
 	},
 	{
 	"id": 41,
 	"character": "",
-	"msg": ""
+	"msg": "",
+	"pose": ""
 	},
 	
 	{
 	"id": 42,
 	"character": "",
-	"msg": ""
+	"msg": "",
+	"pose": ""
 	},
 	{
 	"id": 43,
 	"character": "",
-	"msg": ""
+	"msg": "",
+	"pose": ""
 	},
 	{
 	"id": 44,
 	"character": "",
-	"msg": ""
+	"msg": "",
+	"pose": ""
 	},
 	{
 	"id": 45,
 	"character": "",
-	"msg": ""
+	"msg": "",
+	"pose": ""
 	},
 	{
 	"id": 46,
 	"character": "",
-	"msg": ""
+	"msg": "",
+	"pose": ""
 	},
 	{
 	"id": 47,
 	"character": "",
-	"msg": ""
+	"msg": "",
+	"pose": ""
 	},
 	{
 	"id": 48,
 	"character": "",
-	"msg": ""
+	"msg": "",
+	"pose": ""
 	},
 	{
 	"id": 49,
 	"character": "",
-	"msg": ""
+	"msg": "",
+	"pose": ""
 	},
 	{
 	"id": 50,
 	"character": "",
-	"msg": ""
+	"msg": "",
+	"pose": ""
 	},
 	{
 	"id": 51,
 	"character": "",
-	"msg": ""
+	"msg": "",
+	"pose": ""
 	},
 	{
 	"id": 52,
 	"character": "",
-	"msg": ""
+	"msg": "",
+	"pose": ""
 	},
 	{
 	"id": 53,
 	"character": "",
-	"msg": ""
+	"msg": "",
+	"pose": ""
 	},
 	{
 	"id": 54,
 	"character": "",
-	"msg": ""
+	"msg": "",
+	"pose": ""
 	},
 	{
 	"id": 55,
 	"character": "",
-	"msg": ""
+	"msg": "",
+	"pose": ""
 	},
 	{
 	"id": 56,
 	"character": "",
-	"msg": ""
+	"msg": "",
+	"pose": ""
 	},
 	{
 	"id": 57,
 	"character": "",
-	"msg": ""
+	"msg": "",
+	"pose": ""
 	},
 	{
 	"id": 58,
 	"character": "",
-	"msg": ""
+	"msg": "",
+	"pose": ""
 	},
 	{
 	"id": 59,
 	"character": "",
-	"msg": ""
+	"msg": "",
+	"pose": ""
 	},
 	{
 	"id": 60,
 	"character": "",
-	"msg": ""
+	"msg": "",
+	"pose": ""
 	},
 	{
 	"id": 61,
 	"character": "",
-	"msg": ""
+	"msg": "",
+	"pose": ""
 	},
 	{
 	"id": 62,
 	"character": "",
-	"msg": ""
+	"msg": "",
+	"pose": ""
 	},
 	{
 	"id": 63,
 	"character": "",
-	"msg": ""
+	"msg": "",
+	"pose": ""
 	},
 	{
 	"id": 64,
 	"character": "",
-	"msg": ""
+	"msg": "",
+	"pose": ""
 	},
 	{
 	"id": 65,
 	"character": "",
-	"msg": ""
+	"msg": "",
+	"pose": ""
 	},
 	{
 	"id": 66,
 	"character": "",
-	"msg": ""
+	"msg": "",
+	"pose": ""
 	},
 	{
 	"id": 67,
 	"character": "",
-	"msg": ""
+	"msg": "",
+	"pose": ""
 	},
 	{
 	"id": 68,
 	"character": "",
-	"msg": ""
+	"msg": "",
+	"pose": ""
 	},
 	{
 	"id": 69,
 	"character": "",
-	"msg": ""
+	"msg": "",
+	"pose": ""
 	},
 	{
 	"id": 70,
 	"character": "",
-	"msg": ""
+	"msg": "",
+	"pose": ""
 	},
 	{
 	"id": 71,
 	"character": "",
-	"msg": ""
+	"msg": "",
+	"pose": ""
 	},
 	{
 	"id": 72,
 	"character": "",
-	"msg": ""
+	"msg": "",
+	"pose": ""
 	},
 	{
 	"id": 73,
 	"character": "",
-	"msg": ""
+	"msg": "",
+	"pose": ""
 	},
 	{
 	"id": 74,
 	"character": "",
-	"msg": ""
+	"msg": "",
+	"pose": ""
 	},
 	{
 	"id": 75,
 	"character": "",
-	"msg": ""
+	"msg": "",
+	"pose": ""
 	},
 	{
 	"id": 76,
 	"character": "",
-	"msg": ""
+	"msg": "",
+	"pose": ""
 	},
 	{
 	"id": 77,
 	"character": "",
-	"msg": ""
+	"msg": "",
+	"pose": ""
 	},
 	{
 	"id": 78,
 	"character": "",
-	"msg": ""
+	"msg": "",
+	"pose": ""
 	},
 	{
 	"id": 79,
 	"character": "",
-	"msg": ""
+	"msg": "",
+	"pose": ""
 	},
 	{
 	"id": 80,
 	"character": "",
-	"msg": ""
+	"msg": "",
+	"pose": ""
 	},
 	{
 	"id": 81,
 	"character": "",
-	"msg": ""
+	"msg": "",
+	"pose": ""
 	},
 	{
 	"id": 82,
 	"character": "",
-	"msg": ""
+	"msg": "",
+	"pose": ""
 	},
 	{
 	"id": 83,
 	"character": "",
-	"msg": ""
+	"msg": "",
+	"pose": ""
 	},
 	{
 	"id": 84,
 	"character": "",
-	"msg": ""
+	"msg": "",
+	"pose": ""
 	},
 	{
 	"id": 85,
 	"character": "",
-	"msg": ""
+	"msg": "",
+	"pose": ""
 	},		
 	{
 	"id": 86,
 	"character": "",
-	"msg": ""
+	"msg": "",
+	"pose": ""
 	},
 	{
 	"id": 87,
 	"character": "",
-	"msg": ""
+	"msg": "",
+	"pose": ""
 	},	
 	{
 	"id": 88,
 	"character": "",
-	"msg": ""
+	"msg": "",
+	"pose": ""
 	},
 	{
 	"id": 89,
 	"character": "",
-	"msg": ""
+	"msg": "",
+	"pose": ""
 	},
 	{
 	"id": 90,
 	"character": "",
-	"msg": ""
+	"msg": "",
+	"pose": ""
 	},
 	{
 	"id": 91,
 	"character": "",
-	"msg": ""
+	"msg": "",
+	"pose": ""
 	},
 	{
 	"id": 92,
 	"character": "",
-	"msg": ""
+	"msg": "",
+	"pose": ""
 	},
 	{
 	"id": 93,
 	"character": "",
-	"msg": ""
+	"msg": "",
+	"pose": ""
 	},
 	{
 	"id": 94,
 	"character": "",
-	"msg": ""
+	"msg": "",
+	"pose": ""
 	},
 	{
 	"id": 95,
 	"character": "",
-	"msg": ""
+	"msg": "",
+	"pose": ""
 	},
 	{
 	"id": 96,
 	"character": "",
-	"msg": ""
+	"msg": "",
+	"pose": ""
 	},		
 	{
 	"id": 97,
 	"character": "",
-	"msg": ""
+	"msg": "",
+	"pose": ""
 	},
 	{
 	"id": 98,
 	"character": "",
-	"msg": ""
+	"msg": "",
+	"pose": ""
 	},	
 	{
 	"id": 99,
 	"character": "",
-	"msg": ""
+	"msg": "",
+	"pose": ""
 	},
 	{
 	"id": 100,
 	"character": "",
-	"msg": ""
+	"msg": "",
+	"pose": ""
 	},
 	{
 	"id": 101,
 	"character": "",
-	"msg": ""
+	"msg": "",
+	"pose": ""
 	},
 	{
 	"id": 102,
 	"character": "",
-	"msg": ""
+	"msg": "",
+	"pose": ""
 	},
 	{
 	"id": 103,
 	"character": "",
-	"msg": ""
+	"msg": "",
+	"pose": ""
 	},
 	{
 	"id": 104,
 	"character": "",
-	"msg": ""
+	"msg": "",
+	"pose": ""
 	},
 	{
 	"id": 105,
 	"character": "",
-	"msg": ""
+	"msg": "",
+	"pose": ""
 	},
 	{
 	"id": 106,
 	"character": "",
-	"msg": ""
+	"msg": "",
+	"pose": ""
 	},
 	{
 	"id": 107,
 	"character": "",
-	"msg": ""
+	"msg": "",
+	"pose": ""
 	},		
 	{
 	"id": 108,
 	"character": "",
-	"msg": ""
+	"msg": "",
+	"pose": ""
 	},
 	{
 	"id": 109,
 	"character": "",
-	"msg": ""
+	"msg": "",
+	"pose": ""
 	},	
 	{
 	"id": 110,
 	"character": "",
-	"msg": ""
+	"msg": "",
+	"pose": ""
 	},
 	{
 	"id": 111,
 	"character": "",
-	"msg": ""
+	"msg": "",
+	"pose": ""
 	},
 	{
 	"id": 112,
 	"character": "",
-	"msg": ""
+	"msg": "",
+	"pose": ""
 	},
 	{
 	"id": 113,
 	"character": "",
-	"msg": ""
+	"msg": "",
+	"pose": ""
 	},
 	{
 	"id": 114,
 	"character": "",
-	"msg": ""
+	"msg": "",
+	"pose": ""
 	},
 	{
 	"id": 115,
 	"character": "",
-	"msg": ""
+	"msg": "",
+	"pose": ""
 	},
 	{
 	"id": 116,
 	"character": "",
-	"msg": ""
+	"msg": "",
+	"pose": ""
 	},
 	{
 	"id": 117,
 	"character": "",
-	"msg": ""
+	"msg": "",
+	"pose": ""
 	},
 	{
 	"id": 118,
 	"character": "",
-	"msg": ""
+	"msg": "",
+	"pose": ""
 	},		
 	{
 	"id": 119,
 	"character": "",
-	"msg": ""
+	"msg": "",
+	"pose": ""
 	},
 	{
 	"id": 120,
 	"character": "",
-	"msg": ""
+	"msg": "",
+	"pose": ""
 	},	
 	{
 	"id": 121,
 	"character": "",
-	"msg": ""
+	"msg": "",
+	"pose": ""
 	},
 	{
 	"id": 122,
 	"character": "",
-	"msg": ""
+	"msg": "",
+	"pose": ""
 	},
 	{
 	"id": 123,
 	"character": "",
-	"msg": ""
+	"msg": "",
+	"pose": ""
 	},
 	{
 	"id": 124,
 	"character": "",
-	"msg": ""
+	"msg": "",
+	"pose": ""
 	},
 	{
 	"id": 125,
 	"character": "",
-	"msg": ""
+	"msg": "",
+	"pose": ""
 	},
 	{
 	"id": 126,
 	"character": "",
-	"msg": ""
+	"msg": "",
+	"pose": ""
 	},
 	{
 	"id": 127,
 	"character": "",
-	"msg": ""
+	"msg": "",
+	"pose": ""
 	},
 	{
 	"id": 128,
 	"character": "",
-	"msg": ""
+	"msg": "",
+	"pose": ""
 	},
 	{
 	"id": 129,
 	"character": "",
-	"msg": ""
+	"msg": "",
+	"pose": ""
 	},
 	{
 	"id": 130,
 	"character": "",
-	"msg": ""
+	"msg": "",
+	"pose": ""
 	}
 	]
 }
