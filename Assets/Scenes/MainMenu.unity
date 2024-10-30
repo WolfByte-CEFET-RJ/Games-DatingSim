@@ -5580,5 +5580,13 @@ PrefabInstance:
       propertyPath: musicSlider
       value: 
       objectReference: {fileID: 582441170}
+    - target: {fileID: 7561324347322322019, guid: 2ea16db28c1d174468d17b602b3d4dd4, type: 3}
+      propertyPath: musicSounds.Array.data[0].clip
+      value: 
+      objectReference: {fileID: 8300000, guid: 584ecb6c182f1d444b5e49d75ffc5d86, type: 3}
+    - target: {fileID: 7561324348450971723, guid: 2ea16db28c1d174468d17b602b3d4dd4, type: 3}
+      propertyPath: m_audioClip
+      value: 
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 2ea16db28c1d174468d17b602b3d4dd4, type: 3}

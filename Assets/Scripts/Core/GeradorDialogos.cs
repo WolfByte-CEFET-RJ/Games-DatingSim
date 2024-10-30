@@ -14,7 +14,6 @@ using UnityEngine.SceneManagement;
         private GameObject escolha2;
         private GameObject escolha3;
         private GameObject mesa, mesa1, mesa2, flip, flip1, flip2, solda, solda1, solda2, pc, pc1, pc2;
-        private GameObject WieF, WieM, GestaoF, GestaoM, BotzF, BotzM, ByteF, ByteM, RocketF, RocketM, SocialF, SocialM, PowerF, PowerM, MarketingF, MarketingM;
         public TextArchitect.BuildMethod bm = TextArchitect.BuildMethod.instant;
         public TextArchitectPlayer.BuildMethod bmp = TextArchitectPlayer.BuildMethod.instant;
 
@@ -101,22 +100,6 @@ using UnityEngine.SceneManagement;
             pc = ds.dialogueContainer.pc;
             pc1 = ds.dialogueContainer.pc1;
             pc2 = ds.dialogueContainer.pc2;
-            WieF = ds.dialogueContainer.WieF;
-            WieM = ds.dialogueContainer.WieM;
-            GestaoF = ds.dialogueContainer.GestaoF;
-            GestaoM = ds.dialogueContainer.GestaoM;
-            BotzF = ds.dialogueContainer.BotzF;
-            BotzM = ds.dialogueContainer.BotzM;
-            ByteF = ds.dialogueContainer.ByteF;
-            ByteM = ds.dialogueContainer.ByteM;
-            RocketF = ds.dialogueContainer.RocketF;
-            RocketM = ds.dialogueContainer.RocketM;
-            SocialF = ds.dialogueContainer.SocialF;
-            SocialM = ds.dialogueContainer.SocialM;
-            PowerF = ds.dialogueContainer.PowerF;
-            PowerM = ds.dialogueContainer.PowerM;
-            MarketingF = ds.dialogueContainer.MarketingF;
-            MarketingM = ds.dialogueContainer.MarketingM;
             elim = 'C';
         }
 
@@ -227,7 +210,6 @@ using UnityEngine.SceneManagement;
                     {
                     architect.Build(longLine);
                     architectPlayer.Build(name);
-                    claridade(name);
                     id_fala ++;
                     }
                 //architect.Build(lines[Random.Range(0, lines.Length)]);
@@ -306,193 +288,5 @@ using UnityEngine.SceneManagement;
                     break;
             }
         }
-        void claridade(string mud)
-        {
-            switch (mud)
-            {
-                case "":
-                    BotzF.GetComponent<Image>().color = new Color32(200, 200, 200, 255);
-                    WieF.GetComponent<Image>().color = new Color32(200, 200, 200, 255);
-                    PowerF.GetComponent<Image>().color = new Color32(200, 200, 200, 255);
-                    ByteF.GetComponent<Image>().color = new Color32(200, 200, 200, 255);
-                    RocketF.GetComponent<Image>().color = new Color32(200, 200, 200, 255);
-                    SocialF.GetComponent<Image>().color = new Color32(200, 200, 200, 255);
-                    GestaoF.GetComponent<Image>().color = new Color32(200, 200, 200, 255);
-                    MarketingF.GetComponent<Image>().color = new Color32(200, 200, 200, 255);
-                    break;
-                case "Narrador":
-                    BotzF.GetComponent<Image>().color = new Color32(200, 200, 200, 255);
-                    WieF.GetComponent<Image>().color = new Color32(200, 200, 200, 255);
-                    PowerF.GetComponent<Image>().color = new Color32(200, 200, 200, 255);
-                    ByteF.GetComponent<Image>().color = new Color32(200, 200, 200, 255);
-                    RocketF.GetComponent<Image>().color = new Color32(200, 200, 200, 255);
-                    SocialF.GetComponent<Image>().color = new Color32(200, 200, 200, 255);
-                    GestaoF.GetComponent<Image>().color = new Color32(200, 200, 200, 255);
-                    MarketingF.GetComponent<Image>().color = new Color32(200, 200, 200, 255);
-                    break;
-                case "Botz(F)":
-                    BotzF.GetComponent<Image>().color = new Color32(255, 255, 255, 255);
-                    WieF.GetComponent<Image>().color = new Color32(200, 200, 200, 255);
-                    PowerF.GetComponent<Image>().color = new Color32(200, 200, 200, 255);
-                    ByteF.GetComponent<Image>().color = new Color32(200, 200, 200, 255);
-                    RocketF.GetComponent<Image>().color = new Color32(200, 200, 200, 255);
-                    SocialF.GetComponent<Image>().color = new Color32(200, 200, 200, 255);
-                    GestaoF.GetComponent<Image>().color = new Color32(200, 200, 200, 255);
-                    MarketingF.GetComponent<Image>().color = new Color32(200, 200, 200, 255);
-                    break;
-                case "Botz(M)":
-                    BotzF.GetComponent<Image>().color = new Color32(200, 200, 200, 255);
-                    WieF.GetComponent<Image>().color = new Color32(200, 200, 200, 255);
-                    PowerF.GetComponent<Image>().color = new Color32(200, 200, 200, 255);
-                    ByteF.GetComponent<Image>().color = new Color32(200, 200, 200, 255);
-                    RocketF.GetComponent<Image>().color = new Color32(200, 200, 200, 255);
-                    SocialF.GetComponent<Image>().color = new Color32(200, 200, 200, 255);
-                    GestaoF.GetComponent<Image>().color = new Color32(200, 200, 200, 255);
-                    MarketingF.GetComponent<Image>().color = new Color32(200, 200, 200, 255);
-                    break;
-                case "Byte(F)":
-                    BotzF.GetComponent<Image>().color = new Color32(200, 200, 200, 255);
-                    WieF.GetComponent<Image>().color = new Color32(200, 200, 200, 255);
-                    PowerF.GetComponent<Image>().color = new Color32(200, 200, 200, 255);
-                    ByteF.GetComponent<Image>().color = new Color32(255, 255, 255, 255);
-                    RocketF.GetComponent<Image>().color = new Color32(200, 200, 200, 255);
-                    SocialF.GetComponent<Image>().color = new Color32(200, 200, 200, 255);
-                    GestaoF.GetComponent<Image>().color = new Color32(200, 200, 200, 255);
-                    MarketingF.GetComponent<Image>().color = new Color32(200, 200, 200, 255);
-                    break;
-                case "Byte(M)":
-                    BotzF.GetComponent<Image>().color = new Color32(200, 200, 200, 255);
-                    WieF.GetComponent<Image>().color = new Color32(200, 200, 200, 255);
-                    PowerF.GetComponent<Image>().color = new Color32(200, 200, 200, 255);
-                    ByteF.GetComponent<Image>().color = new Color32(200, 200, 200, 255);
-                    RocketF.GetComponent<Image>().color = new Color32(200, 200, 200, 255);
-                    SocialF.GetComponent<Image>().color = new Color32(200, 200, 200, 255);
-                    GestaoF.GetComponent<Image>().color = new Color32(200, 200, 200, 255);
-                    MarketingF.GetComponent<Image>().color = new Color32(200, 200, 200, 255);
-                    break;
-                case "Power(F)":
-                    BotzF.GetComponent<Image>().color = new Color32(200, 200, 200, 255);
-                    WieF.GetComponent<Image>().color = new Color32(200, 200, 200, 255);
-                    PowerF.GetComponent<Image>().color = new Color32(200, 200, 200, 255);
-                    ByteF.GetComponent<Image>().color = new Color32(200, 200, 200, 255);
-                    RocketF.GetComponent<Image>().color = new Color32(200, 200, 200, 255);
-                    SocialF.GetComponent<Image>().color = new Color32(200, 200, 200, 255);
-                    GestaoF.GetComponent<Image>().color = new Color32(200, 200, 200, 255);
-                    MarketingF.GetComponent<Image>().color = new Color32(200, 200, 200, 255);
-                    break;
-                case "Power(M)":
-                    BotzF.GetComponent<Image>().color = new Color32(200, 200, 200, 255);
-                    WieF.GetComponent<Image>().color = new Color32(200, 200, 200, 255);
-                    PowerF.GetComponent<Image>().color = new Color32(200, 200, 200, 255);
-                    ByteF.GetComponent<Image>().color = new Color32(200, 200, 200, 255);
-                    RocketF.GetComponent<Image>().color = new Color32(200, 200, 200, 255);
-                    SocialF.GetComponent<Image>().color = new Color32(200, 200, 200, 255);
-                    GestaoF.GetComponent<Image>().color = new Color32(200, 200, 200, 255);
-                    MarketingF.GetComponent<Image>().color = new Color32(200, 200, 200, 255);
-                    break;
-                case "Rocket(F)":
-                    BotzF.GetComponent<Image>().color = new Color32(200, 200, 200, 255);
-                    WieF.GetComponent<Image>().color = new Color32(200, 200, 200, 255);
-                    PowerF.GetComponent<Image>().color = new Color32(200, 200, 200, 255);
-                    ByteF.GetComponent<Image>().color = new Color32(200, 200, 200, 255);
-                    RocketF.GetComponent<Image>().color = new Color32(200, 200, 200, 255);
-                    SocialF.GetComponent<Image>().color = new Color32(200, 200, 200, 255);
-                    GestaoF.GetComponent<Image>().color = new Color32(200, 200, 200, 255);
-                    MarketingF.GetComponent<Image>().color = new Color32(200, 200, 200, 255);
-                    break;
-                case "Rocket(M)":
-                    BotzF.GetComponent<Image>().color = new Color32(200, 200, 200, 255);
-                    WieF.GetComponent<Image>().color = new Color32(200, 200, 200, 255);
-                    PowerF.GetComponent<Image>().color = new Color32(200, 200, 200, 255);
-                    ByteF.GetComponent<Image>().color = new Color32(200, 200, 200, 255);
-                    RocketF.GetComponent<Image>().color = new Color32(200, 200, 200, 255);
-                    SocialF.GetComponent<Image>().color = new Color32(200, 200, 200, 255);
-                    GestaoF.GetComponent<Image>().color = new Color32(200, 200, 200, 255);
-                    MarketingF.GetComponent<Image>().color = new Color32(200, 200, 200, 255);
-                    break;
-                case "Social(F)":
-                    BotzF.GetComponent<Image>().color = new Color32(200, 200, 200, 255);
-                    WieF.GetComponent<Image>().color = new Color32(200, 200, 200, 255);
-                    PowerF.GetComponent<Image>().color = new Color32(200, 200, 200, 255);
-                    ByteF.GetComponent<Image>().color = new Color32(200, 200, 200, 255);
-                    RocketF.GetComponent<Image>().color = new Color32(200, 200, 200, 255);
-                    SocialF.GetComponent<Image>().color = new Color32(200, 200, 200, 255);
-                    GestaoF.GetComponent<Image>().color = new Color32(200, 200, 200, 255);
-                    MarketingF.GetComponent<Image>().color = new Color32(200, 200, 200, 255);
-                    break;
-                case "Social(M)":
-                    BotzF.GetComponent<Image>().color = new Color32(200, 200, 200, 255);
-                    WieF.GetComponent<Image>().color = new Color32(200, 200, 200, 255);
-                    PowerF.GetComponent<Image>().color = new Color32(200, 200, 200, 255);
-                    ByteF.GetComponent<Image>().color = new Color32(200, 200, 200, 255);
-                    RocketF.GetComponent<Image>().color = new Color32(200, 200, 200, 255);
-                    SocialF.GetComponent<Image>().color = new Color32(200, 200, 200, 255);
-                    GestaoF.GetComponent<Image>().color = new Color32(200, 200, 200, 255);
-                    MarketingF.GetComponent<Image>().color = new Color32(200, 200, 200, 255);
-                    break;
-                case "Wie(F)":
-                    BotzF.GetComponent<Image>().color = new Color32(200, 200, 200, 255);
-                    WieF.GetComponent<Image>().color = new Color32(200, 200, 200, 255);
-                    PowerF.GetComponent<Image>().color = new Color32(200, 200, 200, 255);
-                    ByteF.GetComponent<Image>().color = new Color32(200, 200, 200, 255);
-                    RocketF.GetComponent<Image>().color = new Color32(200, 200, 200, 255);
-                    SocialF.GetComponent<Image>().color = new Color32(200, 200, 200, 255);
-                    GestaoF.GetComponent<Image>().color = new Color32(200, 200, 200, 255);
-                    MarketingF.GetComponent<Image>().color = new Color32(200, 200, 200, 255);
-                    break;
-                case "Wie(M)":
-                    BotzF.GetComponent<Image>().color = new Color32(200, 200, 200, 255);
-                    WieF.GetComponent<Image>().color = new Color32(200, 200, 200, 255);
-                    PowerF.GetComponent<Image>().color = new Color32(200, 200, 200, 255);
-                    ByteF.GetComponent<Image>().color = new Color32(200, 200, 200, 255);
-                    RocketF.GetComponent<Image>().color = new Color32(200, 200, 200, 255);
-                    SocialF.GetComponent<Image>().color = new Color32(200, 200, 200, 255);
-                    GestaoF.GetComponent<Image>().color = new Color32(200, 200, 200, 255);
-                    MarketingF.GetComponent<Image>().color = new Color32(200, 200, 200, 255);
-                    break;
-                case "Gestão(F)":
-                    BotzF.GetComponent<Image>().color = new Color32(200, 200, 200, 255);
-                    WieF.GetComponent<Image>().color = new Color32(200, 200, 200, 255);
-                    PowerF.GetComponent<Image>().color = new Color32(200, 200, 200, 255);
-                    ByteF.GetComponent<Image>().color = new Color32(200, 200, 200, 255);
-                    RocketF.GetComponent<Image>().color = new Color32(200, 200, 200, 255);
-                    SocialF.GetComponent<Image>().color = new Color32(200, 200, 200, 255);
-                    GestaoF.GetComponent<Image>().color = new Color32(200, 200, 200, 255);
-                    MarketingF.GetComponent<Image>().color = new Color32(200, 200, 200, 255);
-                    break;
-                case "Gestão(M)":
-                    BotzF.GetComponent<Image>().color = new Color32(200, 200, 200, 255);
-                    WieF.GetComponent<Image>().color = new Color32(200, 200, 200, 255);
-                    PowerF.GetComponent<Image>().color = new Color32(200, 200, 200, 255);
-                    ByteF.GetComponent<Image>().color = new Color32(200, 200, 200, 255);
-                    RocketF.GetComponent<Image>().color = new Color32(200, 200, 200, 255);
-                    SocialF.GetComponent<Image>().color = new Color32(200, 200, 200, 255);
-                    GestaoF.GetComponent<Image>().color = new Color32(200, 200, 200, 255);
-                    MarketingF.GetComponent<Image>().color = new Color32(200, 200, 200, 255);
-                    break;
-                case "Marketing(F)":
-                    BotzF.GetComponent<Image>().color = new Color32(200, 200, 200, 255);
-                    WieF.GetComponent<Image>().color = new Color32(200, 200, 200, 255);
-                    PowerF.GetComponent<Image>().color = new Color32(200, 200, 200, 255);
-                    ByteF.GetComponent<Image>().color = new Color32(200, 200, 200, 255);
-                    RocketF.GetComponent<Image>().color = new Color32(200, 200, 200, 255);
-                    SocialF.GetComponent<Image>().color = new Color32(200, 200, 200, 255);
-                    GestaoF.GetComponent<Image>().color = new Color32(200, 200, 200, 255);
-                    MarketingF.GetComponent<Image>().color = new Color32(200, 200, 200, 255);
-                    break;
-                case "Marketing(M)":
-                    BotzF.GetComponent<Image>().color = new Color32(200, 200, 200, 255);
-                    WieF.GetComponent<Image>().color = new Color32(200, 200, 200, 255);
-                    PowerF.GetComponent<Image>().color = new Color32(200, 200, 200, 255);
-                    ByteF.GetComponent<Image>().color = new Color32(200, 200, 200, 255);
-                    RocketF.GetComponent<Image>().color = new Color32(200, 200, 200, 255);
-                    SocialF.GetComponent<Image>().color = new Color32(200, 200, 200, 255);
-                    GestaoF.GetComponent<Image>().color = new Color32(200, 200, 200, 255);
-                    MarketingF.GetComponent<Image>().color = new Color32(200, 200, 200, 255);
-                    break;
-            }
-        }
-
-
         
     }

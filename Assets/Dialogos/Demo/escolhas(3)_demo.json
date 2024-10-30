@@ -93,11 +93,11 @@
 	[
 		{
 		"aju": 1,
-		"msg": ""
+		"msg": " Explosões? Isso não é perigoso? "
 		},
 		{
-		"aju": 2,
-		"msg": ""
+		"aju": 1,
+		"msg": "Ótimo discurso de “proteção emocional”."
 		},
 		{
 		"aju": 3,
@@ -107,12 +107,12 @@
 	"escolhaPcs2": 
 	[
 		{
-		"aju": 1,
-		"msg": ""
+		"aju": 9,
+		"msg": "Por que você está usando EPI?"
 		},
 		{
-		"aju": 2,
-		"msg": ""
+		"aju": 11,
+		"msg": "Nossa, desculpa, eu falei alguma coisa errada?"
 		},
 		{
 		"aju": 3,
@@ -122,12 +122,12 @@
 	"escolhaPcs3": 
 	[
 		{
-		"aju": 1,
-		"msg": ""
+		"aju": 17,
+		"msg": "Você é sempre exagerada assim?"
 		},
 		{
-		"aju": 2,
-		"msg": ""
+		"aju": 19,
+		"msg": "..."
 		},
 		{
 		"aju": 3,

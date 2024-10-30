@@ -54,27 +54,27 @@
 	"escolhaPcs": 
 	[
 		{
-		"esci": 800,
-		"fim": 200
+		"esci": 14,
+		"fim": 80
 		},
 		{
 		"esci": 800,
-		"fim": 200
+		"fim": 88
 		},
 		{
 		"esci": 800,
-		"fim": 200
+		"fim": 99
 		},
 		{
-		"esci": 800,
-		"fim": 200
+		"esci": 30,
+		"fim": 57
 		},
 		{
-		"esci": 800,
-		"fim": 200
+		"esci": 72,
+		"fim": 49
 		},
 		{
-		"fim": 200
+		"fim": 40
 		}
 	],
 	"escolhaSolda": 

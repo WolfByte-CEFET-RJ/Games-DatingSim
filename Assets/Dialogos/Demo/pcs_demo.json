@@ -62,19 +62,19 @@
 	},
 	{
 	"id": 10,
-	"character": "Power (F)",
+	"character": "Power(F)",
 	"msg": "Me diz, o que te traz aqui?",
 	"pose": ""
 	},
 	{
 	"id": 11,
 	"character": "Trainee",
-	"msg": "Na verdade, vim conhecer alguém…",
+	"msg": "Na verdade, vim conhecer alguém...",
 	"pose": ""
 	},
 	{
 	"id": 12,
-	"character": "Power (F)",
+	"character": "Power(F)",
 	"msg": "É mesmo? Quem?",
 	"pose": ""
 	},
@@ -104,7 +104,7 @@
 	},
 	{
 	"id": 17,
-	"character": "Power (F)",
+	"character": "Power(F)",
 	"msg": "Eu sou a Power (F)",
 	"pose": ""
 	},
@@ -116,62 +116,62 @@
 	},
 	{
 	"id": 19,
-	"character": "Power (F)",
+	"character": "Power(F)",
 	"msg": "É um prazer.",
 	"pose": ""
 	},
 	{
 	"id": 20,
-	"character": "",
-	"msg": "Uhm… Prazer?",
+	"character": "Trainee",
+	"msg": "Uhm... Prazer?",
 	"pose": ""
 	},
 	{
 	"id": 21,
-	"character": "",
-	"msg": "",
+	"character": "Power(F)",
+	"msg": "…",
 	"pose": ""
 	},
 	{
 	"id": 22,
-	"character": "",
-	"msg": "",
+	"character": "Power(F)",
+	"msg": "Ai, tá bom.",
 	"pose": ""
 	},
 	{
 	"id": 23,
-	"character": "",
-	"msg": "",
+	"character": "Power(F)",
+	"msg": "Não pense que estou aqui para fazer amizade, tá?",
 	"pose": ""
 	},
 	{
 	"id": 24,
-	"character": "",
-	"msg": "",
+	"character": "Power(F)",
+	"msg": "Só estou cumprindo minha parte.",
 	"pose": ""
 	},
 	{
 	"id": 25,
-	"character": "",
-	"msg": "",
+	"character": "Power(F)",
+	"msg": "E não sou uma pessoa qualquer.",
 	"pose": ""
 	},
 	{
 	"id": 26,
-	"character": "",
-	"msg": "",
+	"character": "Power(F)",
+	"msg": "Cada parte de mim grita ‘atitude’ então se quiser algo, seja direto.",
 	"pose": ""
 	},
 	{
 	"id": 27,
-	"character": "",
-	"msg": "",
+	"character": "Power(F)",
+	"msg": "E não me olhe assim!",
 	"pose": ""
 	},
 	{
 	"id": 28,
-	"character": "",
-	"msg": "",
+	"character": "Power(F)",
+	"msg": "Isso é só parte da minha personalidade forte.",
 	"pose": ""
 	},
 	{
@@ -188,51 +188,51 @@
 	},
 	{
 	"id": 31,
-	"character": "",
-	"msg": "",
+	"character": "Power(F)",
+	"msg": "Ah, então ironia faz parte do seu vocabulário, sim?",
 	"pose": ""
 	},
 	{
 	"id": 32,
-	"character": "",
-	"msg": "",
+	"character": "Power(F)",
+	"msg": "Meu discurso não tem nada de proteção emocional.",
 	"pose": ""
 	},
 	{
 	"id": 33,
-	"character": "",
-	"msg": "",
+	"character": "Power(F)",
+	"msg": "Eu não ajo assim por nenhuma questão emocional profunda.",
 	"pose": ""
 	},
 	{
 	"id": 34,
-	"character": "",
-	"msg": "",
+	"character": "Power(F)",
+	"msg": "Mas admito, sua ousadia me impressiona.",
 	"pose": ""
 	},
 	{
 	"id": 35,
-	"character": "",
-	"msg": "",
+	"character": "Power(F)",
+	"msg": "Só não repita essa atitude novamente por aqui.",
 	"pose": ""
 	},
 	{
 	"id": 36,
-	"character": "",
-	"msg": "",
+	"character": "???",
+	"msg": "Galera, a RG já vai começar, vamos para o Auditório 2! ",
 	"pose": ""
 	},
 	{
 	"id": 37,
-	"character": "",
-	"msg": "",
+	"character": "Power(F)",
+	"msg": "Um prazer te conhecer, trainee.",
 	"pose": ""
 	},
 
 	{
 	"id": 38,
-	"character": "",
-	"msg": "",
+	"character": "Power(F)",
+	"msg": "Até mais.",
 	"pose": ""
 	},
 	{
@@ -249,45 +249,45 @@
 	},
 	{
 	"id": 41,
-	"character": "",
-	"msg": "",
+	"character": "Power(F)",
+	"msg": "Não, não...",
 	"pose": ""
 	},
 	
 	{
 	"id": 42,
-	"character": "",
-	"msg": "",
+	"character": "Power(F)",
+	"msg": "Sinto muito se causei essa impressão.",
 	"pose": ""
 	},
 	{
 	"id": 43,
-	"character": "",
-	"msg": "",
+	"character": "Power(F)",
+	"msg": "Só imaginei que quisesse uma apresentação mais completa.",
 	"pose": ""
 	},
 	{
 	"id": 44,
-	"character": "",
-	"msg": "",
+	"character": "Power(F)",
+	"msg": "E bem... essa sou eu.",
 	"pose": ""
 	},
 	{
 	"id": 45,
-	"character": "",
-	"msg": "",
+	"character": "???",
+	"msg": "Galera, a RG já vai começar, vamos para o Auditório 2! ",
 	"pose": ""
 	},
 	{
 	"id": 46,
-	"character": "",
-	"msg": "",
+	"character": "Power(F)",
+	"msg": "Vamos fingir que isso não aconteceu.",
 	"pose": ""
 	},
 	{
 	"id": 47,
-	"character": "",
-	"msg": "",
+	"character": "Power(F)",
+	"msg": "E recomeçar em breve.",
 	"pose": ""
 	},
 	{
@@ -304,38 +304,38 @@
 	},
 	{
 	"id": 50,
-	"character": "",
-	"msg": "",
+	"character": "Power(F)",
+	"msg": "É sério? Me fez falar tudo isso e ainda fica quieto?",
 	"pose": ""
 	},
 	{
 	"id": 51,
-	"character": "",
-	"msg": "",
+	"character": "Power(F)",
+	"msg": "Ah, quer saber? Não ligo.",
 	"pose": ""
 	},
 	{
 	"id": 52,
-	"character": "",
-	"msg": "",
+	"character": "Power(F)",
+	"msg": "...",
 	"pose": ""
 	},
 	{
 	"id": 53,
-	"character": "",
-	"msg": "",
+	"character": "Power(F)",
+	"msg": "Galera, a RG já vai começar, vamos para o Auditório 2!",
 	"pose": ""
 	},
 	{
 	"id": 54,
-	"character": "",
-	"msg": "",
+	"character": "Power(F)",
+	"msg": "Boas vindas.",
 	"pose": ""
 	},
 	{
 	"id": 55,
-	"character": "",
-	"msg": "",
+	"character": "Narrador",
+	"msg": "Ela dá de costas e vai embora.",
 	"pose": ""
 	},
 	{
@@ -352,80 +352,80 @@
 	},
 	{
 	"id": 58,
-	"character": "",
-	"msg": "",
+	"character": "Botz(F)",
+	"msg": "VOCÊ VEIO ME CONHECER!?",
 	"pose": ""
 	},
 	{
 	"id": 59,
-	"character": "",
-	"msg": "",
+	"character": "Botz(F)",
+	"msg": "QUE DEMAIS!",
 	"pose": ""
 	},
 	{
 	"id": 60,
-	"character": "",
-	"msg": "",
+	"character": "Power(F)",
+	"msg": "Pelo menos pare de gritar para se apresentar.",
 	"pose": ""
 	},
 	{
 	"id": 61,
-	"character": "",
-	"msg": "",
+	"character": "Power(F)",
+	"msg": "Vou deixar vocês a sós.",
 	"pose": ""
 	},
 	{
 	"id": 62,
-	"character": "",
-	"msg": "",
+	"character": "Botz(F)",
+	"msg": "Até mais!",
 	"pose": ""
 	},
 	{
 	"id": 63,
-	"character": "",
-	"msg": "",
+	"character": "Narrador",
+	"msg": "Power vai descansar os ouvidos em outro lugar.",
 	"pose": ""
 	},
 	{
 	"id": 64,
-	"character": "",
-	"msg": "",
+	"character": "Botz(F)",
+	"msg": "Bom, eu sou a Botz (F), grande prazer em te conhecer!",
 	"pose": ""
 	},
 	{
 	"id": 65,
-	"character": "",
-	"msg": "",
+	"character": "Botz(F)",
+	"msg": "Se você precisar de um ambiente animado, conta comigo!",
 	"pose": ""
 	},
 	{
 	"id": 66,
-	"character": "",
-	"msg": "",
+	"character": "Botz(F)",
+	"msg": "Mas saiba que da mesma forma que sou energética pro bem...",
 	"pose": ""
 	},
 	{
 	"id": 67,
-	"character": "",
-	"msg": "",
+	"character": "Botz(F)",
+	"msg": "Posso ser explosiva também.",
 	"pose": ""
 	},
 	{
 	"id": 68,
-	"character": "",
-	"msg": "",
+	"character": "Botz(F)",
+	"msg": "Não só no sentido emocional...",
 	"pose": ""
 	},
 	{
 	"id": 69,
-	"character": "",
-	"msg": "",
+	"character": "Botz(F)",
+	"msg": "Posso causar explosões também... literalmente...",
 	"pose": ""
 	},
 	{
 	"id": 70,
-	"character": "",
-	"msg": "",
+	"character": "Botz(F)",
+	"msg": "Enfim!",
 	"pose": ""
 	},
 	{
@@ -442,38 +442,38 @@
 	},
 	{
 	"id": 73,
-	"character": "",
-	"msg": "",
+	"character": "Botz(F)",
+	"msg": "Hahaha. Talvez um pouco.",
 	"pose": ""
 	},
 	{
 	"id": 74,
-	"character": "",
-	"msg": "",
+	"character": "Botz(F)",
+	"msg": "Mas desde que tenha controle e segurança, tudo bem causar um pouco de emoção!",
 	"pose": ""
 	},
 	{
 	"id": 75,
-	"character": "",
-	"msg": "",
+	"character": "Botz(F)",
+	"msg": "E não se preocupe! Estou aqui para garantir que as explosões sejam sempre divertidas, não destrutivas! ",
 	"pose": ""
 	},
 	{
 	"id": 76,
-	"character": "",
-	"msg": "",
+	"character": "???",
+	"msg": "Galera, a RG já vai começar, vamos para o Auditório 2!",
 	"pose": ""
 	},
 	{
 	"id": 77,
-	"character": "",
-	"msg": "",
+	"character": "Botz(F)",
+	"msg": "Ouvi falar que essa reunião vai ter uma explosão de alegria.",
 	"pose": ""
 	},
 	{
 	"id": 78,
-	"character": "",
-	"msg": "",
+	"character": "Botz(F)",
+	"msg": "Você vem?",
 	"pose": ""
 	},
 	{
@@ -490,38 +490,38 @@
 	},
 	{
 	"id": 81,
-	"character": "",
-	"msg": "",
+	"character": "Botz(F)",
+	"msg": "Ah, eu estava trabalhando agora a pouco.",
 	"pose": ""
 	},
 	{
 	"id": 82,
-	"character": "",
-	"msg": "",
+	"character": "Botz(F)",
+	"msg": "Você me verá frequentemente de EPI, já que temos vários projetos que exigem colocar a mão na massa!",
 	"pose": ""
 	},
 	{
 	"id": 83,
-	"character": "",
-	"msg": "",
+	"character": "Botz(F)",
+	"msg": "E é muito importante se manter seguro durante o processo!",
 	"pose": ""
 	},
 	{
 	"id": 84,
-	"character": "",
-	"msg": "",
+	"character": "Botz(F)",
+	"msg": "Galera, a RG já vai começar, vamos para o Auditório 2!",
 	"pose": ""
 	},
 	{
 	"id": 85,
-	"character": "",
-	"msg": "",
+	"character": "Botz(F)",
+	"msg": "Não esqueça de utilizar seu EPI para esta reunião bombástica!",
 	"pose": ""
 	},		
 	{
 	"id": 86,
-	"character": "",
-	"msg": "",
+	"character": "Botz(F)",
+	"msg": "Te vejo lá, trainee!",
 	"pose": ""
 	},
 	{
@@ -538,56 +538,56 @@
 	},
 	{
 	"id": 89,
-	"character": "",
-	"msg": "",
+	"character": "Botz(F)",
+	"msg": "Exagerada?",
 	"pose": ""
 	},
 	{
 	"id": 90,
-	"character": "",
-	"msg": "",
+	"character": "Botz(F)",
+	"msg": "...",
 	"pose": ""
 	},
 	{
 	"id": 91,
-	"character": "",
-	"msg": "",
+	"character": "Botz(F)",
+	"msg": "Eu sou só verdadeira!",
 	"pose": ""
 	},
 	{
 	"id": 92,
-	"character": "",
-	"msg": "",
+	"character": "Botz(F)",
+	"msg": "A vida é curta demais para não aproveitar cada momento com intensidade!",
 	"pose": ""
 	},
 	{
 	"id": 93,
-	"character": "",
-	"msg": "",
+	"character": "Botz(F)",
+	"msg": "Mas se prefere levar as coisas com mais calma...",
 	"pose": ""
 	},
 	{
 	"id": 94,
-	"character": "",
-	"msg": "",
+	"character": "Botz(F)",
+	"msg": "Também não há problema algum!",
 	"pose": ""
 	},
 	{
 	"id": 95,
-	"character": "",
-	"msg": "",
+	"character": "???",
+	"msg": "Galera, a RG já vai começar, vamos para o Auditório 2!",
 	"pose": ""
 	},
 	{
 	"id": 96,
-	"character": "",
-	"msg": "",
+	"character": "Botz(F)",
+	"msg": "A intensidade faz a vida mais interessante.",
 	"pose": ""
 	},		
 	{
 	"id": 97,
-	"character": "",
-	"msg": "",
+	"character": "Botz(F)",
+	"msg": "Vamos aproveitar essa reunião ao máximo!",
 	"pose": ""
 	},
 	{

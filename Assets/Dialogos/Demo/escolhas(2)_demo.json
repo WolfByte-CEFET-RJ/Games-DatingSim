@@ -64,30 +64,36 @@
 	"escolhaPcs1": 
 	[
 		{
+		"aju": 44,
+		"elimn": 64,
+		"msg": "Conhecer o da esquerda."
+		},
+		{
 		"aju": 0,
+		"elimn": 24,
 		"msg": ""
 		},
 		{
 		"aju": 0,
-		"msg": ""
-		},
-		{
-		"aju": 0,
+		"elimn": 24,
 		"msg": ""
 		}	
 	],
 	"escolhaPcs2": 
 	[
 		{
-		"aju": 0,
-		"msg": ""
+		"aju": 1,
+		"elimn": 17,
+		"msg": "Conhecer o da direita."
 		},
 		{
 		"aju": 2,
+		"elimn": 24,
 		"msg": ""
 		},
 		{
 		"aju": 3,
+		"elimn": 24,
 		"msg": ""
 		}	
 	],
