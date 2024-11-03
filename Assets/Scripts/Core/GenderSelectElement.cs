@@ -88,7 +88,7 @@ public class GenderSelectElement : MonoBehaviour
 
             // Ativa a próxima interface (inserir o nome)
             nameInput.SetActive(true);
-        }
+        }  
         else if(!genderSelected && selectedGender == null)
         {
             Debug.Log("No gender selected yet.");

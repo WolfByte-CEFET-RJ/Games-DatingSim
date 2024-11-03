@@ -38,7 +38,7 @@ public class NameManager : MonoBehaviour
 
             // Carrega a próxima cena
             // PrefabUtility.SaveAsPrefabAsset(player,"Assets/player.prefab")
-            GameManager.Instance.LoadNextScene("SampleScene");
+            GameManager.Instance.LoadNextScene("ner_scenes");
         }
     }
 }
