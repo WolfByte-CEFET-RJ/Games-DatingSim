@@ -5,58 +5,70 @@ using UnityEngine.UI;
 
 public class CharacterLeaveOnChoice : MonoBehaviour
 {
-    private const int characterCount = 2;
+    // Quantidade de personagens por tela
+    private const int characterCount = 4;
+
+    // Array com os personagens (0 é o mais à esquerda, 3 é o mais à direita)
     public GameObject[] characters = new GameObject[characterCount];
 
     private int screenWidth, track;
+    private float leftPos, rightPos;
 
-    // Velocidade da animação dos personagens saindo
-    private float speed = 400f;
-
-    // Valor para garantir que os objetos saíram completamente da tela antes de excluí-los
+    private float moveSpeed = 400f;
     private float borderOffset = 70f;
 
-    private void Awake()
-    {
+    // Quais personagens vão sair da tela (0 - Personagens da esquerda)
+    private int flag = 0;
+
+    private void Awake() {
+        leftPos = characters[0].transform.position.x;
+        rightPos = characters[3].transform.position.x;
         screenWidth = Camera.main.pixelWidth;
         gameObject.SetActive(false);
     }
 
-    public void OnClick()
-    {
-        gameObject.SetActive(true);
+    void Update() {
+        track = 0;
+
+        if (flag == 0) {
+            for (int i = 0; i < 2; i++) {
+                if (characters[i] != null) {
+                    characters[i].transform.position += Vector3.left * Time.deltaTime * moveSpeed;
+                    
+                    if (characters[i].transform.position.x < -borderOffset)
+                        Destroy(characters[i]);
+                } else
+                    track++;
+            }
+
+            if (characters[2].transform.position.x <= leftPos)
+                track++;
+            else
+                characters[2].transform.position += Vector3.left * Time.deltaTime * moveSpeed;
+        }
+        else {
+            for (int i = 2; i < characterCount; i++) {
+                if (characters[i] != null) {
+                    characters[i].transform.position += Vector3.right * Time.deltaTime * moveSpeed;
+
+                    if (characters[i].transform.position.x > screenWidth + borderOffset)
+                        Destroy(characters[i]);
+                } else
+                    track++;
+            }
+
+            if (characters[1].transform.position.x >= rightPos)
+                track++;
+            else
+                characters[1].transform.position += Vector3.right * Time.deltaTime * moveSpeed;
+        }
+
+        if (track == 3)
+            gameObject.SetActive(false);
     }
 
-    void Update()
-    {
-        track = 0;
-        for (int i = 0; i < characterCount; i++)
-        {
-            if (characters[i] == null)
-            {
-                track++;
-
-                if (track == characterCount)
-                {
-                    Destroy(gameObject);
-                    break;
-                }
-                else continue;
-            }
-
-            if (characters[i].transform.position.x < screenWidth / 2)
-            {
-                characters[i].transform.position += Vector3.left * Time.deltaTime * speed;
-
-                if (characters[i].transform.position.x < -borderOffset)
-                    Destroy(characters[i]);
-            } else
-            {
-                characters[i].transform.position += Vector3.right * Time.deltaTime * speed;
-
-                if (characters[i].transform.position.x > screenWidth + borderOffset)
-                    Destroy(characters[i]);
-            }
-        }
+    public void Move(int flag) {
+        this.flag = flag;
+        gameObject.SetActive(true);
     }
 }
