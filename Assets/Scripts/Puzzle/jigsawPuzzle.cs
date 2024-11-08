@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using TMPro;
 
 public class jigsawPuzzle : MonoBehaviour{
 [Header("Game Elements")]
@@ -9,9 +10,12 @@ public class jigsawPuzzle : MonoBehaviour{
 [SerializeField] private Transform gameHolder;
 [SerializeField] private Transform piecePrefab;
 
+[SerializeField] private float var;
 [SerializeField] private Texture2D imageTexture;
 [SerializeField] private Transform mainImage;
 [SerializeField] private Camera camera;
+[SerializeField] private float remainingTime;
+[SerializeField] private TextMeshProUGUI timerText;
 
 private List<Transform> pieces;
 private Vector2Int dimensions; 
@@ -41,10 +45,10 @@ private Transform draggingPiece = null;
         float borderz = 0.0f; //deixar borda sempre atrás das peças
 
         //dimensionando borda
-        line.SetPosition(0, new Vector3(-halfWidth, halfHeight, borderz));
-        line.SetPosition(1, new Vector3(halfWidth, halfHeight, borderz));
-        line.SetPosition(2, new Vector3(halfWidth, -halfHeight, borderz));
-        line.SetPosition(3, new Vector3(-halfWidth, -halfHeight, borderz));
+        line.SetPosition(0, new Vector3(-halfWidth+var, halfHeight, borderz));
+        line.SetPosition(1, new Vector3(halfWidth+var, halfHeight, borderz));
+        line.SetPosition(2, new Vector3(halfWidth+var, -halfHeight, borderz));
+        line.SetPosition(3, new Vector3(-halfWidth+var, -halfHeight, borderz));
 
         //altera tamanho da borda
         line.startWidth = 0.1f;
@@ -62,12 +66,12 @@ private Transform draggingPiece = null;
         float pieceWidth = width * gameHolder.localScale.x;
         float pieceHeight = height * gameHolder.localScale.y;
 
-        orthoHeight = orthoHeight -= pieceHeight/2; //ajusta tamanhos para peças caberem na tela
-        orthoWidth = orthoWidth -= pieceWidth/2;
+        orthoHeight -= (pieceHeight/2 + pieceHeight/6); //ajusta tamanhos para peças caberem na tela
+        orthoWidth -= (pieceWidth/2 + pieceWidth/8);
 
         //espalhar peças de forma aleatória
         foreach (Transform piece in pieces){
-            float x = Random.Range(-orthoWidth, orthoWidth);
+            float x = Random.Range(-orthoWidth, -orthoWidth/3);
             float y = Random.Range(-orthoHeight, orthoHeight);
             piece.position = new Vector3(x, y, -1);
         }
@@ -143,9 +147,23 @@ private Transform draggingPiece = null;
         return dimensions;
     }
 
+    /*void Temporizer(){
+        if(remainingTime > 0){
+            remainingTime -= Time.deltaTime;
+        }
+        else{
+            remainingTime = 0;
+        }
+        remainingTime -= Time.deltaTime;
+        int minutes = Mathf.FloorToInt(remainingTime / 60);
+        int seconds = Mathf.FloorToInt(remainingTime % 60);
+        timerText.text = string.Format("{0:00}:{1:00}", minutes, seconds);
+    }*/
+
     // Update is called once per frame
     void Update()
     {
+        //Temporizer();
         if(Input.GetMouseButtonDown(0)){ //permite reconhecer objeto que mouse toca
             RaycastHit2D hit = Physics2D.Raycast(Camera.main.ScreenToWorldPoint(Input.mousePosition), Vector2.zero);
             if(hit){
