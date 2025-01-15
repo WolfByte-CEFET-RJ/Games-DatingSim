@@ -7,21 +7,22 @@ public class Scenery : MonoBehaviour
     /* Para os arrays: P = 0, F = 1, S = 3, M = 4 */
 
     // Atualizar com o conjunto de strings para cada local
-    private string[][] strings = {
-        {"String PC 1", "String PC 2", "String PC 3", "String PC 4"},
-        {"String Flip 1", "String Flip 2", "String Flip 3", "String Flip 4"},
-        {"String Solda 1", "String Solda 2", "String Solda 3", "String Solda 4"},
-        {"String Mesa 1", "String Mesa 2", "String Mesa 3", "String Mesa 4"}
+    private string[][] strings = new string[][]
+    {
+        new string[]{"String PC 1", "String PC 2", "String PC 3", "String PC 4"},
+        new string[]{"String Flip 1", "String Flip 2", "String Flip 3", "String Flip 4"},
+        new string[]{"String Solda 1", "String Solda 2", "String Solda 3", "String Solda 4"},
+        new string[]{"String Mesa 1", "String Mesa 2", "String Mesa 3", "String Mesa 4"}
     };
 
     // Colocar o sprite do objeto da cena a mudar de imagem baseado no cenário
     public SpriteRenderer spriteRenderer;
 
     // Colocar as imagens a serem usadas para cada local
-    public Sprite[4] images;
+    public Sprite[] images = new Sprite[4];
 
     // Colocar os sets de dialogo para cada local
-    public GameObject[4] dialogueSets;
+    public GameObject[] dialogueSets = new GameObject[4];
 
     // Conjunto ativo de falas
     private GameObject currentDialogueSet;
