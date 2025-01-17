@@ -84,7 +84,7 @@ private Transform draggingPiece = null;
         int col = pieceIdx % dimensions.x;
         int row = pieceIdx / dimensions.x;
 
-        Vector2 targetPosition = new((-width * dimensions.x / 2) + (width * col) + (width/2),
+        Vector2 targetPosition = new((-width * dimensions.x / 2) + (width * col) + (width/2) + var,
                                     (-height * dimensions.y / 2) + (height * row) + (height/2)); //guarda posição final da peça
 
         if(Vector2.Distance(draggingPiece.localPosition, targetPosition) < (width/2)){ //define espaço para aceitar o encaixe da peça
@@ -162,26 +162,44 @@ private Transform draggingPiece = null;
 
     // Update is called once per frame
     void Update()
-    {
-        //Temporizer();
-        if(Input.GetMouseButtonDown(0)){ //permite reconhecer objeto que mouse toca
-            RaycastHit2D hit = Physics2D.Raycast(Camera.main.ScreenToWorldPoint(Input.mousePosition), Vector2.zero);
-            if(hit){
-                draggingPiece = hit.transform;
-                offset = draggingPiece.position - Camera.main.ScreenToWorldPoint(Input.mousePosition);
-                draggingPiece.position += Vector3.back;
-            }
-        }
-            if(draggingPiece && Input.GetMouseButtonUp(0)){
-                Snap();
-                draggingPiece.position += Vector3.forward;
-                draggingPiece = null;
-            }
+{
+    // Calcula dimensões da câmera ortográfica
+    float orthoHeight = Camera.main.orthographicSize; // Altura da câmera (metade)
+    float camAspect = (float)Screen.width / Screen.height; // Proporção largura/altura
+    float orthoWidth = camAspect * orthoHeight; // Largura da câmera (metade)
 
-            if(draggingPiece){ //permite mover objeto com mouse
-                Vector3 newPosition = Camera.main.ScreenToWorldPoint(Input.mousePosition) + offset;
-                newPosition.z = draggingPiece.position.z;
-                draggingPiece.position = newPosition;
-            }
+    // Posição do mouse no mundo
+    Vector3 mousePosition = Camera.main.ScreenToWorldPoint(Input.mousePosition);
+
+    // Arrastar a peça ao clicar
+    if (Input.GetMouseButtonDown(0))
+    {
+        RaycastHit2D hit = Physics2D.Raycast(Camera.main.ScreenToWorldPoint(Input.mousePosition), Vector2.zero);
+
+        if (hit)
+        {
+            draggingPiece = hit.transform; // Seleciona o objeto
+            offset = draggingPiece.position - mousePosition; // Calcula offset
+            draggingPiece.position += Vector3.back; // Move para frente na camada
+        }
     }
+
+    // Soltar a peça ou verificar limites
+    if (draggingPiece != null)
+    {
+        // Atualiza posição da peça com o mouse
+        draggingPiece.position = mousePosition + offset;
+
+        // Verifica os limites da câmera
+        if (mousePosition.x - 1 < -orthoWidth || mousePosition.x + 1 > orthoWidth ||
+            mousePosition.y - 1 < -orthoHeight || mousePosition.y + 1 > orthoHeight ||
+            Input.GetMouseButtonUp(0))
+        {
+            Snap(); // Ajusta a posição da peça
+            draggingPiece.position += Vector3.forward; // Restaura profundidade
+            draggingPiece = null; // Reseta a peça sendo arrastada
+        }
+    }
+}
+
 }
