@@ -5,11 +5,11 @@ using UnityEngine;
 public class conversa : MonoBehaviour
 {
     DialogueSystem ds;
-    TextArchitect architect;
-    TextArchitectPlayer architectPlayer;
+    TextArchitect2 architect;
+    TextArchitectPlayer2 architectPlayer;
     private GameObject balao;
-    public TextArchitect.BuildMethod bm = TextArchitect.BuildMethod.instant;
-    public TextArchitectPlayer.BuildMethod bmp = TextArchitectPlayer.BuildMethod.instant;
+    public TextArchitect2.BuildMethod bm = TextArchitect2.BuildMethod.instant;
+    public TextArchitectPlayer2.BuildMethod bmp = TextArchitectPlayer2.BuildMethod.instant;
 
     public TextAsset JSONMesa,JSONPcs,JSONSolda,JSONFlip, JSONEscolha;
     string longLine;
@@ -43,8 +43,8 @@ public class conversa : MonoBehaviour
     void Start()
     {
         ds = DialogueSystem.instance;
-        architect = new TextArchitect(ds.dialogueContainer.dialogueText);
-        architectPlayer = new TextArchitectPlayer(ds.dialogueContainer.nameText);
+        architect = new TextArchitect2(ds.dialogueContainer.dialogueText);
+        architectPlayer = new TextArchitectPlayer2(ds.dialogueContainer.nameText);
         architectPlayer.speed = 1f;
         architect.speed = 0.5f;
         ids = 1;
@@ -58,6 +58,11 @@ public class conversa : MonoBehaviour
         longLine = lista_de_falas.fala[ids].msg;
         name = lista_de_falas.fala[ids].character;
         indexa = lista_de_falas.fala[ids].indexa;
+
+        if(select == 'N')
+        {
+            return;
+        }
 
         if (indexa != 0)
         {
