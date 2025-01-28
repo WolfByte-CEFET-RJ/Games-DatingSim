@@ -187,18 +187,19 @@ private Transform draggingPiece = null;
     // Soltar a peça ou verificar limites
     if (draggingPiece != null)
     {
-        // Atualiza posição da peça com o mouse
         draggingPiece.position = mousePosition + offset;
 
-        // Verifica os limites da câmera
-        if (mousePosition.x - 1 < -orthoWidth || mousePosition.x + 1 > orthoWidth ||
-            mousePosition.y - 1 < -orthoHeight || mousePosition.y + 1 > orthoHeight ||
-            Input.GetMouseButtonUp(0))
-        {
-            Snap(); // Ajusta a posição da peça
-            draggingPiece.position += Vector3.forward; // Restaura profundidade
-            draggingPiece = null; // Reseta a peça sendo arrastada
-        }
+            Vector3 clampedPosition = draggingPiece.position;
+            clampedPosition.x = Mathf.Clamp(clampedPosition.x, -orthoWidth + (width / 2), orthoWidth - (width / 2));
+            clampedPosition.y = Mathf.Clamp(clampedPosition.y, -orthoHeight + (height / 2), orthoHeight - (height / 2));
+            draggingPiece.position = clampedPosition;
+
+            if (Input.GetMouseButtonUp(0))
+            {
+                Snap();
+                draggingPiece.position += Vector3.forward;
+                draggingPiece = null;
+            }
     }
 }
 
