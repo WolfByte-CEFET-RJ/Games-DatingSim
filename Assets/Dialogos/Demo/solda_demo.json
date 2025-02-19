@@ -22,19 +22,19 @@
 	"id": 3,
 	"character": "Social(F)",
 	"msg": "Oi, trainee!",
-	"pose": "SocialFnormal"
+	"pose": "normal"
 	},
 	{
 	"id": 4,
 	"character": "Social(F)",
 	"msg": "Que bom te ver aqui!",
-	"pose": "SocialFfeliz"
+	"pose": "feliz"
 	},
 	{
 	"id": 5,
 	"character": "Gestão(M)",
 	"msg": "Ah! Então é você de que tanto falam.",
-	"pose": "GestaoMfeliz"
+	"pose": "feliz"
 	},
 	{
 	"id": 6,
@@ -52,7 +52,7 @@
 	"id": 8,
 	"character": "Social(F)",
 	"msg": "Que nada!",
-	"pose": "SocialFnormal"
+	"pose": "normal"
 	},
 	{
 	"id": 9,
@@ -64,7 +64,7 @@
 	"id": 10,
 	"character": "Gestão(M)",
 	"msg": "É, não estamos trabalhando no momento.",
-	"pose": "GestaoMneutro"
+	"pose": "normal"
 	},
 	{
 	"id": 11,
@@ -76,7 +76,7 @@
 	"id": 12,
 	"character": "Social(F)",
 	"msg": "Gostaria de ver o local?",
-	"pose": "SocialFfeliz"
+	"pose": "feliz"
 	},
 	{
 	"id": 13,
@@ -88,19 +88,19 @@
 	"id": 14,
 	"character": "Gestão(M)",
 	"msg": "Ah, sim!?",
-	"pose": "Gestaosurpreso1"
+	"pose": "surpreso"
 	},
 	{
 	"id": 15,
 	"character": "Social(F)",
 	"msg": "Que fofo!",
-	"pose": "SocialFfeliz"
+	"pose": "feliz"
 	},
 	{
 	"id": 16,
 	"character": "Social(F)",
 	"msg": "Quem seria?",
-	"pose": "Socalnormal"
+	"pose": "normal"
 	},
 	{
 	"id": 17,
@@ -118,25 +118,25 @@
 	"id": 19,
 	"character": "Gestão(M)",
 	"msg": "Você quer saber mais sobre mim?",
-	"pose": "Socialtimido1"
+	"pose": "timido"
 	},
 	{
 	"id": 20,
 	"character": "Gestão(M)",
 	"msg": "Ah… Q-que honra…",
-	"pose": "SocialFfeliz3"
+	"pose": "feliz"
 	},
 	{
 	"id": 21,
 	"character": "Social(F)",
 	"msg": "Oh, nesse caso vou deixá-los a sós!",
-	"pose": "Gestaosurpresafeliz"
+	"pose": "surpresafeliz"
 	},
 	{
 	"id": 22,
 	"character": "Social(F)",
 	"msg": "Até logo! ",
-	"pose": "SocialFfeliz"
+	"pose": "feliz"
 	},
 	{
 	"id": 23,
@@ -148,37 +148,37 @@
 	"id": 24,
 	"character": "Gestão(M)",
 	"msg": "Bom.. Eu sou o Gestão(M)",
-	"pose": "Gestaoneutro"
+	"pose": "normal"
 	},
 	{
 	"id": 25,
 	"character": "Gestão(M)",
 	"msg": "Sou um pouco tímido, mas bem responsável também.",
-	"pose": "Gestaofeliz1"
+	"pose": "feliz"
 	},
 	{
 	"id": 26,
 	"character": "Gestão(M)",
 	"msg": "Então no profissional talvez não seja tão perceptível.",
-	"pose": "Gestaoneutro"
+	"pose": "normal"
 	},
 	{
 	"id": 27,
 	"character": "Gestão(M)",
 	"msg": "Maaas costumam me chamar de quieto…",
-	"pose": "Gestaosurpreso1"
+	"pose": "surpreso"
 	},
 	{
 	"id": 28,
 	"character": "Gestão(M)",
 	"msg": "e de certinho, porque me atento às regras…",
-	"pose": "Gestaoserio"
+	"pose": "serio"
 	},
 	{
 	"id": 29,
 	"character": "Gestão(M)",
 	"msg": "o que na verdade ajuda bastante no quesito organização!",
-	"pose": "Gestaofeliz1"
+	"pose": "feliz"
 	},
 	{
 	"id": 30,
@@ -196,31 +196,31 @@
 	"id": 32,
 	"character": "Gestão(M)",
 	"msg": "...",
-	"pose": "Gestaosurpresotimido1"
+	"pose": "surpresotimido"
 	},
 	{
 	"id": 33,
 	"character": "Gestão(M)",
 	"msg": "Bom...",
-	"pose": "Gestaoneutro"
+	"pose": "normal"
 	},
 	{
 	"id": 34,
 	"character": "Gestão(M)",
 	"msg": "Acho uma boa ideia você ver por si.",
-	"pose": "Gestaofeliz1"
+	"pose": "feliz"
 	},
 	{
 	"id": 35,
 	"character": "Gestão(M)",
 	"msg": "E depois me fala se manteve a opinião",
-	"pose": "Gestaopiscando1"
+	"pose": "piscando"
 	},
 	{
 	"id": 36,
 	"character": "Gestão(M)",
 	"msg": "Saiba que gosto de críticas construtivas.",
-	"pose": "Gestaofeliz2"
+	"pose": "feliz"
 	},
 	{
 	"id": 37,
@@ -233,13 +233,13 @@
 	"id": 38,
 	"character": "Gestão(M)",
 	"msg": "Bem, foi um prazer!",
-	"pose": "Gestaoneutro"
+	"pose": "normal"
 	},
 	{
 	"id": 39,
 	"character": "Gestão(M)",
 	"msg": "Espero que possamos trocar mais ideias.",
-	"pose": "Gestaofeliz1"
+	"pose": "feliz"
 	},
 	{
 	"id": 40,
@@ -281,8 +281,8 @@
 	{
 	"id": 46,
 	"character": "",
-	"msg": "",
-	"pose": "Então mesmo quando me sentir tímido, tento superar essa inibição e me conectar com os outros!"
+	"msg": "Então mesmo quando me sentir tímido, tento superar essa inibição e me conectar com os outros!",
+	"pose": ""
 	},
 	{
 	"id": 47,
@@ -294,7 +294,7 @@
 	"id": 48,
 	"character": "Gestão(M)",
 	"msg": "Esse é o chamado para deixar a timidez de lado.",
-	"pose": ""
+	"pose": "piscando"
 	},
 	{
 	"id": 49,
@@ -318,13 +318,13 @@
 	"id": 52,
 	"character": "Gestão(M)",
 	"msg": "Oi!?",
-	"pose": "Gestaosurpreso1"
+	"pose": "surpreso"
 	},
 	{
 	"id": 53,
 	"character": "Gestão(M)",
 	"msg": " Quem te disse isso?",
-	"pose": "Gestaoirritado"
+	"pose": "irritado"
 	},
 	{
 	"id": 54,
@@ -354,13 +354,13 @@
 	"id": 58,
 	"character": "Gestão(M)",
 	"msg": "Espero que tenha entendido minha visão.",
-	"pose": "Gestaoirritado"
+	"pose": "irritado"
 	},
 	{
 	"id": 59,
 	"character": "Gestão(M)",
 	"msg": "Melhor irmos agora.",
-	"pose": "Gestaoserio"
+	"pose": "serio"
 	},
 	{
 	"id": 60,

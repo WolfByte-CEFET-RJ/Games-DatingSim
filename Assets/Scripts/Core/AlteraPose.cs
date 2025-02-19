@@ -12,6 +12,9 @@ public class AlteraPose : MonoBehaviour
     public string personagem, pose;
     public string personagem1, pose1;
 
+    public CharacterItem currentCharacter;
+
+    private Image currentSprite;
     void Start()
     {
         ds = DialogueSystem.instance;
@@ -56,68 +59,80 @@ public class AlteraPose : MonoBehaviour
     {
         personagem = GeradorDialogos.personagem;
         pose = GeradorDialogos.pose;
+        currentCharacter = CharacterImageContr.instance.selectCharByName(personagem);
+        currentSprite = getCurrentSprite(personagem);
         claridade(personagem);
-        Personagempose(pose,personagem);
+        if(pose != "" && currentSprite != null)
+        {
+            Personagempose(pose, personagem);
+        }
     }
 
     void Personagempose(string pose1, string personagem1)
     {
-        switch (personagem1)
+        currentSprite.sprite = currentCharacter.getPoseByName(pose1);
+    }
+    Image getCurrentSprite(string nam)
+    {
+        switch (nam)
         {
             case "":
-                break;
+                return null;
             case "Narrador":
-                break;
+                return null;
+
             case "Botz(F)":
-                switch (pose1)
-                {
-                    case "Power":
-                        //IBotzF.sprite = Resources.Load<Sprite>("Personagens/Power");
-                        break;
-                }
-                break;
+                return IBotzF;
+
             case "Botz(M)":
-                break;
+                return IBotzM;
+
             case "Byte(F)":
-                break;
+                return IByteF;
+
             case "Byte(M)":
-                break;
+                return IByteM;
+
             case "Power(F)":
-                break;
+                return IPowerF;
+
             case "Power(M)":
-                break;
+                return IPowerM;
+
             case "Rocket(F)":
-                break;
+                return IRocketF;
+
             case "Rocket(M)":
-                break;
+                return IRocketM;
+
             case "Social(F)":
-                switch (pose1)
-                {
-                    case "SocialFnormal":
-                        ISocialF.sprite = Resources.Load<Sprite>("Personagens/Social/SocialFnormal");
-                        break;
-                    case "SocialFfeliz":
-                        ISocialF.sprite = Resources.Load<Sprite>("Personagens/Social/SocialFfeliz");
-                        break;
-                }
-                break;
+                return ISocialF;
+
             case "Social(M)":
-                break;
+                return ISocialM;
+
             case "Wie(F)":
-                break;
+                return IWieF;
+
             case "Wie(M)":
-                break;
+                return IWieM;
+
             case "Gestão(F)":
-                break;
+                return IGestaoF;
+
             case "Gestão(M)":
-                break;
+                return IGestaoM;
+
             case "Marketing(F)":
-                break;
+                return IMarketingF;
+
             case "Marketing(M)":
-                break;
+                return IMarketingM;
+
+            default:
+                return null;
         }
     }
-
     void claridade(string mud)
     {
         switch (mud)
