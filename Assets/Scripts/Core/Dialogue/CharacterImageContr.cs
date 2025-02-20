@@ -8,6 +8,7 @@ public class CharacterImageContr : MonoBehaviour
     [Header("Items")]
     [SerializeField] private CharacterItem socialF;
     [SerializeField] private CharacterItem gestaoM;
+    [SerializeField] private CharacterItem botzF;
     Dictionary<string, CharacterItem> dictCharacter;
 
 
@@ -19,6 +20,7 @@ public class CharacterImageContr : MonoBehaviour
         {
             {"Social(F)", socialF},
             {"Gestão(M)", gestaoM},
+            {"Botz(F)", botzF},
             {"Narrador", null},
             {"Trainee", null}, 
             //Adicione os outros personagens gradualmente

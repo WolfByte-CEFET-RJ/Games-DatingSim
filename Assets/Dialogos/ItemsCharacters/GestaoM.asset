@@ -12,5 +12,5 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 44e72071e0b2a924ebff4008e8e03e29, type: 3}
   m_Name: GestaoM
   m_EditorClassIdentifier: 
-  feliz: {fileID: 0}
-  normal: {fileID: 0}
+  feliz: {fileID: 21300000, guid: 51f4d4960ca9bc549a4527857fae72d0, type: 3}
+  normal: {fileID: 21300000, guid: 51f4d4960ca9bc549a4527857fae72d0, type: 3}

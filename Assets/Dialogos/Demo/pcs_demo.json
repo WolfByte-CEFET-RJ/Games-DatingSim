@@ -10,7 +10,7 @@
 	"id": 1,
 	"character": "Botz(F)",
 	"msg": "EU TÔ QUASE CHEGANDO NA LAGUR BERNSTEIN!",
-	"pose": ""
+	"pose": "feliz"
 	},
 	{
 	"id": 2,
@@ -22,7 +22,7 @@
 	"id": 3,
 	"character": "Botz(F)",
 	"msg": "NÃO ENCHE, POWER!",
-	"pose": ""
+	"pose": "normal"
 	},
 	{
 	"id": 4,
@@ -40,7 +40,7 @@
 	"id": 6,
 	"character": "Botz(F)",
 	"msg": "SÉRIO? EI, VOCÊ É O TRAINEE NOVO? QUE EMOÇÃO!",
-	"pose": ""
+	"pose": "feliz"
 	},
 	{
 	"id": 7,
