@@ -7,6 +7,13 @@ public class CharacterItem : ScriptableObject
 {
     public Sprite feliz;
     public Sprite normal;
+    public Sprite surpresaTriste;
+    public Sprite surpresaFeliz;
+    public Sprite raiva;
+    public Sprite raivaVergonha;
+    public Sprite nojo;
+    public Sprite desprezo;
+    public Sprite confusa;
 
     public Dictionary<string, Sprite> dictImages;
 
@@ -16,6 +23,13 @@ public class CharacterItem : ScriptableObject
         {
             {"feliz", feliz},
             {"normal", normal},
+            {"surpresaTriste", surpresaTriste},
+            {"surpresaFeliz", surpresaFeliz},
+            {"raiva", raiva},
+            {"raivaVergonha", raivaVergonha},
+            {"nojo", nojo},
+            {"desprezo", desprezo},
+            {"confusa", confusa},
         };
     }
 

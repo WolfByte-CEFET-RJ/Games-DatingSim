@@ -14,3 +14,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   feliz: {fileID: 21300000, guid: 987340bdd65fa13448bc520b079ad328, type: 3}
   normal: {fileID: 21300000, guid: fad120930661a2a4cae098dfe1b4ceea, type: 3}
+  surpresaTriste: {fileID: 21300000, guid: b574a89a97a2a154faecf826a1331eb3, type: 3}
+  surpresaFeliz: {fileID: 21300000, guid: 019db0cf8fe38224299b2e4cf9f62a28, type: 3}
+  raiva: {fileID: 21300000, guid: 35c2a82045723f546ad1e3a8372f69ea, type: 3}
+  raivaVergonha: {fileID: 21300000, guid: 9425f47dec20ed64a9385ff8593f4207, type: 3}
+  nojo: {fileID: 21300000, guid: d50ba020b2d86f94fb8e978c6c1d33de, type: 3}
+  desprezo: {fileID: 21300000, guid: 63d346c199e18eb428bea7f794342127, type: 3}
+  confusa: {fileID: 21300000, guid: e3230febcc7428c4eafbf06d65132a00, type: 3}
