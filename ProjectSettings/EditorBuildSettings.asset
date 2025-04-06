@@ -20,4 +20,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/ner_scenes.unity
     guid: e1ace9f7023a1cb42a1ee1ae94b111ba
+  - enabled: 1
+    path: Assets/Scenes/WordSearch.unity
+    guid: 43414dfff446ddf4eae7956c951567c8
   m_configObjects: {}

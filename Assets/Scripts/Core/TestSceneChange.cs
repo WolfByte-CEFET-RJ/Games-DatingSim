@@ -5,7 +5,7 @@ using UnityEngine.SceneManagement;
 
 public class TestSceneChange : MonoBehaviour
 {
-    private int counter;
+    public int counter;
 
     // Start is called before the first frame update
     void Start()
@@ -19,9 +19,11 @@ public class TestSceneChange : MonoBehaviour
         counter += 1;
 
         if (counter == 600) {
-            SceneManager.LoadScene("WordSearch", LoadSceneMode.Additive);
+            //Debug.Log("Word Seacher is on");
+            SceneManager.LoadSceneAsync("WordSearch", LoadSceneMode.Additive);
         }
         if (counter == 6000) {
+            //Debug.Log("Word Seacher is off");
             SceneManager.UnloadSceneAsync("WordSearch");
         }
 
