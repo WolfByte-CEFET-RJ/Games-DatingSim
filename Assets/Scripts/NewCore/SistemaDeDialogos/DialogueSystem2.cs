@@ -3,11 +3,11 @@ using System.Collections.Generic;
 using UnityEngine;
 using TMPro;
 
-public class DialogueSystem : MonoBehaviour
+public class DialogueSystem2 : MonoBehaviour
     {
-        public DialogueContainer dialogueContainer = new DialogueContainer();
+        public DialogueContainer2 dialogueContainer2 = new DialogueContainer2();
 
-        public static DialogueSystem instance;
+        public static DialogueSystem2 instance;
 
         private void Awake()
         {

@@ -26,7 +26,6 @@ using UnityEngine.SceneManagement;
         public char select, elim;
         string longLine;
         string name;
-        string BoF, BoM, ByM, ByF;
         public int id_pose;
         public static string pose;
         public static string personagem;
@@ -126,10 +125,11 @@ using UnityEngine.SceneManagement;
             pose = lista_de_falas.fala[id_pose].pose;
             personagem = lista_de_falas.fala[id_pose].character;
 
-            if(id_fala == fim || id_fala == fim1 || id_fala == fim2 || id_fala == fim3 || id_fala == fim4)
+            //Loudar nova cena.
+            /*if(id_fala == fim || id_fala == fim1 || id_fala == fim2 || id_fala == fim3 || id_fala == fim4)
             {
                 PlayGame();
-            }
+            }*/
 
 
 
@@ -217,10 +217,10 @@ using UnityEngine.SceneManagement;
             
         }
 
-        public void PlayGame()
+        /*public void PlayGame()
         {
             SceneManager.LoadScene("Demo", LoadSceneMode.Single);
-        }
+        }*/
 
         void selet(char elem)
         {

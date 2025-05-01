@@ -8,53 +8,57 @@
 	},
 	{
 	"id": 1,
-	"character": "Narrador",
+	"character": "Botz(F)",
 	"msg": "Há muito barulho vindo do fliperama.",
-	"pose": ""
+	"pose": "feliz"
 	},
 	{
 	"id": 2,
 	"character": "Botz(F)",
 	"msg": "ISSO FICA PRONTO NUNCA NÃO?!",
-	"pose": "feliz"
+	"pose": "normal"
 	},
     {
 	"id": 3,
-	"character": "Narrador",
+	"character": "Byte(M)",
 	"msg": "Uma voz sai de trás do fliperama.",
-	"pose": ""
+	"pose": "feliz"
 	},
 	{
 	"id": 4,
-	"character": "???",
+	"character": "Byte(M)",
 	"msg": "Já estou terminando, não enche o saco.",
-	"pose": ""
+	"pose": "normal"
 	},
 	{
 	"id": 5,
 	"character": "Byte(F)",
-	"msg": "ç(>_<)",
+	"msg": "Yaaaay!! Eu disse que gostariam dele, Byte(M)!!",
 	"pose": "feliz"
 	},
 	{
 	"id": 6,
-	"character": "Botz(M)",
-	"msg": "Não precisa dessa pressa toda, Botz(F)."
+	"character": "Byte(F)",
+	"msg": "Não precisa dessa pressa toda, Botz(F).",
+	"pose": "normal"
 	},
 	{
 	"id": 7,
-	"character": "Byte(F)",
-	"msg": "Não esquece de add nosso new game~! ⸜(｡˃ ᵕ ˂ )⸝"
+	"character": "Botz(M)",
+	"msg": "Não esquece de add nosso new game~! ⸜(｡˃ ᵕ ˂ )⸝",
+	"pose": "feliz"
 	},
 	{
 	"id": 8,
-	"character": "Botz(F)",
-	"msg": " ESPERO QUE OS JOGOS DE QUEEN OF FIGHTER ESTEJAM FUNCIONANDO!"
+	"character": "Botz(M)",
+	"msg": " ESPERO QUE OS JOGOS DE QUEEN OF FIGHTER ESTEJAM FUNCIONANDO!",
+	"pose": "normal"
 	},
 	{
 	"id": 9,
-	"character": "???",
-	"msg": "Está pronto."
+	"character": "Botz(M)",
+	"msg": "Está pronto.",
+	"pose": "feliz"
 	},
 	{
 	"id": 10,
