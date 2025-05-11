@@ -47,6 +47,7 @@ public class Buttons : MonoBehaviour
     string longLine;
     string lingLine;
     string lengLine;
+    public CharacterItem character;
 
 
     private void Awake()

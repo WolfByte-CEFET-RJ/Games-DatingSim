@@ -14,6 +14,7 @@ public class CharacterItem : ScriptableObject
     public Sprite nojo;
     public Sprite desprezo;
     public Sprite confusa;
+    public float afeicao;
 
     public Dictionary<string, Sprite> dictImages;
 
@@ -39,7 +40,7 @@ public class CharacterItem : ScriptableObject
         {
             return dictImages[pose];
         }
-        Debug.LogError("Sprite a adicionar nesse dicionário: " + pose);
+        Debug.LogError("Sprite a adicionar nesse dicionï¿½rio: " + pose);
         return normal;
 
     }
