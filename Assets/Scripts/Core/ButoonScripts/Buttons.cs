@@ -8,7 +8,7 @@ public class Buttons : MonoBehaviour
     [SerializeField] private Button b1, b2, b3;
     public static bool doma;
     public static int ajustesc;
-    private int alt;
+    private static int alt;
 
     [System.Serializable]
     public class Fala
@@ -80,9 +80,7 @@ public class Buttons : MonoBehaviour
                 lengLine = lista_de_falas.escolhaMesa3[id_fala].msg;
                 bot = lista_de_falas.escolhaMesa1[id_fala].aju;
                 bye = lista_de_falas.escolhaMesa2[id_fala].aju;
-                wie = lista_de_falas.escolhaMesa3[id_fala].aju;
-                
-                id_fala = id_fala + 0;
+                wie = lista_de_falas.escolhaMesa3[id_fala].aju;                
                 break;
             case 'F':
                 longLine = lista_de_falas.escolhaFlip1[id_fala].msg;
@@ -92,7 +90,6 @@ public class Buttons : MonoBehaviour
                 bye = lista_de_falas.escolhaFlip2[id_fala].aju;
                 wie = lista_de_falas.escolhaFlip3[id_fala].aju;
 
-                id_fala = id_fala + 0;
                 break;
             case 'S':
                 longLine = lista_de_falas.escolhaSolda1[id_fala].msg;
@@ -102,7 +99,6 @@ public class Buttons : MonoBehaviour
                 bye = lista_de_falas.escolhaSolda2[id_fala].aju;
                 wie = lista_de_falas.escolhaSolda3[id_fala].aju;
 
-                id_fala = id_fala + 0;
                 break;
             case 'P':
                 longLine = lista_de_falas.escolhaPcs1[id_fala].msg;
@@ -111,10 +107,11 @@ public class Buttons : MonoBehaviour
                 bot = lista_de_falas.escolhaPcs1[id_fala].aju;
                 bye = lista_de_falas.escolhaPcs2[id_fala].aju;
                 wie = lista_de_falas.escolhaPcs3[id_fala].aju;
-
-                id_fala = id_fala + 0;
                 break;
+            default:
+                break;                
         }
+
 
         architectb1.Build(longLine);
         architectb2.Build(lingLine);

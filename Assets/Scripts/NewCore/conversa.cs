@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class conversa : MonoBehaviour
 {
-    DialogueSystem2 ds;
+    DialogueSystem ds;
     TextArchitect2 architect;
     TextArchitectPlayer2 architectPlayer;
     private GameObject balao;
@@ -24,7 +24,7 @@ public class conversa : MonoBehaviour
         public int id;
         public int indexa;
         public int nescolhas;
-        public string chara;
+        public string character;
         public string msg;
         public string pose;
     }
@@ -42,21 +42,21 @@ public class conversa : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        ds = DialogueSystem2.instance;
-        architect = new TextArchitect2(ds.dialogueContainer2.dialogueText);
-        architectPlayer = new TextArchitectPlayer2(ds.dialogueContainer2.nameText);
+        ds = DialogueSystem.instance;
+        architect = new TextArchitect2(ds.dialogueContainer.dialogueText);
+        architectPlayer = new TextArchitectPlayer2(ds.dialogueContainer.nameText);
         architectPlayer.speed = 1f;
         architect.speed = 0.5f;
         ids = 1;
+        balao =ds.dialogueContainer.root;
+        
     }
 
     // Update is called once per frame
     void Update()
     {
-        lista_de_falas = JsonUtility.FromJson<ListaFalas>(JSONMesa.text);
-        select = SelecaoLugar2.selec;
         longLine = lista_de_falas.fala[ids].msg;
-        name = lista_de_falas.fala[ids].chara;
+        name = lista_de_falas.fala[ids].character;
         indexa = lista_de_falas.fala[ids].indexa;
 
         if(select == 'N')
@@ -67,7 +67,6 @@ public class conversa : MonoBehaviour
         if (indexa != 0)
         {
             ids = indexa;
-            indexa = 0;
         }
 
         if (bm != architect.buildMethod)

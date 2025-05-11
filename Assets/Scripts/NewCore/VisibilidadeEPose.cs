@@ -10,7 +10,8 @@ public class VisibilidadeEPose : MonoBehaviour
     private GameObject WieF, WieM, GestaoF, GestaoM, BotzF, BotzM, ByteF, ByteM, RocketF, RocketM, SocialF, SocialM, PowerF, PowerM, MarketingF, MarketingM;
     private List<GameObject> personagensList;
 
-    public string personagem;
+    public string personagem, pose;
+    public string personagem1, pose1;
 
     void Start()
     {
@@ -55,7 +56,67 @@ public class VisibilidadeEPose : MonoBehaviour
     void Update()
     {
         personagem = GeradorDialogos.personagem;
+        pose = GeradorDialogos.pose;
         claridade(personagem);
+        Personagempose(pose, personagem);
+    }
+
+    void Personagempose(string pose1, string personagem1)
+    {
+        switch (personagem1)
+        {
+            case "":
+                break;
+            case "Narrador":
+                break;
+            case "Botz(F)":
+                switch (pose1)
+                {
+                    case "Power":
+                        //IBotzF.sprite = Resources.Load<Sprite>("Personagens/Power");
+                        break;
+                }
+                break;
+            case "Botz(M)":
+                break;
+            case "Byte(F)":
+                break;
+            case "Byte(M)":
+                break;
+            case "Power(F)":
+                break;
+            case "Power(M)":
+                break;
+            case "Rocket(F)":
+                break;
+            case "Rocket(M)":
+                break;
+            case "Social(F)":
+                switch (pose1)
+                {
+                    case "SocialFnormal":
+                        ISocialF.sprite = Resources.Load<Sprite>("Personagens/Social/SocialFnormal");
+                        break;
+                    case "SocialFfeliz":
+                        ISocialF.sprite = Resources.Load<Sprite>("Personagens/Social/SocialFfeliz");
+                        break;
+                }
+                break;
+            case "Social(M)":
+                break;
+            case "Wie(F)":
+                break;
+            case "Wie(M)":
+                break;
+            case "Gestão(F)":
+                break;
+            case "Gestão(M)":
+                break;
+            case "Marketing(F)":
+                break;
+            case "Marketing(M)":
+                break;
+        }
     }
 
     void claridade(string mud)
@@ -79,25 +140,25 @@ public class VisibilidadeEPose : MonoBehaviour
         { "Rocket(M)", RocketM },
         { "Social(F)", SocialF },
         { "Social(M)", SocialM },
-        { "Gestï¿½o(F)", GestaoF },
-        { "Gestï¿½o(M)", GestaoM },
+        { "Gestão(F)", GestaoF },
+        { "Gestão(M)", GestaoM },
         { "Marketing(F)", MarketingF },
         { "Marketing(M)", MarketingM }
     };
 
-        // Como princï¿½pio, altera todos para cores default (nï¿½o destacados)
+        // Como princípio, altera todos para cores default (não destacados)
         foreach (var element in elements.Values)
         {
             element.GetComponent<Image>().color = defaultColor;
         }
 
-        // Destaca o personagem conforme a string recebida, caso ele nï¿½o encontre a chave do personagem, todos seguem em default.
+        // Destaca o personagem conforme a string recebida, caso ele não encontre a chave do personagem, todos seguem em default.
         if (!string.IsNullOrEmpty(mud) && elements.ContainsKey(mud))
         {
             elements[mud].GetComponent<Image>().color = highlightColor;
         }
 
-        // Limitaï¿½ï¿½o atual: Somente um personagem ï¿½ destacado por vez. 
+        // Limitação atual: Somente um personagem é destacado por vez. 
     }
 
 

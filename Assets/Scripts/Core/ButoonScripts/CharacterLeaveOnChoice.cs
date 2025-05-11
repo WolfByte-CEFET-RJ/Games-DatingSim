@@ -22,7 +22,7 @@ public class CharacterLeaveOnChoice : MonoBehaviour
 
     private void Awake() {
         leftPos = characters[0].transform.position.x;
-        rightPos = characters[3].transform.position.x;
+        rightPos = characters[1].transform.position.x;
         screenWidth = Camera.main.pixelWidth;
         gameObject.SetActive(false);
     }

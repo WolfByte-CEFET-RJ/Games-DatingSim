@@ -2038,9 +2038,22 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4ae68060655eb464e95a5228512df6c2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  socialF: {fileID: 11400000, guid: b2d100e9c2d9eae41bdbf9ad89f094ca, type: 2}
-  gestaoM: {fileID: 11400000, guid: e1ebcec5b1686d845ba6ab3d57aab5e3, type: 2}
   botzF: {fileID: 11400000, guid: fc9621a99c912d94bbbf00540c9a5c8d, type: 2}
+  botzM: {fileID: 0}
+  byteF: {fileID: 0}
+  byteM: {fileID: 0}
+  gestaoF: {fileID: 0}
+  gestaoM: {fileID: 11400000, guid: e1ebcec5b1686d845ba6ab3d57aab5e3, type: 2}
+  marketingF: {fileID: 0}
+  marketingM: {fileID: 0}
+  powerF: {fileID: 0}
+  powerM: {fileID: 0}
+  rocketF: {fileID: 0}
+  rocketM: {fileID: 0}
+  socialF: {fileID: 11400000, guid: b2d100e9c2d9eae41bdbf9ad89f094ca, type: 2}
+  socialM: {fileID: 0}
+  wieF: {fileID: 0}
+  wieM: {fileID: 0}
 --- !u!1 &584975284
 GameObject:
   m_ObjectHideFlags: 0
@@ -6148,8 +6161,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   characters:
-  - {fileID: 0}
-  - {fileID: 0}
+  - {fileID: 994269980}
+  - {fileID: 2142337951}
 --- !u!1 &1622743530
 GameObject:
   m_ObjectHideFlags: 0

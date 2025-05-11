@@ -36,7 +36,7 @@ public class Scenery : MonoBehaviour
     // Script é adicionado aos 4 botões, cada um envia seus parâmetros
     public void OnClick(char scenery, int character) {
         // Descomentar quando o script conversa for adicionado
-        // GeradorDialogos.scenery = scenery;
+        // conversa.scenery = scenery;
 
         // Descomentar quando o script selectCharacter for adicionado
         // selectCharacter.character = strings[character];
