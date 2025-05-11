@@ -1,74 +1,64 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using UnityEngine.UI;
 
 public class CharacterLeaveOnChoice : MonoBehaviour
 {
-    // Quantidade de personagens por tela
-    private const int characterCount = 4;
+    // Array para armazenar os personagens (pode ter qualquer número de personagens)
+    public GameObject[] characters;
 
-    // Array com os personagens (0 é o mais à esquerda, 3 é o mais à direita)
-    public GameObject[] characters = new GameObject[characterCount];
-
-    private int screenWidth, track;
-    private float leftPos, rightPos;
-
-    private float moveSpeed = 400f;
+    private int screenWidth;
+    private float moveSpeed = 10f;
     private float borderOffset = 70f;
 
-    // Quais personagens vão sair da tela (0 - Personagens da esquerda)
-    private int flag = 0;
-
     private void Awake() {
-        leftPos = characters[0].transform.position.x;
-        rightPos = characters[1].transform.position.x;
         screenWidth = Camera.main.pixelWidth;
-        gameObject.SetActive(false);
+        gameObject.SetActive(false);  // Garante que o objeto comece desativado
     }
 
-    void Update() {
-        track = 0;
-
-        if (flag == 0) {
-            for (int i = 0; i < 2; i++) {
-                if (characters[i] != null) {
-                    characters[i].transform.position += Vector3.left * Time.deltaTime * moveSpeed;
-                    
-                    if (characters[i].transform.position.x < -borderOffset)
-                        Destroy(characters[i]);
-                } else
-                    track++;
-            }
-
-            if (characters[2].transform.position.x <= leftPos)
-                track++;
-            else
-                characters[2].transform.position += Vector3.left * Time.deltaTime * moveSpeed;
-        }
-        else {
-            for (int i = 2; i < characterCount; i++) {
-                if (characters[i] != null) {
-                    characters[i].transform.position += Vector3.right * Time.deltaTime * moveSpeed;
-
-                    if (characters[i].transform.position.x > screenWidth + borderOffset)
-                        Destroy(characters[i]);
-                } else
-                    track++;
-            }
-
-            if (characters[1].transform.position.x >= rightPos)
-                track++;
-            else
-                characters[1].transform.position += Vector3.right * Time.deltaTime * moveSpeed;
-        }
-
-        if (track == 3)
-            gameObject.SetActive(false);
-    }
-
-    public void Move(int flag) {
-        this.flag = flag;
+    // Move um personagem específico para fora da tela
+    public void Move(int characterIndex, int direction) {
+        // Reativa o GameObject para garantir que o movimento possa começar
         gameObject.SetActive(true);
+
+        // Verifica se o índice é válido
+        if (characterIndex < 0 || characterIndex >= characters.Length || characters[characterIndex] == null) {
+            return; // Não faz nada se o índice estiver fora dos limites ou o personagem for nulo
+        }
+
+        // Pega o personagem e sua posição inicial
+        GameObject character = characters[characterIndex];
+        Vector3 targetPosition = character.transform.position;
+
+        // Define a posição alvo com base na direção
+        if (direction == 0) {
+            // Move para a esquerda
+            targetPosition.x -= 1;
+        }
+        else if (direction == 1) {
+            // Move para a direita
+            targetPosition.x += 1;
+        }
+
+        // Move o personagem gradualmente na direção apropriada
+        StartCoroutine(MoveCharacterOut(character, targetPosition, direction));
+    }
+
+    // Coroutine para mover o personagem até que ele saia da tela
+    private IEnumerator MoveCharacterOut(GameObject character, Vector3 targetPosition, int direction) {
+        // Calcula a direção do movimento
+        float moveDirection = (direction == 0) ? -1f : 1f;
+
+        // Move o personagem gradualmente para fora da tela
+        while (direction == 0 ? character.transform.position.x > -borderOffset : character.transform.position.x < screenWidth + borderOffset) {
+            character.transform.position += new Vector3(moveDirection * Time.deltaTime * moveSpeed, 0f, 0f);
+            yield return null; // Espera até o próximo frame
+        }
+
+        // Depois que o personagem sair da tela, destrói ele
+        Destroy(character);
+
+        // Desativa o GameObject depois que o movimento for concluído
+        gameObject.SetActive(false);
     }
 }
