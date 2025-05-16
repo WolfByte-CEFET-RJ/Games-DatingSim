@@ -4,29 +4,37 @@ using TMPro;
 using UnityEngine;
 
 [System.Serializable]
-public class Dialog{
+public class Dialog
+{
     public string text;
     public string textname; ////////tratados da mesma forma
     public Sprite image; ///////
+
+    
 }
 
 public class TextCreator : MonoBehaviour
 {
     public Dialog[] dialogs;
-    
     private int currentIndex = 0;
 
-    public Dialog GetCurrentDialog(){
-        if (currentIndex >= 0 && currentIndex < dialogs.Length){
+
+
+    public Dialog GetCurrentDialog()
+    {
+        if (currentIndex >= 0 && currentIndex < dialogs.Length)
+        {
             return dialogs[currentIndex];
         }
         return null;
     }
 
     public bool MoveNext(){
-        if (currentIndex < dialogs.Length - 1){
+        if (currentIndex < dialogs.Length - 1)
+        {
             currentIndex++;
             return true;
+        
         }
         return false;
     }

@@ -658,7 +658,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 54353201}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 11400000, guid: fc9621a99c912d94bbbf00540c9a5c8d, type: 2}
+        m_TargetAssemblyTypeName: CharacterItem, Assembly-CSharp
+        m_MethodName: aumentoAfeto
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 1
 --- !u!114 &54353201
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -863,7 +875,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &123648960
 RectTransform:
   m_ObjectHideFlags: 0
@@ -1748,7 +1760,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &254537915
 Transform:
   m_ObjectHideFlags: 0
@@ -2523,7 +2535,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &525131251
 Transform:
   m_ObjectHideFlags: 0
@@ -3855,7 +3867,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &794397488
 Transform:
   m_ObjectHideFlags: 0
@@ -7535,7 +7547,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &1580087381
 Transform:
   m_ObjectHideFlags: 0
@@ -8224,9 +8236,10 @@ MonoBehaviour:
   - text: 3242342342
     textname: PowerF
     image: {fileID: 21300000, guid: b3d91a1464d9c2b449a442b1366aae2a, type: 3}
-  - text: rrtgfdgfdgdgdf
+  - text: Texte cheguei aqui
     textname: PowerF
     image: {fileID: 21300000, guid: b3d91a1464d9c2b449a442b1366aae2a, type: 3}
+  personagem: {fileID: 11400000, guid: fc9621a99c912d94bbbf00540c9a5c8d, type: 2}
 --- !u!1 &1769859804
 GameObject:
   m_ObjectHideFlags: 0
@@ -8577,7 +8590,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &1785827256
 RectTransform:
   m_ObjectHideFlags: 0
@@ -9629,6 +9642,7 @@ MonoBehaviour:
   background: {fileID: 8284913}
   nome: {fileID: 1818890195}
   textbox: {fileID: 1894267635}
+  personagem: {fileID: 2142337951}
 --- !u!114 &1946208286
 MonoBehaviour:
   m_ObjectHideFlags: 0

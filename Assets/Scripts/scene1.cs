@@ -5,12 +5,14 @@ using UnityEngine;
 public class scene1 : MonoBehaviour
 {
     public GameObject root;
-    public GameObject background, nome, textbox;
+    public GameObject background, nome, textbox,personagem;
+    
 
 
     void Start()
     {
         root.SetActive(false);
+    
     }
 
 
@@ -22,7 +24,9 @@ public class scene1 : MonoBehaviour
         //personagem1.SetActive(true); 
         //personagem2.SetActive(true);
         nome.SetActive(true);
-    }
+        personagem = GameObject.Find("NameText");
+        Debug.Log(personagem.GetComponent<UnityEngine.UI.Text>());
+        }
 
 
     public void Button()
