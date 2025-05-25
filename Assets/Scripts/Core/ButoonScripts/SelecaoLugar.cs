@@ -20,40 +20,40 @@ public class SelecaoLugar : MonoBehaviour
         b4.onClick.AddListener(Pcs);
     }
 
-    void Start()
-    {
-        selec = 'N';
-        ds = DialogueSystem.instance;
-        filas = ds.dialogueContainer.root;
-        escolha = ds.dialogueContainer.escolha;
-    }
+    //void Start()
+    //{
+    //    selec = 'N';
+    //    ds = DialogueSystem.instance;
+    //    filas = ds.dialogueContainer.root;
+    //    escolha = ds.dialogueContainer.escolha;
+    //}
 
     private void Flip()
     {
         selec = 'F';
-        escolha.SetActive(false);
-        filas.SetActive(true);
+        //escolha.SetActive(false);
+        //filas.SetActive(true);
 
     }
 
     private void Mesa()
     {
         selec = 'M';
-        escolha.SetActive(false);
-        filas.SetActive(true);
+        //escolha.SetActive(false);
+        //filas.SetActive(true);
     }
 
     private void Solda()
     {
         selec = 'S';
-        escolha.SetActive(false);
-        filas.SetActive(true);       
+        //escolha.SetActive(false);
+        //filas.SetActive(true);       
     }
 
     private void Pcs()
     {
         selec = 'P';
-        escolha.SetActive(false);
-        filas.SetActive(true);
+        //escolha.SetActive(false);
+        //filas.SetActive(true);
     }
 }

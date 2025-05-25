@@ -11,7 +11,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/GenderSelection.unity
     guid: f0a09aaa3ec50a64fb01f09eb48a07cb
-  - enabled: 0
+  - enabled: 1
     path: Assets/Scenes/SampleScene.unity
     guid: 8c9cfa26abfee488c85f1582747f6a02
   - enabled: 1
@@ -21,6 +21,10 @@ EditorBuildSettings:
     path: Assets/Scenes/ner_scenes.unity
     guid: e1ace9f7023a1cb42a1ee1ae94b111ba
   - enabled: 1
+    path: Assets/Scenes/D1_PCs.unity
+    guid: 8d4f32abfa607174489681e3e18b47b5
+  - enabled: 1
     path: Assets/Scenes/WordSearch.unity
     guid: 43414dfff446ddf4eae7956c951567c8
   m_configObjects: {}
+  m_UseUCBPForAssetBundles: 0

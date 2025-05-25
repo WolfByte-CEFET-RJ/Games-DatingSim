@@ -1,7 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
+using UnityEngine;  
 using TMPro;
-using UnityEngine;
 
 [System.Serializable]
 public class Dialog
@@ -9,6 +9,7 @@ public class Dialog
     public string text;
     public string textname; ////////tratados da mesma forma
     public Sprite image; ///////
+    public Question choicebox;
 
     
 }
@@ -27,6 +28,10 @@ public class TextCreator : MonoBehaviour
             return dialogs[currentIndex];
         }
         return null;
+    }
+
+    public void SetDialogueIndex(int index){
+        this.currentIndex = index;
     }
 
     public bool MoveNext(){

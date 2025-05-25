@@ -1,4 +1,5 @@
 using System.Collections;
+using System.Collections.Generic;
 using TMPro;
 using UnityEngine;
 using UnityEngine.UI;
@@ -23,19 +24,26 @@ public class a : MonoBehaviour
         UpdateButtonState();
     }
 
+    public void ButtonMesa(){
+        Application.LoadLevel("D1_PCs");
+    }
+
     private void Showdialog(Dialog dialog){
+       
 
         if (dialog != null){
             StopAllCoroutines();
             StartCoroutine(TypeText(dialog.text));
             dialogimage.sprite = dialog.image;
-            textname2.text = dialog.textname;
+            textname2.text = dialog.textname;            
         }
         else{
             Debug.Log("no found dialog");
         }
 
     }
+
+    
 
     private IEnumerator TypeText(string text)
     {
@@ -55,17 +63,19 @@ public class a : MonoBehaviour
     private void Onnextbuttonclick(){
         if (dialogmanager.MoveNext()){
             Showdialog(dialogmanager.GetCurrentDialog());
-
         }
         UpdateButtonState();
+       
     }
 
     private void Onbackbuttonclick(){
         if (dialogmanager.MovePrevious()){
             Showdialog(dialogmanager.GetCurrentDialog());
-
         }
         UpdateButtonState();
     }
+
+    
+    
 
 }
