@@ -31,7 +31,6 @@ public class ConversationController : MonoBehaviour
     {
         speakerUILeft  = speakerLeft.GetComponent<SpeakerUIController>();
         speakerUIRight = speakerRight.GetComponent<SpeakerUIController>();
-        AdvanceLine();
     }
 
     private void Update()
