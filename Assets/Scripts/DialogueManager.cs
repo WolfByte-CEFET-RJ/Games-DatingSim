@@ -20,11 +20,18 @@ public class DialogueManager : MonoBehaviour
     }
 
     public GameObject dialogueBox;
+    public GameObject dialogueOptionUI;
+    public GameObject[] optionButtons;
 
     public TextMeshProUGUI dialogueName;
     public TextMeshProUGUI dialogueText;
     public Image dialoguePortrait;
     public float delay = 0.001f;
+    private bool isDialogueOption;
+    private bool isCurrentlyTyping;
+    private int optionsAmount;
+    public Text questionText;
+    
 
     public Queue<DialogueBase.Info> dialogueInfo; // FIFO Collection
 
@@ -35,8 +42,40 @@ public class DialogueManager : MonoBehaviour
 
     public void EnqueueDialogue(DialogueBase db)
     {
+
+        if (isCurrentlyTyping){
+            return;
+        }
+        else    
+        {
+            isCurrentlyTyping = true;
+        }
         dialogueBox.SetActive(true);
         dialogueInfo.Clear();
+
+        if(db is DialogueOptions){
+            isDialogueOption = true;
+            DialogueOptions dialogueOptions = db as DialogueOptions;
+            optionsAmount = dialogueOptions.optionsInfo.Length;
+            questionText.text = dialogueOptions.questionText;
+            for (int i = 0; i < optionsAmount; i++){
+                optionButtons[i].SetActive(true);
+                optionButtons[i].transform.GetChild(0).gameObject.GetComponent<TextMeshProUGUI>().text = dialogueOptions.optionsInfo[i].buttonName;
+                UnityEventHandler myEventHandler = optionButtons[i].GetComponent<UnityEventHandler>();
+                myEventHandler.eventHandler = dialogueOptions.optionsInfo[i].myEvent;
+                if(dialogueOptions.optionsInfo[i].nextDialogue != null){
+                    myEventHandler.myDialogue = dialogueOptions.optionsInfo[i].nextDialogue;
+                }
+                else{
+                    myEventHandler.myDialogue = null;
+                }
+            }
+        }
+        else    
+        {
+            isDialogueOption = false;
+        }
+
 
         foreach (DialogueBase.Info info in db.dialogueInfo)
         {
@@ -85,5 +124,19 @@ public class DialogueManager : MonoBehaviour
     public void EndOfDialogue()
     {
         dialogueBox.SetActive(false);
+        OptionInfo();
+    }
+
+    public void DeactivateAllOptionButtons()
+    {
+       dialogueOptionUI.SetActive(false);
+    }
+
+    private void OptionInfo(){
+         if(isDialogueOption){
+            dialogueOptionUI.SetActive(true);            
+        }
+        isCurrentlyTyping = false;
+
     }
 }
