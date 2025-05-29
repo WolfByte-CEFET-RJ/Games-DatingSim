@@ -25,13 +25,19 @@ public class DialogueManager : MonoBehaviour
 
     public TextMeshProUGUI dialogueName;
     public TextMeshProUGUI dialogueText;
-    public Image dialoguePortrait;
+
+    public Image[] characterPortraits;
+
+
     public float delay = 0.001f;
     private bool isDialogueOption;
     private bool isCurrentlyTyping;
     private int optionsAmount;
     public Text questionText;
-    
+
+    public Transform nameHolder;
+    private DialogueBase currentDialogue;
+
 
     public Queue<DialogueBase.Info> dialogueInfo; // FIFO Collection
 
@@ -43,35 +49,44 @@ public class DialogueManager : MonoBehaviour
     public void EnqueueDialogue(DialogueBase db)
     {
 
-        if (isCurrentlyTyping){
+        if (isCurrentlyTyping)
+        {
             return;
         }
-        else    
+        else
         {
             isCurrentlyTyping = true;
         }
+
+        currentDialogue = db;
+
         dialogueBox.SetActive(true);
         dialogueInfo.Clear();
+        SetCharacterPortraits(db);
 
-        if(db is DialogueOptions){
+        if (db is DialogueOptions)
+        {
             isDialogueOption = true;
             DialogueOptions dialogueOptions = db as DialogueOptions;
             optionsAmount = dialogueOptions.optionsInfo.Length;
             questionText.text = dialogueOptions.questionText;
-            for (int i = 0; i < optionsAmount; i++){
+            for (int i = 0; i < optionsAmount; i++)
+            {
                 optionButtons[i].SetActive(true);
                 optionButtons[i].transform.GetChild(0).gameObject.GetComponent<TextMeshProUGUI>().text = dialogueOptions.optionsInfo[i].buttonName;
                 UnityEventHandler myEventHandler = optionButtons[i].GetComponent<UnityEventHandler>();
                 myEventHandler.eventHandler = dialogueOptions.optionsInfo[i].myEvent;
-                if(dialogueOptions.optionsInfo[i].nextDialogue != null){
+                if (dialogueOptions.optionsInfo[i].nextDialogue != null)
+                {
                     myEventHandler.myDialogue = dialogueOptions.optionsInfo[i].nextDialogue;
                 }
-                else{
+                else
+                {
                     myEventHandler.myDialogue = null;
                 }
             }
         }
-        else    
+        else
         {
             isDialogueOption = false;
         }
@@ -95,12 +110,64 @@ public class DialogueManager : MonoBehaviour
 
         DialogueBase.Info info = dialogueInfo.Dequeue();
 
-        dialogueName.text = info.myName;
+
+        nameHolder.position = characterPortraits[GetCurrentCharacterIndex(info)].gameObject.transform.position - new Vector3(0, 70);
+        dialogueName.text = info.character.myName;
         dialogueText.text = info.myText;
-        dialoguePortrait.sprite = info.portrait;
+        info.ChangeEmotion();
+        //dialoguePortrait.sprite = info.character.MyPortrait;
+        characterPortraits[GetCurrentCharacterIndex(info)].sprite = info.character.MyPortrait;
+        DarkenOtherPortraits(info);
 
         StartCoroutine(TypeText(info));
     }
+
+
+    private void DarkenOtherPortraits(DialogueBase.Info info)
+    {
+        for (int i = 0; i < characterPortraits.Length; i++)
+        {
+            if (i == GetCurrentCharacterIndex(info)) // this character is talking
+            {
+                characterPortraits[i].color = hexToColor("FFFFFF");
+                characterPortraits[i].rectTransform.localScale = new Vector3(1.2f, 1.2f);
+                //mudar tamanho dos personagens quando falando, cuidado com a resolução
+            }
+            else // this character is not talking
+            {
+                characterPortraits[i].color = hexToColor("9F9F9F");
+                characterPortraits[i].rectTransform.localScale = new Vector3(1, 1);
+            }
+        }
+    }
+
+
+
+    private int GetCurrentCharacterIndex(DialogueBase.Info info)
+    {
+        for (int i = 0; i < currentDialogue.characters.Length; i++)
+        {
+            if (info.character == currentDialogue.characters[i])
+            {
+                return i;
+            }
+        }
+
+        Debug.Log("Error! Character is not in the list!");
+        return 0;
+    }
+
+
+
+    private void SetCharacterPortraits(DialogueBase db)
+    {
+        for (int i = 0; i < characterPortraits.Length; i++)
+        {
+            characterPortraits[i].sprite = db.characters[i].emotionPortraits.neutro;
+        }
+    }
+
+
 
     private void Update()
     {
@@ -129,14 +196,36 @@ public class DialogueManager : MonoBehaviour
 
     public void DeactivateAllOptionButtons()
     {
-       dialogueOptionUI.SetActive(false);
+        dialogueOptionUI.SetActive(false);
     }
 
-    private void OptionInfo(){
-         if(isDialogueOption){
-            dialogueOptionUI.SetActive(true);            
+    private void OptionInfo()
+    {
+        if (isDialogueOption)
+        {
+            dialogueOptionUI.SetActive(true);
         }
         isCurrentlyTyping = false;
 
+    }
+
+
+    
+    public Color hexToColor(string hex)
+    {
+        hex = hex.Replace("0x", ""); // In case the string is formatted 0xFFFFFF
+        hex = hex.Replace("#", "");  // In case the string is formatted #FFFFFF
+        byte a = 255; // Assume fully visible unless specified in hex
+        byte r = byte.Parse(hex.Substring(0, 2), System.Globalization.NumberStyles.HexNumber);
+        byte g = byte.Parse(hex.Substring(2, 2), System.Globalization.NumberStyles.HexNumber);
+        byte b = byte.Parse(hex.Substring(4, 2), System.Globalization.NumberStyles.HexNumber);
+
+        // Only use alpha if the string has enough characters
+        if (hex.Length == 8)
+        {
+            a = byte.Parse(hex.Substring(6, 2), System.Globalization.NumberStyles.HexNumber);
+        }
+
+        return new Color32(r, g, b, a);
     }
 }
