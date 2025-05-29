@@ -44,6 +44,8 @@ MonoBehaviour:
             m_BoolArgument: 0
           m_CallState: 2
     nextDialogue: {fileID: 11400000}
+    increasesAffection: 1
+    targetCharacter: {fileID: 11400000, guid: e2ad07c5ee075eb43b10f529c20d0428, type: 2}
   - buttonName: Direita
     myEvent:
       m_PersistentCalls:
@@ -61,4 +63,6 @@ MonoBehaviour:
             m_BoolArgument: 0
           m_CallState: 2
     nextDialogue: {fileID: 11400000, guid: 503e97ff9e325734f8c3235c51a75800, type: 2}
+    increasesAffection: 0
+    targetCharacter: {fileID: 0}
   questionText: "Quem voc\xEA vai escolher?"

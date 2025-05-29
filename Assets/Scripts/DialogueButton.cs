@@ -8,4 +8,7 @@ public class DialogueButton : MonoBehaviour
     {
         DialogueManager.instance.DequeueDialogue();
     }
+
+   
+    
 }

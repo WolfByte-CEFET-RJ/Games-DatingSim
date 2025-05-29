@@ -27,6 +27,10 @@ public class DialogueBase : ScriptableObject
         {
             character.Emotion = characterEmotion;
         }
+         public void aumentoAfeto()
+        {
+            character.afeto += 0.1f;
+        }
     }
 
     [Header("Insert Dialogue Information Below")]

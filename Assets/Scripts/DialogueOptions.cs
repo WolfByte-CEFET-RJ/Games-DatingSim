@@ -7,10 +7,14 @@ using System.Collections.Generic;
 public class DialogueOptions : DialogueBase
 {
     [System.Serializable]
-    public class Options{
+    public class Options
+    {
         public string buttonName;
         public UnityEvent myEvent;
         public DialogueBase nextDialogue;
+        
+        public bool increasesAffection = false;
+        public CharacterProfile targetCharacter;
     }
     public Options[] optionsInfo;
 

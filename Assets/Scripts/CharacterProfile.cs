@@ -8,6 +8,12 @@ public class CharacterProfile : ScriptableObject
     public string myName;
     private Sprite myPortrait;
 
+    public float afeto;
+
+    
+   
+
+
     public Sprite MyPortrait
     {
         get
@@ -45,6 +51,11 @@ public class CharacterProfile : ScriptableObject
                 break;
         }
     }
+        public void aumentoAfeto()
+        {
+            afeto += 0.1f;
+        }
+    
 
     public enum EmotionType
     {

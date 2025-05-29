@@ -36,7 +36,7 @@ public class DialogueManager : MonoBehaviour
     public Text questionText;
 
     public Transform nameHolder;
-    private DialogueBase currentDialogue;
+    public DialogueBase currentDialogue;
 
 
     public Queue<DialogueBase.Info> dialogueInfo; // FIFO Collection
@@ -70,21 +70,24 @@ public class DialogueManager : MonoBehaviour
             DialogueOptions dialogueOptions = db as DialogueOptions;
             optionsAmount = dialogueOptions.optionsInfo.Length;
             questionText.text = dialogueOptions.questionText;
-            for (int i = 0; i < optionsAmount; i++)
-            {
-                optionButtons[i].SetActive(true);
-                optionButtons[i].transform.GetChild(0).gameObject.GetComponent<TextMeshProUGUI>().text = dialogueOptions.optionsInfo[i].buttonName;
-                UnityEventHandler myEventHandler = optionButtons[i].GetComponent<UnityEventHandler>();
-                myEventHandler.eventHandler = dialogueOptions.optionsInfo[i].myEvent;
-                if (dialogueOptions.optionsInfo[i].nextDialogue != null)
+          for (int i = 0; i < optionsAmount; i++)
                 {
-                    myEventHandler.myDialogue = dialogueOptions.optionsInfo[i].nextDialogue;
+                    optionButtons[i].SetActive(true);
+                    optionButtons[i].transform.GetChild(0).gameObject.GetComponent<TextMeshProUGUI>().text = dialogueOptions.optionsInfo[i].buttonName;
+                    UnityEventHandler myEventHandler = optionButtons[i].GetComponent<UnityEventHandler>();
+                    myEventHandler.eventHandler = dialogueOptions.optionsInfo[i].myEvent;
+                    
+                    myEventHandler.optionIndex = i;
+                    
+                    if (dialogueOptions.optionsInfo[i].nextDialogue != null)
+                    {
+                        myEventHandler.myDialogue = dialogueOptions.optionsInfo[i].nextDialogue;
+                    }
+                    else
+                    {
+                        myEventHandler.myDialogue = null;
+                    }
                 }
-                else
-                {
-                    myEventHandler.myDialogue = null;
-                }
-            }
         }
         else
         {
@@ -190,6 +193,7 @@ public class DialogueManager : MonoBehaviour
 
     public void EndOfDialogue()
     {
+        //eventualmente quando formos pra proxima cena ela será chamada aqui
         dialogueBox.SetActive(false);
         OptionInfo();
     }
