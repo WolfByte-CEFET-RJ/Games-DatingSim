@@ -10,7 +10,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: a056b6b4b6af3ee4aa3e2101c6bc43db, type: 3}
-  m_Name: New Dialogue
+  m_Name: DIAOGUE
   m_EditorClassIdentifier: 
   characters:
   - {fileID: 11400000, guid: e2ad07c5ee075eb43b10f529c20d0428, type: 2}

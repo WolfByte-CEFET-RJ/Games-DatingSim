@@ -1,0 +1,20 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fca8f7158d4376749b18b6c3b3150fdd, type: 3}
+  m_Name: Q
+  m_EditorClassIdentifier: 
+  myName: QQQQ
+  afeto: 0
+  emotionPortraits:
+    neutro: {fileID: 21300000, guid: 649e0885dc5f7a949993a610bf170646, type: 3}
+    feliz: {fileID: 21300000, guid: 6aa899655dbf3cb40830ee58030a9ef3, type: 3}
+    raiva: {fileID: 21300000, guid: 2156fb55415453b4cbf8ee6c2b0dc0c0, type: 3}

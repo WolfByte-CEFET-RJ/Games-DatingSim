@@ -11,11 +11,9 @@ public class TestScript : MonoBehaviour
         DialogueManager.instance.EnqueueDialogue(dialogue);
     }
 
-    private void Update()
+    void Start()
     {
-        if (Input.GetKeyDown(KeyCode.Space))
-        {
-            TriggerDialogue();
-        }
+        TriggerDialogue();
+        
     }
 }
