@@ -1,0 +1,67 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a056b6b4b6af3ee4aa3e2101c6bc43db, type: 3}
+  m_Name: pcsdialogo
+  m_EditorClassIdentifier: 
+  characters:
+  - {fileID: 11400000, guid: e2ad07c5ee075eb43b10f529c20d0428, type: 2}
+  - {fileID: 11400000, guid: 8720c099c7c420f4fab834ad615f633b, type: 2}
+  - {fileID: 11400000, guid: 81d3e092d8bd3934d95178f959ea58c1, type: 2}
+  dialogueInfo:
+  - character: {fileID: 11400000, guid: 8720c099c7c420f4fab834ad615f633b, type: 2}
+    characterEmotion: 0
+    myText: "EU T\xD4 QUASE CHEGANDO NA LAGUR BERNSTEIN!"
+    delay: 0
+  - character: {fileID: 11400000, guid: e2ad07c5ee075eb43b10f529c20d0428, type: 2}
+    characterEmotion: 0
+    myText: "Voc\xEA tem que fazer mais sil\xEAncio, est\xE1 gritando."
+    delay: 0
+  - character: {fileID: 11400000, guid: e2ad07c5ee075eb43b10f529c20d0428, type: 2}
+    characterEmotion: 0
+    myText: "N\xC3O ENCHE, POWER!"
+    delay: 0
+  - character: {fileID: 11400000, guid: 81d3e092d8bd3934d95178f959ea58c1, type: 2}
+    characterEmotion: 0
+    myText: "Voc\xEA se aproxima dos computadores."
+    delay: 0
+  - character: {fileID: 11400000, guid: e2ad07c5ee075eb43b10f529c20d0428, type: 2}
+    characterEmotion: 0
+    myText: "Agora v\xEA se fica quieta ou fala mais baixo, acabou de chegar um trainee."
+    delay: 0
+  - character: {fileID: 11400000, guid: 8720c099c7c420f4fab834ad615f633b, type: 2}
+    characterEmotion: 0
+    myText: "S\xC9RIO? EI, VOC\xCA \xC9 O TRAINEE NOVO? QUE EMO\xC7\xC3O!"
+    delay: 0
+  - character: {fileID: 11400000, guid: 81d3e092d8bd3934d95178f959ea58c1, type: 2}
+    characterEmotion: 0
+    myText: Ah! O-oi, sou eu sim!
+    delay: 0
+  - character: {fileID: 11400000, guid: e2ad07c5ee075eb43b10f529c20d0428, type: 2}
+    characterEmotion: 0
+    myText: "Eu j\xE1 n\xE3o tinha falado?"
+    delay: 0
+  - character: {fileID: 11400000, guid: 8720c099c7c420f4fab834ad615f633b, type: 2}
+    characterEmotion: 0
+    myText: QUE DEMAAAAAAAIS!
+    delay: 0
+  - character: {fileID: 11400000, guid: e2ad07c5ee075eb43b10f529c20d0428, type: 2}
+    characterEmotion: 0
+    myText: Me diz, o que te traz aqui?
+    delay: 0
+  - character: {fileID: 11400000, guid: 81d3e092d8bd3934d95178f959ea58c1, type: 2}
+    characterEmotion: 0
+    myText: "Na verdade, vim conhecer algu\xE9m..."
+    delay: 0
+  - character: {fileID: 11400000, guid: e2ad07c5ee075eb43b10f529c20d0428, type: 2}
+    characterEmotion: 0
+    myText: "\xC9 mesmo? Quem?"
+    delay: 0
