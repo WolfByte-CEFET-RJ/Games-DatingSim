@@ -457,6 +457,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a73b0e2b06f9a9044af1c8d02015dc8d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  dialogueManagerID: default
 --- !u!114 &59583336
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -982,6 +983,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a73b0e2b06f9a9044af1c8d02015dc8d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  dialogueManagerID: default
 --- !u!114 &224140250
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1750,6 +1752,7 @@ Transform:
   m_Children:
   - {fileID: 1288142222}
   - {fileID: 2090701482}
+  - {fileID: 1804115750}
   - {fileID: 1361461760}
   - {fileID: 1831972620}
   m_Father: {fileID: 0}
@@ -2576,6 +2579,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   dialogue: {fileID: 11400000, guid: 98eeacbb1d0997043a17f105eb7bc453, type: 2}
+  dialogueManagerID: default
 --- !u!1 &785493644
 GameObject:
   m_ObjectHideFlags: 0
@@ -2993,6 +2997,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a73b0e2b06f9a9044af1c8d02015dc8d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  dialogueManagerID: default
 --- !u!114 &897398913
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3210,6 +3215,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a73b0e2b06f9a9044af1c8d02015dc8d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  dialogueManagerID: default
 --- !u!114 &955888291
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3633,6 +3639,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a6cbe7d5c055dd34f91d9c34b48cdc75, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  managerID: default
   dialogueBox: {fileID: 1704791344}
   dialogueOptionUI: {fileID: 80563644}
   optionButtons:
@@ -3910,6 +3917,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a73b0e2b06f9a9044af1c8d02015dc8d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  dialogueManagerID: default1
 --- !u!114 &1026991302
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4871,6 +4879,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a6cbe7d5c055dd34f91d9c34b48cdc75, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  managerID: default1
   dialogueBox: {fileID: 1948985277}
   dialogueOptionUI: {fileID: 1508077666}
   optionButtons:
@@ -4992,6 +5001,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a73b0e2b06f9a9044af1c8d02015dc8d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  dialogueManagerID: default
 --- !u!114 &1348036562
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5122,7 +5132,7 @@ RectTransform:
   - {fileID: 1948985278}
   - {fileID: 1508077667}
   m_Father: {fileID: 387734363}
-  m_RootOrder: 2
+  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
@@ -6624,6 +6634,67 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1763861592}
   m_CullTransparentMesh: 1
+--- !u!1 &1804115749
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1804115750}
+  - component: {fileID: 1804115751}
+  m_Layer: 0
+  m_Name: Manager (1)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 0
+--- !u!4 &1804115750
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1804115749}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 394.96796, y: 240.32503, z: 7.400963}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 387734363}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1804115751
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1804115749}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a6cbe7d5c055dd34f91d9c34b48cdc75, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  managerID: default1
+  dialogueBox: {fileID: 1948985277}
+  dialogueOptionUI: {fileID: 1508077666}
+  optionButtons:
+  - {fileID: 59583332}
+  - {fileID: 955888287}
+  dialogueName: {fileID: 1438476085}
+  dialogueText: {fileID: 972991036}
+  characterPortraits:
+  - {fileID: 1809403350}
+  - {fileID: 1665265093}
+  - {fileID: 363361531}
+  - {fileID: 1468694028}
+  delay: 0.001
+  questionText: {fileID: 2102289365}
+  nameHolder: {fileID: 1438476084}
+  currentDialogue: {fileID: 0}
 --- !u!1 &1809403348
 GameObject:
   m_ObjectHideFlags: 0
@@ -6736,7 +6807,7 @@ RectTransform:
   - {fileID: 1704791345}
   - {fileID: 80563645}
   m_Father: {fileID: 387734363}
-  m_RootOrder: 3
+  m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
@@ -6848,7 +6919,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 18719144ffa90e64e8f832268e92df4d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  dialogue: {fileID: 11400000, guid: 98eeacbb1d0997043a17f105eb7bc453, type: 2}
+  dialogue: {fileID: 11400000, guid: 503e97ff9e325734f8c3235c51a75800, type: 2}
+  dialogueManagerID: default1
 --- !u!1 &1873216651
 GameObject:
   m_ObjectHideFlags: 0
@@ -7216,11 +7288,12 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2090701481}
-  m_Enabled: 0
+  m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: a6cbe7d5c055dd34f91d9c34b48cdc75, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  managerID: default
   dialogueBox: {fileID: 1948985277}
   dialogueOptionUI: {fileID: 1508077666}
   optionButtons:

@@ -6,21 +6,30 @@ using UnityEngine.UI;
 
 public class DialogueManager : MonoBehaviour
 {
-    public static DialogueManager instance;
-    
+   private static Dictionary<string, DialogueManager> instances = new Dictionary<string, DialogueManager>();
+
+    [SerializeField]
+    public string managerID = "default"; 
     
     private void Awake()
     {
-        if (instance != null)
+        if (!instances.ContainsKey(managerID))
         {
-
-            Debug.LogWarning("Fix this" + gameObject.name);
+            instances[managerID] = this;
         }
         else
         {
-            instance = this;
+            Destroy(gameObject);
+            return;
         }
     }
+    
+    public static DialogueManager GetInstance(string id = "default")
+    {
+        return instances.ContainsKey(id) ? instances[id] : null;
+    }
+    
+    public static DialogueManager instance => GetInstance();
 
     public GameObject dialogueBox;
     public GameObject dialogueOptionUI;
