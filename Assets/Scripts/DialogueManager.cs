@@ -57,10 +57,29 @@ public class DialogueManager : MonoBehaviour
     {
         dialogueInfo = new Queue<DialogueBase.Info>();
     }
-
-    public void EnqueueDialogue(DialogueBase db)
+    
+    private GameObject[] GetAllOptionButtons()
+{
+    if (dialogueOptionUI == null)
     {
-
+        Debug.LogError("dialogueOptionUI não está configurado!");
+        return optionButtons ?? new GameObject[0];
+    }
+    
+    // Busca todos os botões filhos que tenham o componente UnityEventHandler
+    UnityEventHandler[] handlers = dialogueOptionUI.GetComponentsInChildren<UnityEventHandler>(true);
+    GameObject[] foundButtons = new GameObject[handlers.Length];
+    
+    for (int i = 0; i < handlers.Length; i++)
+    {
+        foundButtons[i] = handlers[i].gameObject;
+    }
+    
+    Debug.Log($"Encontrados {foundButtons.Length} botões automaticamente");
+    return foundButtons;
+}
+public void EnqueueDialogue(DialogueBase db)
+    {
         if (isCurrentlyTyping)
         {
             return;
@@ -71,7 +90,6 @@ public class DialogueManager : MonoBehaviour
         }
 
         currentDialogue = db;
-
         dialogueBox.SetActive(true);
         dialogueInfo.Clear();
         SetCharacterPortraits(db);
@@ -80,17 +98,75 @@ public class DialogueManager : MonoBehaviour
         {
             isDialogueOption = true;
             DialogueOptions dialogueOptions = db as DialogueOptions;
+
+            // Usa busca automática de botões
+            GameObject[] currentOptionButtons = GetAllOptionButtons();
+
+            if (dialogueOptions.optionsInfo == null)
+            {
+                Debug.LogError("optionsInfo é null no DialogueOptions!");
+                isCurrentlyTyping = false;
+                return;
+            }
+
             optionsAmount = dialogueOptions.optionsInfo.Length;
-            questionText.text = dialogueOptions.questionText;
-          for (int i = 0; i < optionsAmount; i++)
+
+            if (questionText != null)
+            {
+                questionText.text = dialogueOptions.questionText ?? "";
+            }
+
+            // Primeiro, desativa todos os botões
+            for (int i = 0; i < currentOptionButtons.Length; i++)
+            {
+                if (currentOptionButtons[i] != null)
                 {
-                    optionButtons[i].SetActive(true);
-                    optionButtons[i].transform.GetChild(0).gameObject.GetComponent<TextMeshProUGUI>().text = dialogueOptions.optionsInfo[i].buttonName;
-                    UnityEventHandler myEventHandler = optionButtons[i].GetComponent<UnityEventHandler>();
+                    currentOptionButtons[i].SetActive(false);
+                }
+            }
+
+            // Configura apenas os botões necessários
+            int maxButtons = Mathf.Min(optionsAmount, currentOptionButtons.Length);
+
+            for (int i = 0; i < maxButtons; i++)
+            {
+                if (currentOptionButtons[i] == null)
+                {
+                    Debug.LogWarning($"Botão {i} é null!");
+                    continue;
+                }
+
+                if (dialogueOptions.optionsInfo[i] == null)
+                {
+                    Debug.LogWarning($"optionsInfo[{i}] é null!");
+                    continue;
+                }
+
+                // Ativa o botão
+                currentOptionButtons[i].SetActive(true);
+
+                // Configura o texto do botão
+                Transform childTransform = currentOptionButtons[i].transform.GetChild(0);
+                if (childTransform != null)
+                {
+                    TextMeshProUGUI buttonText = childTransform.GetComponent<TextMeshProUGUI>();
+                    if (buttonText != null)
+                    {
+                        buttonText.text = dialogueOptions.optionsInfo[i].buttonName ?? $"Opção {i + 1}";
+                    }
+                    else
+                    {
+                        Debug.LogWarning($"TextMeshProUGUI não encontrado no botão {i}!");
+                    }
+                }
+
+                // Configura o UnityEventHandler
+                UnityEventHandler myEventHandler = currentOptionButtons[i].GetComponent<UnityEventHandler>();
+                if (myEventHandler != null)
+                {
                     myEventHandler.eventHandler = dialogueOptions.optionsInfo[i].myEvent;
-                    
                     myEventHandler.optionIndex = i;
-                    
+
                     if (dialogueOptions.optionsInfo[i].nextDialogue != null)
                     {
                         myEventHandler.myDialogue = dialogueOptions.optionsInfo[i].nextDialogue;
@@ -100,12 +176,22 @@ public class DialogueManager : MonoBehaviour
                         myEventHandler.myDialogue = null;
                     }
                 }
+                else
+                {
+                    Debug.LogWarning($"UnityEventHandler não encontrado no botão {i}!");
+                }
+            }
+
+            // Avisa se há mais opções do que botões disponíveis
+            if (optionsAmount > currentOptionButtons.Length)
+            {
+                Debug.LogWarning($"Há {optionsAmount} opções, mas apenas {currentOptionButtons.Length} botões disponíveis!");
+            }
         }
         else
         {
             isDialogueOption = false;
         }
-
 
         foreach (DialogueBase.Info info in db.dialogueInfo)
         {
