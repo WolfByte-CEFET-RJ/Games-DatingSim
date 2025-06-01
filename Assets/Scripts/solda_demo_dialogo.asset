@@ -83,25 +83,6 @@ MonoBehaviour:
     myText: Quem seria?
     delay: 0
   optionsInfo:
-  - buttonName: Escolher o da direita.
-    myEvent:
-      m_PersistentCalls:
-        m_Calls:
-        - m_Target: {fileID: 11500000, guid: 577e262992c79d340be4bbbcf2aaf259, type: 3}
-          m_TargetAssemblyTypeName: UnityEditor.MonoScript, UnityEditor.CoreModule
-          m_MethodName: 
-          m_Mode: 1
-          m_Arguments:
-            m_ObjectArgument: {fileID: 0}
-            m_ObjectArgumentAssemblyTypeName: 
-            m_IntArgument: 0
-            m_FloatArgument: 0
-            m_StringArgument: 
-            m_BoolArgument: 0
-          m_CallState: 2
-    nextDialogue: {fileID: 11400000, guid: e47c01015bf6771458869eda77a82f85, type: 2}
-    increasesAffection: 1
-    targetCharacter: {fileID: 11400000, guid: 3a845617083156747978f2ea2ce89eb0, type: 2}
   - buttonName: Escolher o da esquerda.
     myEvent:
       m_PersistentCalls:
@@ -121,4 +102,23 @@ MonoBehaviour:
     nextDialogue: {fileID: 11400000, guid: 93c372a6edd2d42448102b020f7f0056, type: 2}
     increasesAffection: 1
     targetCharacter: {fileID: 11400000, guid: b516531a442f66e4ebdfabdb00db038d, type: 2}
+  - buttonName: Escolher o da direita.
+    myEvent:
+      m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 11500000, guid: 577e262992c79d340be4bbbcf2aaf259, type: 3}
+          m_TargetAssemblyTypeName: UnityEditor.MonoScript, UnityEditor.CoreModule
+          m_MethodName: 
+          m_Mode: 1
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: 
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
+    nextDialogue: {fileID: 11400000, guid: e47c01015bf6771458869eda77a82f85, type: 2}
+    increasesAffection: 1
+    targetCharacter: {fileID: 11400000, guid: 3a845617083156747978f2ea2ce89eb0, type: 2}
   questionText: "Quem voc\xEA vai escolher?"
