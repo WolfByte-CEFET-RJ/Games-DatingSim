@@ -10,10 +10,11 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: fca8f7158d4376749b18b6c3b3150fdd, type: 3}
-  m_Name: char2
+  m_Name: PowerF
   m_EditorClassIdentifier: 
-  myName: bia
+  myName: PowerF
+  afeto: 0
   emotionPortraits:
-    neutro: {fileID: 21300000, guid: 6aa899655dbf3cb40830ee58030a9ef3, type: 3}
-    feliz: {fileID: 21300000, guid: 79adb6e9057a67b4eb8dab6a36246e1e, type: 3}
-    raiva: {fileID: 21300000, guid: 561ec2af87a99e147b1202d0ae1cff1f, type: 3}
+    neutro: {fileID: 21300000, guid: b3d91a1464d9c2b449a442b1366aae2a, type: 3}
+    feliz: {fileID: 0}
+    raiva: {fileID: 0}
