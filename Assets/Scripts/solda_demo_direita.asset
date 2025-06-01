@@ -89,8 +89,27 @@ MonoBehaviour:
   - buttonName: "Logo, sua timidez n\xE3o interfere no seu trabalho?"
     myEvent:
       m_PersistentCalls:
-        m_Calls: []
+        m_Calls:
+        - m_Target: {fileID: 11500000, guid: 577e262992c79d340be4bbbcf2aaf259, type: 3}
+          m_TargetAssemblyTypeName: 
+          m_MethodName: 
+          m_Mode: 1
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: 
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
     nextDialogue: {fileID: 11400000, guid: e1ddaaaaa20b0b743a20cbafedfbcc06, type: 2}
+    increasesAffection: 0
+    targetCharacter: {fileID: 11400000, guid: a477caed4b445f349875e2b574a4660c, type: 2}
+  - buttonName: "\xC9 verdade que voc\xEA \xE9 fofoqueiro?"
+    myEvent:
+      m_PersistentCalls:
+        m_Calls: []
+    nextDialogue: {fileID: 11400000, guid: a9feb8af2f2dbd748ae313f7a9c9860e, type: 2}
     increasesAffection: 0
     targetCharacter: {fileID: 11400000, guid: a477caed4b445f349875e2b574a4660c, type: 2}
   questionText: 
