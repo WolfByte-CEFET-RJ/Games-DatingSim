@@ -1,0 +1,126 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9271c38e9c4325e49a591e881e3292d2, type: 3}
+  m_Name: solda_demo_esquerda
+  m_EditorClassIdentifier: 
+  characters:
+  - {fileID: 11400000, guid: b516531a442f66e4ebdfabdb00db038d, type: 2}
+  - {fileID: 11400000, guid: 3a845617083156747978f2ea2ce89eb0, type: 2}
+  - {fileID: 11400000, guid: 81d3e092d8bd3934d95178f959ea58c1, type: 2}
+  dialogueInfo:
+  - character: {fileID: 11400000, guid: b516531a442f66e4ebdfabdb00db038d, type: 2}
+    characterEmotion: 0
+    myText: Que fofo!
+    delay: 0
+  - character: {fileID: 11400000, guid: 3a845617083156747978f2ea2ce89eb0, type: 2}
+    characterEmotion: 0
+    myText: "Voc\xEA quer saber mais sobre mim?"
+    delay: 0
+  - character: {fileID: 11400000, guid: 3a845617083156747978f2ea2ce89eb0, type: 2}
+    characterEmotion: 0
+    myText: "Ah\u2026 Q-que honra\u2026"
+    delay: 0
+  - character: {fileID: 11400000, guid: b516531a442f66e4ebdfabdb00db038d, type: 2}
+    characterEmotion: 1
+    myText: "Oh, nesse caso vou deix\xE1-los a s\xF3s!"
+    delay: 0
+  - character: {fileID: 11400000, guid: b516531a442f66e4ebdfabdb00db038d, type: 2}
+    characterEmotion: 1
+    myText: "At\xE9 logo!"
+    delay: 0
+  - character: {fileID: 11400000, guid: 81d3e092d8bd3934d95178f959ea58c1, type: 2}
+    characterEmotion: 0
+    myText: Social(F) sai de cena.
+    delay: 0
+  - character: {fileID: 11400000, guid: 3a845617083156747978f2ea2ce89eb0, type: 2}
+    characterEmotion: 0
+    myText: "Bom.. Eu sou o Gest\xE3o(M)"
+    delay: 0
+  - character: {fileID: 11400000, guid: 3a845617083156747978f2ea2ce89eb0, type: 2}
+    characterEmotion: 0
+    myText: "Sou um pouco t\xEDmido, mas bem respons\xE1vel tamb\xE9m."
+    delay: 0
+  - character: {fileID: 11400000, guid: 3a845617083156747978f2ea2ce89eb0, type: 2}
+    characterEmotion: 0
+    myText: "Ent\xE3o no profissional talvez n\xE3o seja t\xE3o percept\xEDvel."
+    delay: 0
+  - character: {fileID: 11400000, guid: 3a845617083156747978f2ea2ce89eb0, type: 2}
+    characterEmotion: 0
+    myText: "Maaas costumam me chamar de quieto\u2026"
+    delay: 0
+  - character: {fileID: 11400000, guid: 3a845617083156747978f2ea2ce89eb0, type: 2}
+    characterEmotion: 0
+    myText: "e de certinho, porque me atento \xE0s regras\u2026"
+    delay: 0
+  - character: {fileID: 11400000, guid: 3a845617083156747978f2ea2ce89eb0, type: 2}
+    characterEmotion: 0
+    myText: "o que na verdade ajuda bastante no quesito organiza\xE7\xE3o!"
+    delay: 0
+  optionsInfo:
+  - buttonName: "Ent\xE3o \xE9 voc\xEA que cuida t\xE3o bem da gest\xE3o do Ramo?"
+    myEvent:
+      m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 11500000, guid: 577e262992c79d340be4bbbcf2aaf259, type: 3}
+          m_TargetAssemblyTypeName: 
+          m_MethodName: 
+          m_Mode: 1
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: 
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
+    nextDialogue: {fileID: 11400000, guid: e63243b3437aa0b46a12c762a3754b15, type: 2}
+    increasesAffection: 0
+    targetCharacter: {fileID: 0}
+  - buttonName: "Logo, sua timidez n\xE3o interfere no seu trabalho?"
+    myEvent:
+      m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 11500000, guid: 577e262992c79d340be4bbbcf2aaf259, type: 3}
+          m_TargetAssemblyTypeName: 
+          m_MethodName: 
+          m_Mode: 1
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: 
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
+    nextDialogue: {fileID: 11400000, guid: e1ddaaaaa20b0b743a20cbafedfbcc06, type: 2}
+    increasesAffection: 0
+    targetCharacter: {fileID: 0}
+  - buttonName: "\xC9 verdade que voc\xEA \xE9 fofoqueiro tamb\xE9m?"
+    myEvent:
+      m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 11500000, guid: 577e262992c79d340be4bbbcf2aaf259, type: 3}
+          m_TargetAssemblyTypeName: 
+          m_MethodName: 
+          m_Mode: 1
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: 
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
+    nextDialogue: {fileID: 11400000, guid: a9feb8af2f2dbd748ae313f7a9c9860e, type: 2}
+    increasesAffection: 0
+    targetCharacter: {fileID: 0}
+  questionText: 

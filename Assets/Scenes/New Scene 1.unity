@@ -1426,7 +1426,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: ab581bf711ee0e146ac5105fb6285b72, type: 3}
+  m_Sprite: {fileID: 21300000, guid: c023643ae331e104aabfea682c45c59b, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -2578,7 +2578,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 18719144ffa90e64e8f832268e92df4d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  dialogue: {fileID: 11400000, guid: 98eeacbb1d0997043a17f105eb7bc453, type: 2}
+  dialogue: {fileID: 11400000, guid: 825930de13ef6c64c85903f70fce910b, type: 2}
   dialogueManagerID: default
 --- !u!1 &785493644
 GameObject:
@@ -6342,8 +6342,8 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 10907, guid: 0000000000000000f000000000000000, type: 0}
-  m_Type: 1
+  m_Sprite: {fileID: 21300000, guid: 1a65b9fa30791f141bbc9c167ca78984, type: 3}
+  m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
   m_FillMethod: 4
