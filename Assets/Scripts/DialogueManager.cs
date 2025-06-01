@@ -126,7 +126,7 @@ public class DialogueManager : MonoBehaviour
         DialogueBase.Info info = dialogueInfo.Dequeue();
 
 
-        nameHolder.position = characterPortraits[GetCurrentCharacterIndex(info)].gameObject.transform.position - new Vector3(0, 0);
+        nameHolder.position = characterPortraits[GetCurrentCharacterIndex(info)].gameObject.transform.position - new Vector3(0, 70);
         dialogueName.text = info.character.myName;
         dialogueText.text = info.myText;
         info.ChangeEmotion();
@@ -145,7 +145,7 @@ public class DialogueManager : MonoBehaviour
             if (i == GetCurrentCharacterIndex(info)) // this character is talking
             {
                 characterPortraits[i].color = hexToColor("FFFFFF");
-                characterPortraits[i].rectTransform.localScale = new Vector3(1.1f, 1.1f);
+                characterPortraits[i].rectTransform.localScale = new Vector3(1.2f, 1.2f);
                 //mudar tamanho dos personagens quando falando, cuidado com a resolução
             }
             else // this character is not talking
