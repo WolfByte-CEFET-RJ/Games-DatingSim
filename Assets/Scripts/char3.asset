@@ -10,11 +10,10 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: fca8f7158d4376749b18b6c3b3150fdd, type: 3}
-  m_Name: BotzF
+  m_Name: char3
   m_EditorClassIdentifier: 
-  myName: BotzF
-  afeto: 0
+  myName: YUI
   emotionPortraits:
-    neutro: {fileID: 21300000, guid: 6c499e709d6b61b48957525b59e2c4f2, type: 3}
-    feliz: {fileID: 0}
-    raiva: {fileID: 0}
+    neutro: {fileID: 21300000, guid: 3315cd75616d9f24d932b1a111832a3a, type: 3}
+    feliz: {fileID: 21300000, guid: 6c5caa561e2acc0489c98b84cfd24e5b, type: 3}
+    raiva: {fileID: 21300000, guid: 3315cd75616d9f24d932b1a111832a3a, type: 3}
