@@ -212,7 +212,7 @@ public void EnqueueDialogue(DialogueBase db)
         DialogueBase.Info info = dialogueInfo.Dequeue();
 
 
-        nameHolder.position = characterPortraits[GetCurrentCharacterIndex(info)].gameObject.transform.position - new Vector3(0, 70);
+        nameHolder.position = characterPortraits[GetCurrentCharacterIndex(info)].gameObject.transform.position - new Vector3(0, 0);
         dialogueName.text = info.character.myName;
         dialogueText.text = info.myText;
         info.ChangeEmotion();

@@ -38,11 +38,11 @@ MonoBehaviour:
     characterEmotion: 0
     myText: "Ah! Ent\xE3o \xE9 voc\xEA de que tanto falam."
     delay: 0
-  - character: {fileID: 11400000, guid: 1e48c0febe89eb846a5580677b651ee2, type: 2}
+  - character: {fileID: 11400000, guid: a477caed4b445f349875e2b574a4660c, type: 2}
     characterEmotion: 0
     myText: Oi! Ah, acho que sou eu, haha.
     delay: 0
-  - character: {fileID: 11400000, guid: 1e48c0febe89eb846a5580677b651ee2, type: 2}
+  - character: {fileID: 11400000, guid: a477caed4b445f349875e2b574a4660c, type: 2}
     characterEmotion: 0
     myText: "Perd\xE3o interromper."
     delay: 0
@@ -78,7 +78,7 @@ MonoBehaviour:
     characterEmotion: 0
     myText: Que fofo!
     delay: 0
-  - character: {fileID: 11400000, guid: cc2e5c01c9ef87e43bdac6e0c692f051, type: 2}
+  - character: {fileID: 11400000, guid: 1e48c0febe89eb846a5580677b651ee2, type: 2}
     characterEmotion: 0
     myText: Quem seria?
     delay: 0

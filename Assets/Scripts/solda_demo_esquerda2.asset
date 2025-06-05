@@ -14,6 +14,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   characters:
   - {fileID: 11400000, guid: 3a845617083156747978f2ea2ce89eb0, type: 2}
+  - {fileID: 11400000, guid: 1e48c0febe89eb846a5580677b651ee2, type: 2}
+  - {fileID: 11400000, guid: a477caed4b445f349875e2b574a4660c, type: 2}
+  - {fileID: 11400000, guid: e2ad07c5ee075eb43b10f529c20d0428, type: 2}
   dialogueInfo:
   - character: {fileID: 11400000, guid: 3a845617083156747978f2ea2ce89eb0, type: 2}
     characterEmotion: 0
@@ -32,7 +35,7 @@ MonoBehaviour:
     myText: "Ent\xE3o mesmo quando me sentir t\xEDmido, tento superar essa inibi\xE7\xE3o
       e me conectar com os outros!"
     delay: 0
-  - character: {fileID: 0}
+  - character: {fileID: 11400000, guid: e2ad07c5ee075eb43b10f529c20d0428, type: 2}
     characterEmotion: 0
     myText: "Galera, a RG j\xE1 vai come\xE7ar, vamos para o Audit\xF3rio 2!"
     delay: 0
