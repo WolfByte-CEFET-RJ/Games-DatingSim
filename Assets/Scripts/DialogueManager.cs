@@ -1,6 +1,8 @@
 using System.Collections;
 using System.Collections.Generic;
 using TMPro;
+using Unity.VisualScripting;
+using Unity.VisualScripting.Dependencies.Sqlite;
 using UnityEngine;
 using UnityEngine.UI;
 
@@ -50,6 +52,9 @@ public class DialogueManager : MonoBehaviour
     public Transform nameHolder;
     public DialogueBase currentDialogue;
 
+    public GameObject root;
+    public Button botaodelugar;
+
 
     public Queue<DialogueBase.Info> dialogueInfo; // FIFO Collection
 
@@ -78,7 +83,7 @@ public class DialogueManager : MonoBehaviour
     Debug.Log($"Encontrados {foundButtons.Length} botões automaticamente");
     return foundButtons;
 }
-public void EnqueueDialogue(DialogueBase db)
+    public void EnqueueDialogue(DialogueBase db)
     {
         if (isCurrentlyTyping)
         {
@@ -199,12 +204,20 @@ public void EnqueueDialogue(DialogueBase db)
         }
 
         DequeueDialogue();
+        
     }
 
     public void DequeueDialogue()
     {
         if (dialogueInfo.Count == 0)
         {
+            if (optionsAmount == 0)
+            {
+                root.SetActive(false);
+                botaodelugar.interactable = false;
+
+            }
+
             EndOfDialogue();
             return;
         }

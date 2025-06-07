@@ -18,7 +18,7 @@ public class DialogueOptions : DialogueBase
     }
     public Options[] optionsInfo;
 
-    [TextArea(2, 5)]
+    [TextArea(4, 5)]
     public string questionText;
 
 }

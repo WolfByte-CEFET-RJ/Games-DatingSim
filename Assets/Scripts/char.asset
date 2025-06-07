@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fca8f7158d4376749b18b6c3b3150fdd, type: 3}
   m_Name: char
   m_EditorClassIdentifier: 
-  myName: ana
+  myName: '?'
   afeto: 0
   emotionPortraits:
     neutro: {fileID: 21300000, guid: 5b6da5b5316c3c64cb96f8dbdd5679aa, type: 3}
