@@ -13,7 +13,7 @@ public class conversa : MonoBehaviour
 
     public TextAsset JSONMesa,JSONPcs,JSONSolda,JSONFlip, JSONEscolha;
     string longLine;
-    string name;
+    //string name;
     public static char select;
     public int ids;
     public int indexa;

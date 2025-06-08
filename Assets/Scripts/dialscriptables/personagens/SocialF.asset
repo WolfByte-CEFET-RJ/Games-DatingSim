@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: SocialF
   m_EditorClassIdentifier: 
   myName: SocialF
-  afeto: 0.3
+  afeto: 0.9000001
   emotionPortraits:
     neutro: {fileID: 21300000, guid: fad120930661a2a4cae098dfe1b4ceea, type: 3}
     feliz: {fileID: 21300000, guid: 987340bdd65fa13448bc520b079ad328, type: 3}

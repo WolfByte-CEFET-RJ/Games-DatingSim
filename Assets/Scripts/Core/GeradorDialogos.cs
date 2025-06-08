@@ -25,7 +25,7 @@ using UnityEngine.SceneManagement;
         public int ajuesc,ajustesc, isi;
         public char select, elim;
         string longLine;
-        string name;
+        //string name;
         string BoF, BoM, ByM, ByF;
         public int id_pose;
         public static string pose;

@@ -1,0 +1,123 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9271c38e9c4325e49a591e881e3292d2, type: 3}
+  m_Name: solda_demo_direita
+  m_EditorClassIdentifier: 
+  characters:
+  - {fileID: 11400000, guid: 3a845617083156747978f2ea2ce89eb0, type: 2}
+  - {fileID: 11400000, guid: b516531a442f66e4ebdfabdb00db038d, type: 2}
+  - {fileID: 11400000, guid: 1e48c0febe89eb846a5580677b651ee2, type: 2}
+  - {fileID: 11400000, guid: a477caed4b445f349875e2b574a4660c, type: 2}
+  dialogueInfo:
+  - character: {fileID: 11400000, guid: b516531a442f66e4ebdfabdb00db038d, type: 2}
+    characterEmotion: 0
+    myText: "Aww, voc\xEA veio me conhecer?"
+    delay: 0
+  - character: {fileID: 11400000, guid: 3a845617083156747978f2ea2ce89eb0, type: 2}
+    characterEmotion: 0
+    myText: "\u2026Vejo voc\xEAs em breve."
+    delay: 0
+  - character: {fileID: 11400000, guid: b516531a442f66e4ebdfabdb00db038d, type: 2}
+    characterEmotion: 0
+    myText: "At\xE9 logo, Gest\xE3o (M)!"
+    delay: 0
+  - character: {fileID: 11400000, guid: 1e48c0febe89eb846a5580677b651ee2, type: 2}
+    characterEmotion: 0
+    myText: "Gest\xE3o(M) se afasta."
+    delay: 0
+  - character: {fileID: 11400000, guid: 1e48c0febe89eb846a5580677b651ee2, type: 2}
+    characterEmotion: 0
+    myText: Social(F) sai de cena.
+    delay: 0
+  - character: {fileID: 11400000, guid: b516531a442f66e4ebdfabdb00db038d, type: 2}
+    characterEmotion: 1
+    myText: "\xC9 um grande prazer em te conhecer, trainee!"
+    delay: 0
+  - character: {fileID: 11400000, guid: b516531a442f66e4ebdfabdb00db038d, type: 2}
+    characterEmotion: 0
+    myText: Eu sou a Social (F)! Sou apaixonada por projetos sociais.
+    delay: 0
+  - character: {fileID: 11400000, guid: b516531a442f66e4ebdfabdb00db038d, type: 2}
+    characterEmotion: 0
+    myText: "Busco sempre maneiras de ajudar quem est\xE1 ao meu redor."
+    delay: 0
+  - character: {fileID: 11400000, guid: b516531a442f66e4ebdfabdb00db038d, type: 2}
+    characterEmotion: 0
+    myText: Valorizo muito a coragem e a empatia!
+    delay: 0
+  - character: {fileID: 11400000, guid: b516531a442f66e4ebdfabdb00db038d, type: 2}
+    characterEmotion: 1
+    myText: "E\u2026 fato curioso. Mas me considero uma nerd!"
+    delay: 0
+  - character: {fileID: 11400000, guid: b516531a442f66e4ebdfabdb00db038d, type: 2}
+    characterEmotion: 1
+    myText: "Por conta da minha paix\xE3o e dedica\xE7\xE3o aos estudos."
+    delay: 0
+  optionsInfo:
+  - buttonName: "Sua energia \xE9 inspiradora!"
+    myEvent:
+      m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 11500000, guid: 577e262992c79d340be4bbbcf2aaf259, type: 3}
+          m_TargetAssemblyTypeName: UnityEditor.MonoScript, UnityEditor.CoreModule
+          m_MethodName: 
+          m_Mode: 1
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: 
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
+    nextDialogue: {fileID: 11400000, guid: 24717b565c20f394bbeeb4c2c46d5270, type: 2}
+    increasesAffection: 0
+    targetCharacter: {fileID: 11400000, guid: b516531a442f66e4ebdfabdb00db038d, type: 2}
+  - buttonName: "Aquilo ali s\xE3o batatinhas?"
+    myEvent:
+      m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 11500000, guid: 577e262992c79d340be4bbbcf2aaf259, type: 3}
+          m_TargetAssemblyTypeName: UnityEditor.MonoScript, UnityEditor.CoreModule
+          m_MethodName: 
+          m_Mode: 1
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: 
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
+    nextDialogue: {fileID: 11400000, guid: 69b5c896bf4826848b61139ab205895b, type: 2}
+    increasesAffection: 0
+    targetCharacter: {fileID: 11400000, guid: b516531a442f66e4ebdfabdb00db038d, type: 2}
+  - buttonName: "Voc\xEA parece sonhadora, o social exige ser mais realista."
+    myEvent:
+      m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 11500000, guid: 577e262992c79d340be4bbbcf2aaf259, type: 3}
+          m_TargetAssemblyTypeName: UnityEditor.MonoScript, UnityEditor.CoreModule
+          m_MethodName: 
+          m_Mode: 1
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: 
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
+    nextDialogue: {fileID: 11400000, guid: 2ebe2b48776ce5249b344943827d68d9, type: 2}
+    increasesAffection: 0
+    targetCharacter: {fileID: 11400000, guid: b516531a442f66e4ebdfabdb00db038d, type: 2}
+  questionText: 
