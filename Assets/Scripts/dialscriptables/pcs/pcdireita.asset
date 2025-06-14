@@ -22,8 +22,8 @@ MonoBehaviour:
     characterEmotion: 0
     myText: "Opa, n\xE3o vou interromper voc\xEAs ent\xE3o. At\xE9 logo!"
     delay: 0
-  - character: {fileID: 11400000, guid: 1e48c0febe89eb846a5580677b651ee2, type: 2}
-    characterEmotion: 0
+  - character: {fileID: 11400000, guid: cc2e5c01c9ef87e43bdac6e0c692f051, type: 2}
+    characterEmotion: 2
     myText: Botz(F) se afasta do local.
     delay: 0
   - character: {fileID: 11400000, guid: 7738adec4d0809a4193065536ebdfd15, type: 2}
@@ -39,7 +39,7 @@ MonoBehaviour:
     myText: "\xC9 um prazer."
     delay: 0
   - character: {fileID: 11400000, guid: a477caed4b445f349875e2b574a4660c, type: 2}
-    characterEmotion: 1
+    characterEmotion: 0
     myText: Uhm... Prazer?
     delay: 0
   - character: {fileID: 11400000, guid: 7738adec4d0809a4193065536ebdfd15, type: 2}
@@ -55,19 +55,19 @@ MonoBehaviour:
     myText: "N\xE3o pense que estou aqui para fazer amizade, t\xE1?"
     delay: 0
   - character: {fileID: 11400000, guid: 7738adec4d0809a4193065536ebdfd15, type: 2}
-    characterEmotion: 1
+    characterEmotion: 0
     myText: "S\xF3 estou cumprindo minha parte."
     delay: 0
   - character: {fileID: 11400000, guid: 7738adec4d0809a4193065536ebdfd15, type: 2}
-    characterEmotion: 1
+    characterEmotion: 0
     myText: "E n\xE3o sou uma pessoa qualquer."
     delay: 0
   - character: {fileID: 11400000, guid: 7738adec4d0809a4193065536ebdfd15, type: 2}
-    characterEmotion: 1
+    characterEmotion: 0
     myText: "E n\xE3o me olhe assim!"
     delay: 0
   - character: {fileID: 11400000, guid: 7738adec4d0809a4193065536ebdfd15, type: 2}
-    characterEmotion: 1
+    characterEmotion: 0
     myText: "Isso \xE9 s\xF3 parte da minha personalidade forte."
     delay: 0
   optionsInfo:

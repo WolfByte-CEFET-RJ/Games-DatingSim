@@ -38,8 +38,8 @@ MonoBehaviour:
     characterEmotion: 0
     myText: "At\xE9 mais!"
     delay: 0
-  - character: {fileID: 11400000, guid: 1e48c0febe89eb846a5580677b651ee2, type: 2}
-    characterEmotion: 0
+  - character: {fileID: 11400000, guid: 7738adec4d0809a4193065536ebdfd15, type: 2}
+    characterEmotion: 1
     myText: Power vai descansar os ouvidos em outro lugar.
     delay: 0
   - character: {fileID: 11400000, guid: cc2e5c01c9ef87e43bdac6e0c692f051, type: 2}
@@ -91,7 +91,7 @@ MonoBehaviour:
       m_PersistentCalls:
         m_Calls:
         - m_Target: {fileID: 11500000, guid: 577e262992c79d340be4bbbcf2aaf259, type: 3}
-          m_TargetAssemblyTypeName: 
+          m_TargetAssemblyTypeName: UnityEditor.MonoScript, UnityEditor.CoreModule
           m_MethodName: 
           m_Mode: 1
           m_Arguments:

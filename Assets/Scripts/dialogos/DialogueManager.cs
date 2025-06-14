@@ -47,6 +47,8 @@ public class DialogueManager : MonoBehaviour
     public GameObject root;
     //public Button botaodelugar;
 
+    public Animator[] anim;
+
 
     public Queue<DialogueBase.Info> dialogueInfo; // FIFO Collection
 
@@ -229,6 +231,12 @@ public class DialogueManager : MonoBehaviour
         //dialoguePortrait.sprite = info.character.MyPortrait;
         characterPortraits[GetCurrentCharacterIndex(info)].sprite = info.character.MyPortrait;
         DarkenOtherPortraits(info);
+
+        if (info.character.Emotion != CharacterProfile.EmotionType.Neutro)
+        {
+            anim[GetCurrentCharacterIndex(info)].Play(info.characterEmotion.ToString() + "Animation");
+        }
+
 
         StartCoroutine(TypeText(info));
     }

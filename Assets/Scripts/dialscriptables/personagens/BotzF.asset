@@ -13,8 +13,8 @@ MonoBehaviour:
   m_Name: BotzF
   m_EditorClassIdentifier: 
   myName: BotzF
-  afeto: 0
+  afeto: 0.1
   emotionPortraits:
     neutro: {fileID: 21300000, guid: 6c499e709d6b61b48957525b59e2c4f2, type: 3}
     feliz: {fileID: 0}
-    raiva: {fileID: 0}
+    raiva: {fileID: 21300000, guid: 6c499e709d6b61b48957525b59e2c4f2, type: 3}

@@ -30,8 +30,8 @@ MonoBehaviour:
     characterEmotion: 0
     myText: "At\xE9 logo, Gest\xE3o (M)!"
     delay: 0
-  - character: {fileID: 11400000, guid: 1e48c0febe89eb846a5580677b651ee2, type: 2}
-    characterEmotion: 0
+  - character: {fileID: 11400000, guid: 3a845617083156747978f2ea2ce89eb0, type: 2}
+    characterEmotion: 2
     myText: "Gest\xE3o(M) se afasta."
     delay: 0
   - character: {fileID: 11400000, guid: 1e48c0febe89eb846a5580677b651ee2, type: 2}
@@ -39,7 +39,7 @@ MonoBehaviour:
     myText: Social(F) sai de cena.
     delay: 0
   - character: {fileID: 11400000, guid: b516531a442f66e4ebdfabdb00db038d, type: 2}
-    characterEmotion: 1
+    characterEmotion: 0
     myText: "\xC9 um grande prazer em te conhecer, trainee!"
     delay: 0
   - character: {fileID: 11400000, guid: b516531a442f66e4ebdfabdb00db038d, type: 2}
@@ -55,11 +55,11 @@ MonoBehaviour:
     myText: Valorizo muito a coragem e a empatia!
     delay: 0
   - character: {fileID: 11400000, guid: b516531a442f66e4ebdfabdb00db038d, type: 2}
-    characterEmotion: 1
+    characterEmotion: 0
     myText: "E\u2026 fato curioso. Mas me considero uma nerd!"
     delay: 0
   - character: {fileID: 11400000, guid: b516531a442f66e4ebdfabdb00db038d, type: 2}
-    characterEmotion: 1
+    characterEmotion: 0
     myText: "Por conta da minha paix\xE3o e dedica\xE7\xE3o aos estudos."
     delay: 0
   optionsInfo:

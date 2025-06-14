@@ -13,10 +13,10 @@ MonoBehaviour:
   m_Name: solda_demo_direta2
   m_EditorClassIdentifier: 
   characters:
-  - {fileID: 11400000, guid: b516531a442f66e4ebdfabdb00db038d, type: 2}
+  - {fileID: 11400000, guid: e2ad07c5ee075eb43b10f529c20d0428, type: 2}
   - {fileID: 11400000, guid: a477caed4b445f349875e2b574a4660c, type: 2}
   - {fileID: 11400000, guid: 1e48c0febe89eb846a5580677b651ee2, type: 2}
-  - {fileID: 11400000, guid: e2ad07c5ee075eb43b10f529c20d0428, type: 2}
+  - {fileID: 11400000, guid: b516531a442f66e4ebdfabdb00db038d, type: 2}
   dialogueInfo:
   - character: {fileID: 11400000, guid: b516531a442f66e4ebdfabdb00db038d, type: 2}
     characterEmotion: 0
@@ -31,12 +31,12 @@ MonoBehaviour:
     myText: "Como diz o ditado \u201CSaco vazio n\xE3o para em p\xE9.\""
     delay: 0
   - character: {fileID: 11400000, guid: b516531a442f66e4ebdfabdb00db038d, type: 2}
-    characterEmotion: 1
+    characterEmotion: 0
     myText: "Tamb\xE9m s\xE3o \xF3timas desculpas para uma pausa, acompanhada, \xE9
       claro, de uma recarga de ideias!"
     delay: 0
   - character: {fileID: 11400000, guid: e2ad07c5ee075eb43b10f529c20d0428, type: 2}
-    characterEmotion: 1
+    characterEmotion: 0
     myText: "Galera, a RG j\xE1 vai come\xE7ar, vamos para o Audit\xF3rio 2!"
     delay: 0
   - character: {fileID: 11400000, guid: b516531a442f66e4ebdfabdb00db038d, type: 2}
