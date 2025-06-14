@@ -1713,8 +1713,8 @@ GameObject:
   - component: {fileID: 485019587}
   - component: {fileID: 485019586}
   - component: {fileID: 485019585}
-  - component: {fileID: 485019584}
-  - component: {fileID: 485019583}
+  - component: {fileID: 485019589}
+  - component: {fileID: 485019588}
   m_Layer: 0
   m_Name: next (2)
   m_TagString: Untagged
@@ -1743,36 +1743,6 @@ RectTransform:
   m_AnchoredPosition: {x: 397.73737, y: -339.1665}
   m_SizeDelta: {x: 300, y: 85}
   m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &485019583
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 485019581}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 577e262992c79d340be4bbbcf2aaf259, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  eventHandler:
-    m_PersistentCalls:
-      m_Calls: []
-  myDialogue: {fileID: 0}
-  optionIndex: 2
---- !u!114 &485019584
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 485019581}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a73b0e2b06f9a9044af1c8d02015dc8d, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  dialogueManagerID: default1
 --- !u!114 &485019585
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1817,8 +1787,8 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 485019584}
-        m_TargetAssemblyTypeName: DialogueButton, Assembly-CSharp
+      - m_Target: {fileID: 485019589}
+        m_TargetAssemblyTypeName: DialogueButton1, Assembly-CSharp
         m_MethodName: GetNextLine
         m_Mode: 1
         m_Arguments:
@@ -1867,6 +1837,36 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 485019581}
   m_CullTransparentMesh: 1
+--- !u!114 &485019588
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 485019581}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e341dd1a3c26859479a306cbb717492c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  eventHandler:
+    m_PersistentCalls:
+      m_Calls: []
+  myDialogue: {fileID: 0}
+  optionIndex: 2
+--- !u!114 &485019589
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 485019581}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 64d02e3af581f5d4c96ffdc2397527d0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  dialogueManagerID1: default1
 --- !u!1 &491245736
 GameObject:
   m_ObjectHideFlags: 0
@@ -2299,8 +2299,8 @@ GameObject:
   - component: {fileID: 572986620}
   - component: {fileID: 572986619}
   - component: {fileID: 572986618}
-  - component: {fileID: 572986617}
-  - component: {fileID: 572986616}
+  - component: {fileID: 572986622}
+  - component: {fileID: 572986621}
   m_Layer: 0
   m_Name: next (1)
   m_TagString: Untagged
@@ -2329,36 +2329,6 @@ RectTransform:
   m_AnchoredPosition: {x: 397.73737, y: -286.6665}
   m_SizeDelta: {x: 300, y: 85}
   m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &572986616
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 572986614}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 577e262992c79d340be4bbbcf2aaf259, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  eventHandler:
-    m_PersistentCalls:
-      m_Calls: []
-  myDialogue: {fileID: 0}
-  optionIndex: 1
---- !u!114 &572986617
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 572986614}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a73b0e2b06f9a9044af1c8d02015dc8d, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  dialogueManagerID: default1
 --- !u!114 &572986618
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2403,8 +2373,8 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 572986617}
-        m_TargetAssemblyTypeName: DialogueButton, Assembly-CSharp
+      - m_Target: {fileID: 572986622}
+        m_TargetAssemblyTypeName: DialogueButton1, Assembly-CSharp
         m_MethodName: GetNextLine
         m_Mode: 1
         m_Arguments:
@@ -2453,6 +2423,36 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 572986614}
   m_CullTransparentMesh: 1
+--- !u!114 &572986621
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 572986614}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e341dd1a3c26859479a306cbb717492c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  eventHandler:
+    m_PersistentCalls:
+      m_Calls: []
+  myDialogue: {fileID: 0}
+  optionIndex: 1
+--- !u!114 &572986622
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 572986614}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 64d02e3af581f5d4c96ffdc2397527d0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  dialogueManagerID1: default1
 --- !u!1 &595584751
 GameObject:
   m_ObjectHideFlags: 0
@@ -3480,8 +3480,8 @@ GameObject:
   - component: {fileID: 840893078}
   - component: {fileID: 840893077}
   - component: {fileID: 840893076}
-  - component: {fileID: 840893075}
-  - component: {fileID: 840893074}
+  - component: {fileID: 840893080}
+  - component: {fileID: 840893079}
   m_Layer: 0
   m_Name: next
   m_TagString: Untagged
@@ -3510,36 +3510,6 @@ RectTransform:
   m_AnchoredPosition: {x: 475.73737, y: -286.6665}
   m_SizeDelta: {x: 300, y: 85}
   m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &840893074
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 840893072}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 577e262992c79d340be4bbbcf2aaf259, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  eventHandler:
-    m_PersistentCalls:
-      m_Calls: []
-  myDialogue: {fileID: 0}
-  optionIndex: 0
---- !u!114 &840893075
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 840893072}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a73b0e2b06f9a9044af1c8d02015dc8d, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  dialogueManagerID: default1
 --- !u!114 &840893076
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3584,8 +3554,8 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 840893075}
-        m_TargetAssemblyTypeName: DialogueButton, Assembly-CSharp
+      - m_Target: {fileID: 840893080}
+        m_TargetAssemblyTypeName: DialogueButton1, Assembly-CSharp
         m_MethodName: GetNextLine
         m_Mode: 1
         m_Arguments:
@@ -3634,6 +3604,36 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 840893072}
   m_CullTransparentMesh: 1
+--- !u!114 &840893079
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 840893072}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e341dd1a3c26859479a306cbb717492c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  eventHandler:
+    m_PersistentCalls:
+      m_Calls: []
+  myDialogue: {fileID: 0}
+  optionIndex: 0
+--- !u!114 &840893080
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 840893072}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 64d02e3af581f5d4c96ffdc2397527d0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  dialogueManagerID1: default1
 --- !u!1 &844254048
 GameObject:
   m_ObjectHideFlags: 0
@@ -4756,7 +4756,7 @@ GameObject:
   - component: {fileID: 1026991304}
   - component: {fileID: 1026991303}
   - component: {fileID: 1026991302}
-  - component: {fileID: 1026991301}
+  - component: {fileID: 1026991305}
   m_Layer: 0
   m_Name: next
   m_TagString: Untagged
@@ -4785,19 +4785,6 @@ RectTransform:
   m_AnchoredPosition: {x: 275.2895, y: -38.14911}
   m_SizeDelta: {x: 160, y: 30}
   m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &1026991301
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1026991299}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a73b0e2b06f9a9044af1c8d02015dc8d, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  dialogueManagerID: default1
 --- !u!114 &1026991302
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4842,8 +4829,8 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1026991301}
-        m_TargetAssemblyTypeName: DialogueButton, Assembly-CSharp
+      - m_Target: {fileID: 1026991305}
+        m_TargetAssemblyTypeName: DialogueButton1, Assembly-CSharp
         m_MethodName: GetNextLine
         m_Mode: 1
         m_Arguments:
@@ -4892,6 +4879,19 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1026991299}
   m_CullTransparentMesh: 1
+--- !u!114 &1026991305
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1026991299}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 64d02e3af581f5d4c96ffdc2397527d0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  dialogueManagerID1: default1
 --- !u!1 &1058360745
 GameObject:
   m_ObjectHideFlags: 0
@@ -5695,10 +5695,10 @@ MonoBehaviour:
   m_GameObject: {fileID: 1328573012}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a6cbe7d5c055dd34f91d9c34b48cdc75, type: 3}
+  m_Script: {fileID: 11500000, guid: 8643b49cc7f089149a1743aada8397ad, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  managerID: default1
+  managerID1: default1
   dialogueBox: {fileID: 1948985277}
   dialogueOptionUI: {fileID: 1714225884}
   optionButtons:
@@ -7556,10 +7556,10 @@ MonoBehaviour:
   m_GameObject: {fileID: 1804115749}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a6cbe7d5c055dd34f91d9c34b48cdc75, type: 3}
+  m_Script: {fileID: 11500000, guid: 8643b49cc7f089149a1743aada8397ad, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  managerID: default1
+  managerID1: default1
   dialogueBox: {fileID: 1948985277}
   dialogueOptionUI: {fileID: 1714225884}
   optionButtons:
@@ -7724,11 +7724,11 @@ MonoBehaviour:
   m_GameObject: {fileID: 1872508864}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 18719144ffa90e64e8f832268e92df4d, type: 3}
+  m_Script: {fileID: 11500000, guid: a5f846f34d8b7de41b71942557e44f40, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   dialogue: {fileID: 11400000, guid: cabed9146b34f9f42be3534642685bcd, type: 2}
-  dialogueManagerID: default1
+  dialogueManagerID1: default1
 --- !u!1 &1873216651
 GameObject:
   m_ObjectHideFlags: 0
