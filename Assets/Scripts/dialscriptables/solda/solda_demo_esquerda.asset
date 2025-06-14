@@ -13,8 +13,8 @@ MonoBehaviour:
   m_Name: solda_demo_esquerda
   m_EditorClassIdentifier: 
   characters:
-  - {fileID: 11400000, guid: b516531a442f66e4ebdfabdb00db038d, type: 2}
   - {fileID: 11400000, guid: 3a845617083156747978f2ea2ce89eb0, type: 2}
+  - {fileID: 11400000, guid: b516531a442f66e4ebdfabdb00db038d, type: 2}
   - {fileID: 11400000, guid: 1e48c0febe89eb846a5580677b651ee2, type: 2}
   - {fileID: 11400000, guid: a477caed4b445f349875e2b574a4660c, type: 2}
   dialogueInfo:
@@ -91,7 +91,7 @@ MonoBehaviour:
       m_PersistentCalls:
         m_Calls:
         - m_Target: {fileID: 11500000, guid: 577e262992c79d340be4bbbcf2aaf259, type: 3}
-          m_TargetAssemblyTypeName: 
+          m_TargetAssemblyTypeName: UnityEditor.MonoScript, UnityEditor.CoreModule
           m_MethodName: 
           m_Mode: 1
           m_Arguments:
