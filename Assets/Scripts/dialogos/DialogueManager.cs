@@ -1,38 +1,30 @@
 using System.Collections;
 using System.Collections.Generic;
 using TMPro;
-using Unity.VisualScripting;
-using Unity.VisualScripting.Dependencies.Sqlite;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 using UnityEngine.UI;
 
 public class DialogueManager : MonoBehaviour
 {
-   private static Dictionary<string, DialogueManager> instances = new Dictionary<string, DialogueManager>();
+    public static DialogueManager instance;
+    
 
-    [SerializeField]
-    public string managerID = "default"; 
+
     
     private void Awake()
     {
-        if (!instances.ContainsKey(managerID))
+        if (instance != null)
         {
-            instances[managerID] = this;
+
+            Debug.LogWarning("Fix this" + gameObject.name);
         }
         else
         {
-            Destroy(gameObject);
-            return;
+            instance = this;
+
         }
     }
-    
-    public static DialogueManager GetInstance(string id = "default")
-    {
-        return instances.ContainsKey(id) ? instances[id] : null;
-    }
-    
-    public static DialogueManager instance => GetInstance();
-
     public GameObject dialogueBox;
     public GameObject dialogueOptionUI;
     public GameObject[] optionButtons;
@@ -53,13 +45,14 @@ public class DialogueManager : MonoBehaviour
     public DialogueBase currentDialogue;
 
     public GameObject root;
-    public Button botaodelugar;
+    //public Button botaodelugar;
 
 
     public Queue<DialogueBase.Info> dialogueInfo; // FIFO Collection
 
     private void Start()
     {
+        root.SetActive(true);
         dialogueInfo = new Queue<DialogueBase.Info>();
     }
     
@@ -209,14 +202,18 @@ public class DialogueManager : MonoBehaviour
 
     public void DequeueDialogue()
     {
+        
         if (dialogueInfo.Count == 0)
         {
+
             if (optionsAmount == 0)
             {
-                root.SetActive(false);
-                botaodelugar.interactable = false;
+                SceneManager.LoadScene("dia1");
+                //root.SetActive(false);
+                //botaodelugar.interactable = false;
 
             }
+            
 
             EndOfDialogue();
             return;
