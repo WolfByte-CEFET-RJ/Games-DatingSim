@@ -3,90 +3,90 @@
 	[
 		{
 		"aju": 0,
-		"msg": ""
+		"msg": "placeholder message 1"
 		},
 		{
 		"aju": 0,
-		"msg": ""
+		"msg": "placeholder message 2"
 		},
 		{
 		"aju": 0,
-		"msg": ""
+		"msg": "placeholder message 3"
 		}
 	],
 	"escolhaFlip2": 
 	[
 		{
 		"aju": 6,
-		"msg": ""
+		"msg": "placeholder message 4"
 		},
 		{
 		"aju": 2,
-		"msg": ""
+		"msg": "placeholder message 5"
 		},
 		{
 		"aju": 3,
-		"msg": ""
+		"msg": "placeholder message 6"
 		}
 	],
 	"escolhaFlip3": 
 	[
 		{
 		"aju": 12,
-		"msg": ""
+		"msg": "placeholder message 7"
 		},
 		{
 		"aju": 2,
-		"msg": ""
+		"msg": "placeholder message 8"
 		},
 		{
 		"aju": 3,
-		"msg": ""
+		"msg": "placeholder message 9"
 		}
 	],
 	"escolhaMesa1": 
 	[
 		{
 		"aju": 1,
-		"msg": ""
+		"msg": "placeholder message 10"
 		},
 		{
 		"aju": 2,
-		"msg": ""
+		"msg": "placeholder message 11"
 		},
 		{
 		"aju": 3,
-		"msg": ""
+		"msg": "placeholder message 12"
 		}
 	],
 	"escolhaMesa2": 
 	[
 		{
 		"aju": 1,
-		"msg": ""
+		"msg": "placeholder message 13"
 		},
 		{
 		"aju": 2,
-		"msg": ""
+		"msg": "placeholder message 14"
 		},
 		{
 		"aju": 3,
-		"msg": ""
+		"msg": "placeholder message 15"
 		}
 	],
 	"escolhaMesa3": 
 	[
 		{
 		"aju": 1,
-		"msg": ""
+		"msg": "placeholder message 16"
 		},
 		{
 		"aju": 2,
-		"msg": ""
+		"msg": "placeholder message 17"
 		},
 		{
 		"aju": 3,
-		"msg": ""
+		"msg": "placeholder message 18"
 		}
 	],
 	"escolhaPcs1": 
@@ -97,11 +97,11 @@
 		},
 		{
 		"aju": 1,
-		"msg": "Ótimo discurso de “proteção emocional”."
+		"msg": "Ótimo discurso de \"proteção emocional\""
 		},
 		{
 		"aju": 3,
-		"msg": ""
+		"msg": "placeholder message 19"
 		}
 	],
 	"escolhaPcs2": 
@@ -116,7 +116,7 @@
 		},
 		{
 		"aju": 3,
-		"msg": ""
+		"msg": "placeholder message 20"
 		}
 	],
 	"escolhaPcs3": 
@@ -131,7 +131,7 @@
 		},
 		{
 		"aju": 3,
-		"msg": ""
+		"msg": "placeholder message 21"
 		}
 	],
 	"escolhaSolda1": 
@@ -146,7 +146,7 @@
 		},
 		{
 		"aju": 3,
-		"msg": ""
+		"msg": "placeholder message 22"
 		}
 	],
 	"escolhaSolda2": 
@@ -161,7 +161,7 @@
 		},
 		{
 		"aju": 3,
-		"msg": ""
+		"msg": "placeholder message 23"
 		}
 	],
 	"escolhaSolda3": 
@@ -176,7 +176,7 @@
 		},
 		{
 		"aju": 3,
-		"msg": ""
+		"msg": "placeholder message 24"
 		}
 	]
 }

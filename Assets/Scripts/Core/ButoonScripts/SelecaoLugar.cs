@@ -1,59 +1,40 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 using UnityEngine.UI;
 
 public class SelecaoLugar : MonoBehaviour
 {
-    DialogueSystem ds;
-    private GameObject filas;
-    private GameObject escolha;
-
     [SerializeField] private Button b1, b2, b3, b4;
-    public static char selec;
+    public static char selec = 'N';
+    
 
     private void Awake()
     {
-        b1.onClick.AddListener(Flip);
-        b2.onClick.AddListener(Mesa);
-        b3.onClick.AddListener(Solda);
-        b4.onClick.AddListener(Pcs);
+        b1.onClick.AddListener(() => Selecionar('F'));
+        b2.onClick.AddListener(() => Selecionar('M'));
+        b3.onClick.AddListener(() => Selecionar('S'));
+        b4.onClick.AddListener(() => Selecionar('P'));
     }
 
-    void Start()
+    private void Selecionar(char lugar)
     {
-        selec = 'N';
-        ds = DialogueSystem.instance;
-        filas = ds.dialogueContainer.root;
-        escolha = ds.dialogueContainer.escolha;
-    }
-
-    private void Flip()
-    {
-        selec = 'F';
-        escolha.SetActive(false);
-        filas.SetActive(true);
-
-    }
-
-    private void Mesa()
-    {
-        selec = 'M';
-        escolha.SetActive(false);
-        filas.SetActive(true);
-    }
-
-    private void Solda()
-    {
-        selec = 'S';
-        escolha.SetActive(false);
-        filas.SetActive(true);       
-    }
-
-    private void Pcs()
-    {
-        selec = 'P';
-        escolha.SetActive(false);
-        filas.SetActive(true);
+        if (lugar == 'S')
+        {
+            SceneManager.LoadScene("dia1solda");
+            
+        }
+        if (lugar == 'P')
+        {
+            SceneManager.LoadScene("dia1pc");
+            
+        }
+        else
+        {
+            Debug.Log("nao deu");
+        }
+        // Aqui você pode colocar a lógica para fechar a seleção e continuar o fluxo,
+        // mas como pediu só para seleção, deixei só o set da variável.
+        // Exemplo:
+        // gameObject.SetActive(false);
     }
 }

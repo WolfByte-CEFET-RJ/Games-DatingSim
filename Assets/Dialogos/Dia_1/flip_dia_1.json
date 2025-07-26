@@ -4,37 +4,34 @@
 	"id": 0,
 	"character": "",
 	"msg": "",
-	"pose": ""
+	"pose": "Power"
 	},
 	{
 	"id": 1,
 	"character": "Narrador",
 	"msg": "Há muito barulho vindo do fliperama.",
-	"pose": ""
+	"pose": "Power"
 	},
 	{
 	"id": 2,
 	"character": "Botz(F)",
 	"msg": "ISSO FICA PRONTO NUNCA NÃO?!",
-	"pose": "feliz"
+	"pose": "Power"
 	},
     {
 	"id": 3,
 	"character": "Narrador",
-	"msg": "Uma voz sai de trás do fliperama.",
-	"pose": ""
+	"msg": "Uma voz sai de trás do fliperama."
 	},
 	{
 	"id": 4,
 	"character": "???",
-	"msg": "Já estou terminando, não enche o saco.",
-	"pose": ""
+	"msg": "Já estou terminando, não enche o saco."
 	},
 	{
 	"id": 5,
 	"character": "Byte(F)",
-	"msg": "ç(>_<)",
-	"pose": "feliz"
+	"msg": "ç(>_<)"
 	},
 	{
 	"id": 6,

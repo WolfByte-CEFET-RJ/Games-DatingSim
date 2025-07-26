@@ -1,0 +1,54 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9271c38e9c4325e49a591e881e3292d2, type: 3}
+  m_Name: pcesq3
+  m_EditorClassIdentifier: 
+  characters:
+  - {fileID: 11400000, guid: cc2e5c01c9ef87e43bdac6e0c692f051, type: 2}
+  - {fileID: 11400000, guid: e2ad07c5ee075eb43b10f529c20d0428, type: 2}
+  - {fileID: 11400000, guid: a477caed4b445f349875e2b574a4660c, type: 2}
+  - {fileID: 11400000, guid: 1e48c0febe89eb846a5580677b651ee2, type: 2}
+  dialogueInfo:
+  - character: {fileID: 11400000, guid: cc2e5c01c9ef87e43bdac6e0c692f051, type: 2}
+    characterEmotion: 0
+    myText: ...
+    delay: 0
+  - character: {fileID: 11400000, guid: cc2e5c01c9ef87e43bdac6e0c692f051, type: 2}
+    characterEmotion: 0
+    myText: "Eu sou s\xF3 verdadeira!"
+    delay: 0
+  - character: {fileID: 11400000, guid: cc2e5c01c9ef87e43bdac6e0c692f051, type: 2}
+    characterEmotion: 0
+    myText: "A vida \xE9 curta demais para n\xE3o aproveitar cada momento com intensidade!"
+    delay: 0
+  - character: {fileID: 11400000, guid: cc2e5c01c9ef87e43bdac6e0c692f051, type: 2}
+    characterEmotion: 0
+    myText: Mas se prefere levar as coisas com mais calma...
+    delay: 0
+  - character: {fileID: 11400000, guid: cc2e5c01c9ef87e43bdac6e0c692f051, type: 2}
+    characterEmotion: 0
+    myText: "Tamb\xE9m n\xE3o h\xE1 problema algum!"
+    delay: 0
+  - character: {fileID: 11400000, guid: e2ad07c5ee075eb43b10f529c20d0428, type: 2}
+    characterEmotion: 0
+    myText: "Galera, a RG j\xE1 vai come\xE7ar, vamos para o Audit\xF3rio 2!"
+    delay: 0
+  - character: {fileID: 11400000, guid: cc2e5c01c9ef87e43bdac6e0c692f051, type: 2}
+    characterEmotion: 0
+    myText: A intensidade faz a vida mais interessante.
+    delay: 0
+  - character: {fileID: 11400000, guid: cc2e5c01c9ef87e43bdac6e0c692f051, type: 2}
+    characterEmotion: 0
+    myText: "Vamos aproveitar essa reuni\xE3o ao m\xE1ximo!"
+    delay: 0
+  optionsInfo: []
+  questionText: 

@@ -1,0 +1,68 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9271c38e9c4325e49a591e881e3292d2, type: 3}
+  m_Name: DialogueOptions
+  m_EditorClassIdentifier: 
+  characters:
+  - {fileID: 11400000, guid: e2ad07c5ee075eb43b10f529c20d0428, type: 2}
+  - {fileID: 11400000, guid: 8720c099c7c420f4fab834ad615f633b, type: 2}
+  - {fileID: 11400000, guid: 81d3e092d8bd3934d95178f959ea58c1, type: 2}
+  - {fileID: 11400000, guid: 13bfac2fdeccca54b995a32e0de8adef, type: 2}
+  dialogueInfo:
+  - character: {fileID: 11400000, guid: e2ad07c5ee075eb43b10f529c20d0428, type: 2}
+    characterEmotion: 0
+    myText: ooooooooooo
+    delay: 0
+  - character: {fileID: 11400000, guid: e2ad07c5ee075eb43b10f529c20d0428, type: 2}
+    characterEmotion: 0
+    myText: aaaaaa
+    delay: 0
+  optionsInfo:
+  - buttonName: Esquerda
+    myEvent:
+      m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 11500000, guid: 577e262992c79d340be4bbbcf2aaf259, type: 3}
+          m_TargetAssemblyTypeName: UnityEditor.MonoScript, UnityEditor.CoreModule
+          m_MethodName: 
+          m_Mode: 1
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: 
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
+    nextDialogue: {fileID: 11400000}
+    increasesAffection: 1
+    targetCharacter: {fileID: 11400000, guid: e2ad07c5ee075eb43b10f529c20d0428, type: 2}
+  - buttonName: Direita
+    myEvent:
+      m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 11500000, guid: 577e262992c79d340be4bbbcf2aaf259, type: 3}
+          m_TargetAssemblyTypeName: UnityEditor.MonoScript, UnityEditor.CoreModule
+          m_MethodName: 
+          m_Mode: 1
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: 
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
+    nextDialogue: {fileID: 11400000, guid: 503e97ff9e325734f8c3235c51a75800, type: 2}
+    increasesAffection: 0
+    targetCharacter: {fileID: 0}
+  questionText: "Quem voc\xEA vai escolher?"

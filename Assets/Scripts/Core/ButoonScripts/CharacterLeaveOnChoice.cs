@@ -12,6 +12,9 @@ public class CharacterLeaveOnChoice : MonoBehaviour
     private float borderOffset = 70f;
 
     private void Awake() {
+
+        leftPos = characters[0].transform.position.x;
+        rightPos = characters[1].transform.position.x;
         screenWidth = Camera.main.pixelWidth;
         gameObject.SetActive(false);  // Garante que o objeto comece desativado
     }

@@ -1,0 +1,47 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9271c38e9c4325e49a591e881e3292d2, type: 3}
+  m_Name: pcesq2
+  m_EditorClassIdentifier: 
+  characters:
+  - {fileID: 11400000, guid: cc2e5c01c9ef87e43bdac6e0c692f051, type: 2}
+  - {fileID: 11400000, guid: e2ad07c5ee075eb43b10f529c20d0428, type: 2}
+  - {fileID: 11400000, guid: a477caed4b445f349875e2b574a4660c, type: 2}
+  - {fileID: 11400000, guid: 1e48c0febe89eb846a5580677b651ee2, type: 2}
+  dialogueInfo:
+  - character: {fileID: 11400000, guid: cc2e5c01c9ef87e43bdac6e0c692f051, type: 2}
+    characterEmotion: 0
+    myText: Ah, eu estava trabalhando agora a pouco.
+    delay: 0
+  - character: {fileID: 11400000, guid: cc2e5c01c9ef87e43bdac6e0c692f051, type: 2}
+    characterEmotion: 0
+    myText: "Voc\xEA me ver\xE1 frequentemente de EPI, j\xE1 que temos v\xE1rios
+      projetos que exigem colocar a m\xE3o na massa!"
+    delay: 0
+  - character: {fileID: 11400000, guid: cc2e5c01c9ef87e43bdac6e0c692f051, type: 2}
+    characterEmotion: 0
+    myText: "E \xE9 muito importante se manter seguro durante o processo!"
+    delay: 0
+  - character: {fileID: 11400000, guid: e2ad07c5ee075eb43b10f529c20d0428, type: 2}
+    characterEmotion: 0
+    myText: "Galera, a RG j\xE1 vai come\xE7ar, vamos para o Audit\xF3rio 2!"
+    delay: 0
+  - character: {fileID: 11400000, guid: cc2e5c01c9ef87e43bdac6e0c692f051, type: 2}
+    characterEmotion: 0
+    myText: "N\xE3o esque\xE7a de utilizar seu EPI para esta reuni\xE3o bomb\xE1stica!"
+    delay: 0
+  - character: {fileID: 11400000, guid: cc2e5c01c9ef87e43bdac6e0c692f051, type: 2}
+    characterEmotion: 0
+    myText: "Te vejo l\xE1, trainee!"
+    delay: 0
+  optionsInfo: []
+  questionText: 

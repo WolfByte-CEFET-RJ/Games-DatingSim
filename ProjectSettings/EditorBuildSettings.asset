@@ -23,4 +23,13 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/WordSearch.unity
     guid: 43414dfff446ddf4eae7956c951567c8
+  - enabled: 1
+    path: Assets/Scenes/dia1/dia1.unity
+    guid: 10de871820108c44d9b4ec92a73de691
+  - enabled: 1
+    path: Assets/Scenes/dia1/dia1pc.unity
+    guid: c58bfb5bb0bb1fa46949b3e6f0dc6669
+  - enabled: 1
+    path: Assets/Scenes/dia1/dia1solda.unity
+    guid: de0f09619eb8b6c4891486858c8736ea
   m_configObjects: {}

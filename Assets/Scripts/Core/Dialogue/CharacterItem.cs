@@ -14,7 +14,10 @@ public class CharacterItem : ScriptableObject
     public Sprite nojo;
     public Sprite desprezo;
     public Sprite confusa;
+
+    public float afeto;
     public float afeicao;
+
 
     public Dictionary<string, Sprite> dictImages;
 
@@ -43,5 +46,10 @@ public class CharacterItem : ScriptableObject
         Debug.LogError("Sprite a adicionar nesse dicion�rio: " + pose);
         return normal;
 
+    }
+
+    public void aumentoAfeto()
+    {
+        afeto += 0.1f;
     }
 }

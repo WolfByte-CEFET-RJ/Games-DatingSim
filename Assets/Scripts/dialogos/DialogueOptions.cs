@@ -1,0 +1,24 @@
+using UnityEngine;
+using UnityEngine.Events;
+using System.Collections;
+using System.Collections.Generic;
+
+[CreateAssetMenu(fileName = "DialogueOptions", menuName = "Dialogue System/Dialogue Options")]
+public class DialogueOptions : DialogueBase
+{
+    [System.Serializable]
+    public class Options
+    {
+        public string buttonName;
+        public UnityEvent myEvent;
+        public DialogueBase nextDialogue;
+        
+        public bool increasesAffection = false;
+        public CharacterProfile targetCharacter;
+    }
+    public Options[] optionsInfo;
+
+    [TextArea(4, 5)]
+    public string questionText;
+
+}

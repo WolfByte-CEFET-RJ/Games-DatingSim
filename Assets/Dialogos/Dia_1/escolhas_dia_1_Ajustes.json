@@ -2,27 +2,19 @@
     "escolhaFlip": 
 	[
 		{
-		"esci": 19,
-		"fim": 200
+		"esci": 19
 		},
 		{
-		"esci": 800,
-		"fim": 200
+		"esci": 800 
 		},
 		{
-		"esci": 800,
-		"fim": 200  
+		"esci": 800  
 		},
 		{
-		"esci": 29,
-		"fim": 200
+		"esci": 29 
 		},
 		{
-		"esci": 800,
-		"fim": 200
-		},
-		{
-		"fim": 200
+		"esci": 73 
 		}
 	],
 	"escolhaMesa": 
