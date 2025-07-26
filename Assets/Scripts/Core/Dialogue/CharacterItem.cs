@@ -14,7 +14,11 @@ public class CharacterItem : ScriptableObject
     public Sprite nojo;
     public Sprite desprezo;
     public Sprite confusa;
+
     public float afeto;
+    public float afeicao;
+
+
     public Dictionary<string, Sprite> dictImages;
 
     void OnEnable()
