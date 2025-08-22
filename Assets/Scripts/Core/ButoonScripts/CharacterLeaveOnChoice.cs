@@ -10,6 +10,8 @@ public class CharacterLeaveOnChoice : MonoBehaviour
     private int screenWidth;
     private float moveSpeed = 10f;
     private float borderOffset = 70f;
+    private float leftPos;
+    private float rightPos;
 
     private void Awake() {
 

@@ -13,12 +13,12 @@ public class jigsawPuzzle : MonoBehaviour{
 [SerializeField] private float var;
 [SerializeField] private Texture2D imageTexture;
 [SerializeField] private Transform mainImage;
-[SerializeField] private Camera camera;
+[SerializeField] private new Camera camera;
 [SerializeField] private float remainingTime;
 [SerializeField] private TextMeshProUGUI timerText;
 
 private List<Transform> pieces;
-private Vector2Int dimensions; 
+private Vector2Int dimensions;
 private Vector3 offset = Vector3.zero;
 float width;
 float height;
@@ -80,7 +80,7 @@ private Transform draggingPiece = null;
 
     private void Snap(){
         int pieceIdx = pieces.IndexOf(draggingPiece); //seleciona peça no array de peças
-        
+
         int col = pieceIdx % dimensions.x;
         int row = pieceIdx / dimensions.x;
 
@@ -114,7 +114,7 @@ private Transform draggingPiece = null;
                 piece.localScale = new Vector3(width, height, 1f);
 
                 //nome dado para facilitar debug
-                piece.name = $"Piece {(row * dimensions.x) + col}"; 
+                piece.name = $"Piece {(row * dimensions.x) + col}";
                 pieces.Add(piece); //adiciona peças na lista de peças
 
                 //acertando textura de cada peça do jogo
