@@ -2,7 +2,7 @@ using UnityEngine;
 using UnityEngine.SceneManagement;
 using UnityEngine.UI;
 
-public class SelecaoLugar : MonoBehaviour
+public class SelecaoLugarDia1 : MonoBehaviour
 {
     [SerializeField] private Button b1, b2, b3, b4;
     public static char selec = 'N';
