@@ -1041,7 +1041,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 18719144ffa90e64e8f832268e92df4d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  dialogue: {fileID: 11400000, guid: cabed9146b34f9f42be3534642685bcd, type: 2}
+  dialogue: {fileID: 11400000, guid: 5aa56ad18808e494aabca8866dbf04f8, type: 2}
 --- !u!1 &1263117677
 GameObject:
   m_ObjectHideFlags: 0
@@ -2689,7 +2689,7 @@ GameObject:
   - component: {fileID: 2080413977}
   - component: {fileID: 2080413976}
   m_Layer: 0
-  m_Name: PCS
+  m_Name: FLIP
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2791,7 +2791,7 @@ GameObject:
   - component: {fileID: 2085559775}
   - component: {fileID: 2085559774}
   m_Layer: 0
-  m_Name: Manager pcs
+  m_Name: Manager flip
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0

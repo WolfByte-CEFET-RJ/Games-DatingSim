@@ -1,0 +1,58 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9271c38e9c4325e49a591e881e3292d2, type: 3}
+  m_Name: flip5Power12
+  m_EditorClassIdentifier: 
+  characters:
+  - {fileID: 11400000, guid: 7738adec4d0809a4193065536ebdfd15, type: 2}
+  - {fileID: 11400000, guid: b51b38cabd0233a4788529dddb7c5cb5, type: 2}
+  - {fileID: 11400000, guid: a477caed4b445f349875e2b574a4660c, type: 2}
+  dialogueInfo:
+  - character: {fileID: 11400000, guid: a477caed4b445f349875e2b574a4660c, type: 2}
+    characterEmotion: 0
+    myText: "Achei um pouco longa demais a apresenta\xE7\xE3o\u2026"
+    delay: 0
+  - character: {fileID: 11400000, guid: 7738adec4d0809a4193065536ebdfd15, type: 2}
+    characterEmotion: 0
+    myText: "Na verdade a apresenta\xE7\xE3o est\xE1 completa, isso sim."
+    delay: 0
+  - character: {fileID: 11400000, guid: b51b38cabd0233a4788529dddb7c5cb5, type: 2}
+    characterEmotion: 0
+    myText: "O que a Power F est\xE1 tentando dizer \xE9 que a estrutura do que falamos
+      \xE9 padr\xE3o e n\xE3o podemos alterar, ent\xE3o n\xE3o tem como ficar muito
+      mais curto que isso\u2026"
+    delay: 0
+  - character: {fileID: 11400000, guid: 7738adec4d0809a4193065536ebdfd15, type: 2}
+    characterEmotion: 0
+    myText: "Olha que at\xE9 que resumi e cortei v\xE1rias quest\xF5es. Poderia falar
+      dos objetivos e benef\xEDcios de cada projeto\u2026 Mas a\xED ficar\xEDamos
+      aqui at\xE9 amanh\xE3\u2026"
+    delay: 0
+  - character: {fileID: 11400000, guid: b51b38cabd0233a4788529dddb7c5cb5, type: 2}
+    characterEmotion: 0
+    myText: "Bom\u2026 O importante \xE9 que voc\xEA chegou at\xE9 o final, ent\xE3o
+      aqui est\xE1 seu adesivo!"
+    delay: 0
+  - character: {fileID: 11400000, guid: a477caed4b445f349875e2b574a4660c, type: 2}
+    characterEmotion: 0
+    myText: Ele me entregou um adesivo da Power.
+    delay: 0
+  - character: {fileID: 11400000, guid: b51b38cabd0233a4788529dddb7c5cb5, type: 2}
+    characterEmotion: 0
+    myText: "Obrigado pela participa\xE7\xE3o! Valeu, Trainee!"
+    delay: 0
+  - character: {fileID: 11400000, guid: 7738adec4d0809a4193065536ebdfd15, type: 2}
+    characterEmotion: 0
+    myText: "\u2026"
+    delay: 0
+  optionsInfo: []
+  questionText: 

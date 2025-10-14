@@ -16,5 +16,5 @@ MonoBehaviour:
   afeto: 0.1
   emotionPortraits:
     neutro: {fileID: 21300000, guid: 6c499e709d6b61b48957525b59e2c4f2, type: 3}
-    feliz: {fileID: 0}
+    feliz: {fileID: 21300000, guid: 6c499e709d6b61b48957525b59e2c4f2, type: 3}
     raiva: {fileID: 21300000, guid: 6c499e709d6b61b48957525b59e2c4f2, type: 3}

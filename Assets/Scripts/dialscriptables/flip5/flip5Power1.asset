@@ -13,10 +13,129 @@ MonoBehaviour:
   m_Name: flip5Power1
   m_EditorClassIdentifier: 
   characters:
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  dialogueInfo: []
-  optionsInfo: []
+  - {fileID: 11400000, guid: 7738adec4d0809a4193065536ebdfd15, type: 2}
+  - {fileID: 11400000, guid: b51b38cabd0233a4788529dddb7c5cb5, type: 2}
+  - {fileID: 11400000, guid: a477caed4b445f349875e2b574a4660c, type: 2}
+  dialogueInfo:
+  - character: {fileID: 11400000, guid: 7738adec4d0809a4193065536ebdfd15, type: 2}
+    characterEmotion: 0
+    myText: Oi! Vem, deixa eu apresentar nosso estande, com nossos dois novos trabalhos!
+    delay: 0
+  - character: {fileID: 11400000, guid: b51b38cabd0233a4788529dddb7c5cb5, type: 2}
+    characterEmotion: 0
+    myText: "Vai com calma, n\xE3o queremos sobrecarregar nosso trainee, n\xE3o \xE9?"
+    delay: 0
+  - character: {fileID: 11400000, guid: 7738adec4d0809a4193065536ebdfd15, type: 2}
+    characterEmotion: 0
+    myText: Eu sei que tem muito pra apresentar, mas vai dar tudo certo, relaxa!
+    delay: 0
+  - character: {fileID: 11400000, guid: 7738adec4d0809a4193065536ebdfd15, type: 2}
+    characterEmotion: 0
+    myText: "N\xE3o h\xE1 nada muito demais, s\xF3 os detalhes t\xE9cnicos, o funcionamento
+      dos componentes, nosso processo de elabora\xE7\xE3o dos projetos..."
+    delay: 0
+  - character: {fileID: 11400000, guid: b51b38cabd0233a4788529dddb7c5cb5, type: 2}
+    characterEmotion: 0
+    myText: Huuuh... desculpa, ela fica bem animada quando se trata de projetos.
+    delay: 0
+  - character: {fileID: 11400000, guid: 7738adec4d0809a4193065536ebdfd15, type: 2}
+    characterEmotion: 0
+    myText: "Precisamente! Ent\xE3o, preste bem aten\xE7\xE3o."
+    delay: 0
+  - character: {fileID: 11400000, guid: 7738adec4d0809a4193065536ebdfd15, type: 2}
+    characterEmotion: 0
+    myText: "A Power \xE9 a equipe que tem como objetivo fornecer informa\xE7\xF5es
+      e projetos relacionados \xE0 pot\xEAncia, sustentabilidade e energia. Em outras
+      palavras, eletricidade de uma forma sustent\xE1vel para melhoria da sociedade.
+      Estamos intimamente relacionados \xE0 energia renov\xE1vel!"
+    delay: 0
+  - character: {fileID: 11400000, guid: 7738adec4d0809a4193065536ebdfd15, type: 2}
+    characterEmotion: 0
+    myText: "Nos dividimos em 4 sub\xE1reas: Mec\xE2nica, que cuida do desenvolvimento,
+      montagem, prototipagem e execu\xE7\xE3o da estrutura de projetos;"
+    delay: 0
+  - character: {fileID: 11400000, guid: 7738adec4d0809a4193065536ebdfd15, type: 2}
+    characterEmotion: 0
+    myText: "Eletr\xF4nica, que planeja a manuten\xE7\xE3o de estruturas eletr\xF4nicas
+      de projetos; Programa\xE7\xE3o, a qual desenvolve controles tecnol\xF3gicos
+      dos projetos;"
+    delay: 0
+  - character: {fileID: 11400000, guid: 7738adec4d0809a4193065536ebdfd15, type: 2}
+    characterEmotion: 0
+    myText: "E Divulga\xE7\xE3o, que elabora estrat\xE9gias de comunica\xE7\xE3o
+      e integra\xE7\xE3o, relacionando-as com o externo, pela visibilidade da equipe."
+    delay: 0
+  - character: {fileID: 11400000, guid: 7738adec4d0809a4193065536ebdfd15, type: 2}
+    characterEmotion: 0
+    myText: "De projetos temos o Irrigador Autom\xE1tico, que se conecta diretamente
+      a um plantio de forma remota ao ser integrado via aplicativo desenvolvido especificamente
+      para essa atividade.\r\n"
+    delay: 0
+  - character: {fileID: 11400000, guid: 7738adec4d0809a4193065536ebdfd15, type: 2}
+    characterEmotion: 0
+    myText: "De men\xE7\xF5es honrosas temos o projeto Girassol, que \xE9 nosso painel
+      solar que tamb\xE9m funciona via remota e o projeto T\xE1 Dando Onda."
+    delay: 0
+  - character: {fileID: 11400000, guid: b51b38cabd0233a4788529dddb7c5cb5, type: 2}
+    characterEmotion: 0
+    myText: "E a\xED, o que achou?"
+    delay: 0
+  optionsInfo:
+  - buttonName: Impressionante.
+    myEvent:
+      m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 11500000, guid: 577e262992c79d340be4bbbcf2aaf259, type: 3}
+          m_TargetAssemblyTypeName: 
+          m_MethodName: 
+          m_Mode: 1
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: 
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
+    nextDialogue: {fileID: 11400000, guid: 07954c8857a929d4b941658ad488e1c2, type: 2}
+    increasesAffection: 0
+    targetCharacter: {fileID: 0}
+  - buttonName: Meio demorado.
+    myEvent:
+      m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 11500000, guid: 577e262992c79d340be4bbbcf2aaf259, type: 3}
+          m_TargetAssemblyTypeName: 
+          m_MethodName: 
+          m_Mode: 1
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: 
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
+    nextDialogue: {fileID: 11400000, guid: be410ec19aa17394d8a6553a85e255b5, type: 2}
+    increasesAffection: 0
+    targetCharacter: {fileID: 0}
+  - buttonName: Eletrizante.
+    myEvent:
+      m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 11500000, guid: 577e262992c79d340be4bbbcf2aaf259, type: 3}
+          m_TargetAssemblyTypeName: 
+          m_MethodName: 
+          m_Mode: 1
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: 
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
+    nextDialogue: {fileID: 11400000, guid: 0e6a64b7f66729a4c9b28e52516649e5, type: 2}
+    increasesAffection: 0
+    targetCharacter: {fileID: 0}
   questionText: 
