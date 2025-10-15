@@ -22,9 +22,7 @@ MonoBehaviour:
   dialogueInfo:
   - character: {fileID: 11400000, guid: a477caed4b445f349875e2b574a4660c, type: 2}
     characterEmotion: 0
-    myText: 'Me aproximo a um bloco de estandes, onde estavam Byte e Power.
-
-'
+    myText: Me aproximo a um bloco de estandes, onde estavam Byte e Power.
     delay: 0
   - character: {fileID: 11400000, guid: d3901de5b110f6046822a72a4521fb50, type: 2}
     characterEmotion: 0
@@ -68,14 +66,14 @@ MonoBehaviour:
     characterEmotion: 0
     myText: "Bom... pode escolher a vontade, a gente n\xE3o fica chateado se for
       deixado por \xFAltimo. Pelo menos... n\xE3o muito."
-    delay: 0
+    delay: 1
   optionsInfo:
   - buttonName: "Ver a apresenta\xE7\xE3o da Byte."
     myEvent:
       m_PersistentCalls:
         m_Calls:
         - m_Target: {fileID: 11500000, guid: 577e262992c79d340be4bbbcf2aaf259, type: 3}
-          m_TargetAssemblyTypeName: 
+          m_TargetAssemblyTypeName: UnityEditor.MonoScript, UnityEditor.CoreModule
           m_MethodName: 
           m_Mode: 1
           m_Arguments:
@@ -94,7 +92,7 @@ MonoBehaviour:
       m_PersistentCalls:
         m_Calls:
         - m_Target: {fileID: 11500000, guid: 577e262992c79d340be4bbbcf2aaf259, type: 3}
-          m_TargetAssemblyTypeName: 
+          m_TargetAssemblyTypeName: UnityEditor.MonoScript, UnityEditor.CoreModule
           m_MethodName: 
           m_Mode: 1
           m_Arguments:

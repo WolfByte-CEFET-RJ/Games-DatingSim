@@ -46,5 +46,12 @@ MonoBehaviour:
     myText: "E acho que por agora aqueles dois da Power j\xE1 te esperaram o bastante,
       n\xE3o \xE9? Pode ir l\xE1 ver o que eles tem de interessante."
     delay: 0
-  optionsInfo: []
+  optionsInfo:
+  - buttonName: 
+    myEvent:
+      m_PersistentCalls:
+        m_Calls: []
+    nextDialogue: {fileID: 0}
+    increasesAffection: 0
+    targetCharacter: {fileID: 0}
   questionText: 

@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fca8f7158d4376749b18b6c3b3150fdd, type: 3}
   m_Name: ByteF
   m_EditorClassIdentifier: 
-  myName: 
+  myName: ByteF
   afeto: 0
   emotionPortraits:
     neutro: {fileID: 21300000, guid: 9ebfddd683ee58f46b89f8008c92d15f, type: 3}

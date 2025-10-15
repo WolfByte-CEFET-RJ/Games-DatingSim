@@ -16,6 +16,7 @@ MonoBehaviour:
   - {fileID: 11400000, guid: 7738adec4d0809a4193065536ebdfd15, type: 2}
   - {fileID: 11400000, guid: b51b38cabd0233a4788529dddb7c5cb5, type: 2}
   - {fileID: 11400000, guid: a477caed4b445f349875e2b574a4660c, type: 2}
+  - {fileID: 11400000, guid: e2ad07c5ee075eb43b10f529c20d0428, type: 2}
   dialogueInfo:
   - character: {fileID: 11400000, guid: a477caed4b445f349875e2b574a4660c, type: 2}
     characterEmotion: 0

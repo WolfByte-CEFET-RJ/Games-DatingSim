@@ -12,9 +12,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fca8f7158d4376749b18b6c3b3150fdd, type: 3}
   m_Name: AVIR
   m_EditorClassIdentifier: 
-  myName: 
+  myName: AVIR
   afeto: 0
   emotionPortraits:
-    neutro: {fileID: 0}
-    feliz: {fileID: 0}
-    raiva: {fileID: 0}
+    neutro: {fileID: 21300000, guid: 5b6da5b5316c3c64cb96f8dbdd5679aa, type: 3}
+    feliz: {fileID: 21300000, guid: 5b6da5b5316c3c64cb96f8dbdd5679aa, type: 3}
+    raiva: {fileID: 21300000, guid: 5b6da5b5316c3c64cb96f8dbdd5679aa, type: 3}

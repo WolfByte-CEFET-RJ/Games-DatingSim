@@ -16,6 +16,7 @@ MonoBehaviour:
   - {fileID: 11400000, guid: 7738adec4d0809a4193065536ebdfd15, type: 2}
   - {fileID: 11400000, guid: b51b38cabd0233a4788529dddb7c5cb5, type: 2}
   - {fileID: 11400000, guid: a477caed4b445f349875e2b574a4660c, type: 2}
+  - {fileID: 11400000, guid: e2ad07c5ee075eb43b10f529c20d0428, type: 2}
   dialogueInfo:
   - character: {fileID: 11400000, guid: 7738adec4d0809a4193065536ebdfd15, type: 2}
     characterEmotion: 0
@@ -124,7 +125,7 @@ MonoBehaviour:
       m_PersistentCalls:
         m_Calls:
         - m_Target: {fileID: 11500000, guid: 577e262992c79d340be4bbbcf2aaf259, type: 3}
-          m_TargetAssemblyTypeName: 
+          m_TargetAssemblyTypeName: UnityEditor.MonoScript, UnityEditor.CoreModule
           m_MethodName: 
           m_Mode: 1
           m_Arguments:
