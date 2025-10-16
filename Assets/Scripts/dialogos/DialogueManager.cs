@@ -210,7 +210,7 @@ public class DialogueManager : MonoBehaviour
 
             if (optionsAmount == 0)
             {
-                SceneManager.LoadScene("dia1");
+                SceneManager.LoadScene("dia5");
                 //root.SetActive(false);
                 //botaodelugar.interactable = false;
 

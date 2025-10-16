@@ -13,16 +13,97 @@ MonoBehaviour:
   m_Name: flip5dialogo
   m_EditorClassIdentifier: 
   characters:
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
+  - {fileID: 11400000, guid: d3901de5b110f6046822a72a4521fb50, type: 2}
+  - {fileID: 11400000, guid: 020dcdb86e9df074788736e75ddc5cb0, type: 2}
+  - {fileID: 11400000, guid: 7738adec4d0809a4193065536ebdfd15, type: 2}
+  - {fileID: 11400000, guid: b51b38cabd0233a4788529dddb7c5cb5, type: 2}
+  - {fileID: 11400000, guid: 1e48c0febe89eb846a5580677b651ee2, type: 2}
+  - {fileID: 11400000, guid: a477caed4b445f349875e2b574a4660c, type: 2}
   dialogueInfo:
-  - character: {fileID: 0}
+  - character: {fileID: 11400000, guid: a477caed4b445f349875e2b574a4660c, type: 2}
     characterEmotion: 0
-    myText: 
+    myText: Me aproximo a um bloco de estandes, onde estavam Byte e Power.
     delay: 0
-  optionsInfo: []
+  - character: {fileID: 11400000, guid: d3901de5b110f6046822a72a4521fb50, type: 2}
+    characterEmotion: 0
+    myText: "E a\xED, trainee! Curtindo muito a DEPEX? Chega mais e d\xE1 uma olhada
+      no nosso novo projeto!\r\n"
+    delay: 0
+  - character: {fileID: 11400000, guid: b51b38cabd0233a4788529dddb7c5cb5, type: 2}
+    characterEmotion: 0
+    myText: "Oh, vem dar uma olhada no nosso tamb\xE9m, tenho certeza que vai gostar
+      das nossas cria\xE7\xF5es.\r\n"
+    delay: 0
+  - character: {fileID: 11400000, guid: d3901de5b110f6046822a72a4521fb50, type: 2}
+    characterEmotion: 0
+    myText: "Heheh, todos n\xF3s temos muitas novidades s\xF3 esperando para serem
+      apresentadas hoje, n\xE3o \xE9? 7 \xB3 7\r\n"
+    delay: 0
+  - character: {fileID: 11400000, guid: a477caed4b445f349875e2b574a4660c, type: 2}
+    characterEmotion: 0
+    myText: A Byte F deu uma cutucada no Byte M, que estava fazendo uns testes na
+      AVIR
+    delay: 0
+  - character: {fileID: 11400000, guid: 020dcdb86e9df074788736e75ddc5cb0, type: 2}
+    characterEmotion: 0
+    myText: Ah, sim! Muitas coisas.
+    delay: 0
+  - character: {fileID: 11400000, guid: b51b38cabd0233a4788529dddb7c5cb5, type: 2}
+    characterEmotion: 0
+    myText: "T\xE1 bom ent\xE3o... quer que eu tome a liberdade ou..."
+    delay: 0
+  - character: {fileID: 11400000, guid: 7738adec4d0809a4193065536ebdfd15, type: 2}
+    characterEmotion: 0
+    myText: "Pode deixar as apresenta\xE7\xF5es comigo, e como o Trainee \xE9 o convidado
+      do evento, vamos deixar ele escolher. Agora, qual estande vai ver primeiro?
+      O nosso ou o da Byte?\r"
+    delay: 0
+  - character: {fileID: 11400000, guid: a477caed4b445f349875e2b574a4660c, type: 2}
+    characterEmotion: 0
+    myText: "Ela fala em um tom um pouco tendencioso\u2026\r"
+    delay: 0
+  - character: {fileID: 11400000, guid: 020dcdb86e9df074788736e75ddc5cb0, type: 2}
+    characterEmotion: 0
+    myText: "Bom... pode escolher a vontade, a gente n\xE3o fica chateado se for
+      deixado por \xFAltimo. Pelo menos... n\xE3o muito."
+    delay: 1
+  optionsInfo:
+  - buttonName: "Ver a apresenta\xE7\xE3o da Byte."
+    myEvent:
+      m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 11500000, guid: 577e262992c79d340be4bbbcf2aaf259, type: 3}
+          m_TargetAssemblyTypeName: UnityEditor.MonoScript, UnityEditor.CoreModule
+          m_MethodName: 
+          m_Mode: 1
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: 
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
+    nextDialogue: {fileID: 11400000, guid: c8d805b97f1621d4292d2af6c830c3d9, type: 2}
+    increasesAffection: 0
+    targetCharacter: {fileID: 11400000, guid: 020dcdb86e9df074788736e75ddc5cb0, type: 2}
+  - buttonName: "Ver a apresenta\xE7\xE3o da Power."
+    myEvent:
+      m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 11500000, guid: 577e262992c79d340be4bbbcf2aaf259, type: 3}
+          m_TargetAssemblyTypeName: UnityEditor.MonoScript, UnityEditor.CoreModule
+          m_MethodName: 
+          m_Mode: 1
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: 
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
+    nextDialogue: {fileID: 11400000, guid: 1953ce895c4635b4398e719c8b90297f, type: 2}
+    increasesAffection: 0
+    targetCharacter: {fileID: 11400000, guid: b51b38cabd0233a4788529dddb7c5cb5, type: 2}
   questionText: 

@@ -1,0 +1,103 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9271c38e9c4325e49a591e881e3292d2, type: 3}
+  m_Name: flip5Byte13
+  m_EditorClassIdentifier: 
+  characters:
+  - {fileID: 11400000, guid: d3901de5b110f6046822a72a4521fb50, type: 2}
+  - {fileID: 11400000, guid: 020dcdb86e9df074788736e75ddc5cb0, type: 2}
+  - {fileID: 11400000, guid: 74d21667280ffcd4eaf963ee70555edd, type: 2}
+  - {fileID: 11400000, guid: a477caed4b445f349875e2b574a4660c, type: 2}
+  dialogueInfo:
+  - character: {fileID: 11400000, guid: a477caed4b445f349875e2b574a4660c, type: 2}
+    characterEmotion: 0
+    myText: "Huum... vou tentar esse quiz, s\xF3 por curiosidade."
+    delay: 0
+  - character: {fileID: 11400000, guid: d3901de5b110f6046822a72a4521fb50, type: 2}
+    characterEmotion: 0
+    myText: "\xD3timo! Vamos come\xE7ar. Primeira pergunta, qual o significado de
+      AVIR?"
+    delay: 0
+  - character: {fileID: 11400000, guid: a477caed4b445f349875e2b574a4660c, type: 2}
+    characterEmotion: 0
+    myText: Uuuh... Assistente Virtual do Ramo!
+    delay: 0
+  - character: {fileID: 11400000, guid: 74d21667280ffcd4eaf963ee70555edd, type: 2}
+    characterEmotion: 0
+    myText: Certo!
+    delay: 0
+  - character: {fileID: 11400000, guid: 020dcdb86e9df074788736e75ddc5cb0, type: 2}
+    characterEmotion: 0
+    myText: "Enfim... vamos pra pr\xF3xima.D\xEA exemplo de um jogo do fliperama."
+    delay: 0
+  - character: {fileID: 11400000, guid: a477caed4b445f349875e2b574a4660c, type: 2}
+    characterEmotion: 0
+    myText: Se eu me lembro bem... Tetris!
+    delay: 0
+  - character: {fileID: 11400000, guid: d3901de5b110f6046822a72a4521fb50, type: 2}
+    characterEmotion: 0
+    myText: "Exato! Voc\xEA prestou mesmo aten\xE7\xE3o! ^\u2022^"
+    delay: 0
+  - character: {fileID: 11400000, guid: 020dcdb86e9df074788736e75ddc5cb0, type: 2}
+    characterEmotion: 0
+    myText: "Entao, vamos aumentar um pouco a dificuldade. Proxima pergunta: como
+      a AVIR sabe quando est\xE1 em p\xE9 corretamente?"
+    delay: 0
+  - character: {fileID: 11400000, guid: a477caed4b445f349875e2b574a4660c, type: 2}
+    characterEmotion: 0
+    myText: "uuuh... n\xE3o sei bem... com tantos termos t\xE9cnicos eu acabei me
+      perdendo..."
+    delay: 0
+  - character: {fileID: 11400000, guid: d3901de5b110f6046822a72a4521fb50, type: 2}
+    characterEmotion: 0
+    myText: "Para de torturar ele com esses jarg\xF5es de engenharia, e vamos pra
+      algo mais tranquilo, games!!"
+    delay: 0
+  - character: {fileID: 11400000, guid: d3901de5b110f6046822a72a4521fb50, type: 2}
+    characterEmotion: 0
+    myText: "Ent\xE3o, para a \xFAltima pergunta, qual \xE9 o g\xEAnero do nosso
+      mais novo projeto?"
+    delay: 0
+  - character: {fileID: 11400000, guid: a477caed4b445f349875e2b574a4660c, type: 2}
+    characterEmotion: 0
+    myText: "Logo o que eu n\xE3o vi nada! Droga... vou ter que chutar...\r\nSeria...
+      mais focado... em hist\xF3ria?\r"
+    delay: 0
+  - character: {fileID: 11400000, guid: d3901de5b110f6046822a72a4521fb50, type: 2}
+    characterEmotion: 0
+    myText: "T\xE1 quase, mas que tipo de jogo focado em hist\xF3ria? \xD2w\xD3"
+    delay: 0
+  - character: {fileID: 11400000, guid: a477caed4b445f349875e2b574a4660c, type: 2}
+    characterEmotion: 0
+    myText: Algo tipo... uma visual novel dating sim?
+    delay: 0
+  - character: {fileID: 11400000, guid: d3901de5b110f6046822a72a4521fb50, type: 2}
+    characterEmotion: 0
+    myText: "Acertou!!! Voc\xEA prestou bastante aten\xE7\xE3o na minha parte pelo
+      visto."
+    delay: 0
+  - character: {fileID: 11400000, guid: 020dcdb86e9df074788736e75ddc5cb0, type: 2}
+    characterEmotion: 0
+    myText: "Heh... muito bem. Ah, antes que eu esque\xE7a, isso \xE9 pela sua participa\xE7\xE3o
+      aqui no nosso estande na DEPEX.\r"
+    delay: 0
+  - character: {fileID: 11400000, guid: a477caed4b445f349875e2b574a4660c, type: 2}
+    characterEmotion: 0
+    myText: Ele pega um adesivo da equipe Byte e me entrega.
+    delay: 0
+  - character: {fileID: 11400000, guid: 020dcdb86e9df074788736e75ddc5cb0, type: 2}
+    characterEmotion: 0
+    myText: "E acho que por agora aqueles dois da Power j\xE1 te esperaram o bastante,
+      n\xE3o \xE9? Pode ir l\xE1 ver o que eles tem de interessante.\r"
+    delay: 0
+  optionsInfo: []
+  questionText: 
