@@ -29,4 +29,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/dia5/dia5flip.unity
     guid: cb5eb1c92f4dffb4a86dee9255e1dc2a
+  - enabled: 1
+    path: Assets/Scenes/dia5/dia5mesa.unity
+    guid: 935d8a59a6eb95e4c94ae6fd53675fc9
   m_configObjects: {}
